@@ -50,11 +50,18 @@ header {
 	color: black;
 }
 
+.navbar-nav .nav-item .nav-link:hover {
+	color: var(--accent-color);
+}
+
+
+
+
 :root{
 	--primary-color			: #D7D7D7;
 	--secondary-color		: #1C1C1C;
 	--text-color			: #A0A0A0;
-	--accent-color			: #62bee9;
+	--accent-color			: #78e9f8;
 	--bg-color				: #161616;
 	--white-color			: #FFFFFF;
 	--divider-color			: #FFFFFF1A;
@@ -944,8 +951,9 @@ header.main-header .header-sticky.active{
 }
 
 .trusted-client-logo img{
-	width: 100%;
-	max-height: auto;
+	width: 150px;
+	height: 110px;
+/*	max-height: auto;*/
 	transition: all 0.3s ease-in-out;
 }
 
