@@ -43,14 +43,18 @@
 /************************************/	
 
 header {
-	background-color: #dcf7632c;
+	background-color: white;
+}
+
+.navbar-nav .nav-item .nav-link {
+	color: black;
 }
 
 :root{
 	--primary-color			: #D7D7D7;
 	--secondary-color		: #1C1C1C;
 	--text-color			: #A0A0A0;
-	--accent-color			: #DCF763;
+	--accent-color			: #62bee9;
 	--bg-color				: #161616;
 	--white-color			: #FFFFFF;
 	--divider-color			: #FFFFFF1A;
