@@ -1842,7 +1842,7 @@ header.main-header .header-sticky.active{
 }
 
 .team-social-list span{
-	font-size: 16px;
+	font-size: 14px;
 	text-transform: capitalize;
 	color: var(--white-color);
 	border-right: 1px solid var(--primary-color);
