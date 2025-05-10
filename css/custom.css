@@ -62,7 +62,8 @@ header {
 	--secondary-color		: #1C1C1C;
 	--text-color			: #A0A0A0;
 /*	--accent-color			: #78e9f8;*/
-	--accent-color			: #EAF2F8;
+/*	--accent-color			: #EAF2F8;*/
+	--accent-color			: #A9CCE3;
 	--bg-color				: #161616;
 	--white-color			: #FFFFFF;
 	--divider-color			: #FFFFFF1A;
@@ -938,7 +939,7 @@ header.main-header .header-sticky.active{
 }
 
 .trusted-client-title h3{
-	font-size: 20px;
+	font-size: 15px;
 	text-transform: capitalize;
 	max-width: 150px;
 }
