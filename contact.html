@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="az">
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
+	<meta name="author" content="Emil Abbasov">
 	<!-- Page Title -->
     <title>SaytYarat.com - Əlaqə</title>
 	<!-- Favicon Icon -->
@@ -50,27 +50,34 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <!-- Logo Start -->
-                    <a class="navbar-brand" href="./">
-                        <img src="images/logo.png" alt="Logo">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="images/logo.svg" alt="Logo">
                     </a>
+                    <div class="language-switcher">
+                        <button id="changeLanguage" class="btn">
+                            <i class="fas fa-globe"></i>
+                        </button>
+                    </div>
                     <!-- Logo End -->
 
                     <!-- Main Menu Start -->
                     <div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="./index-image.html">Ana səhifə</a></li>                                
-                                <li class="nav-item"><a class="nav-link" href="about.html">Haqqımızda</a>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Xidmətlərimiz</a></li>
-                                <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfoliomuz</a></li>
-                                <li class="nav-item highlighted-menu"><a class="nav-link" href="contact.html">Əlaqə</a></li>                           
+                                <li class="nav-item"><a class="nav-link" data-i18n="index_a_1" href="./index.html">Ana səhifə</a></li>                                
+                                <li class="nav-item"><a class="nav-link" data-i18n="index_a_2" href="about.html">Haqqımızda</a>
+                                <li class="nav-item"><a class="nav-link" data-i18n="index_a_3" href="services.html">Xidmətlərimiz</a></li>
+                                <li class="nav-item"><a class="nav-link" data-i18n="index_a_4" href="portfolio.html">Portfoliomuz</a></li>
+                                <li class="nav-item highlighted-menu"><a class="nav-link" data-i18n="index_a_5" href="contact.html">Əlaqə</a></li>                           
                             </ul>
                         </div>
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="contact.html" class="btn-default">Əlaqə</a>
+                            <a href="contact.html" data-i18n="index_a_6" class="btn-default">Əlaqə</a>
                         </div>
                         <!-- Header Btn End -->
+
+                        
                     </div>
                     <!-- Main Menu End -->
                     <div class="navbar-toggle"></div>
@@ -88,11 +95,11 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Əlaqəyə <span>keçin</span></h1>
+                        <h1 data-i18n="index_a_6" class="text-anime-style-2" data-cursor="-opaque">Əlaqəyə <span>keçin</span></h1>
                         <nav class="wow fadeInUp" data-wow-delay="0.25s">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="./">Ana Səhifə</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Əlaqə</li>
+                                <li class="breadcrumb-item"><a data-i18n="index_a_1" href="./">Ana Səhifə</a></li>
+                                <li class="breadcrumb-item active" data-i18n="index_a_5" aria-current="page">Əlaqə</li>
                             </ol>
                         </nav>
                     </div>
@@ -112,8 +119,8 @@
                     <div class="contact-us-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h3>Əlaqə</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Gəlin detallı <span>müzakirə</span> edək</h2>
+                            <h3 data-i18n="index_a_6">Əlaqə</h3>
+                            <h2 data-i18n="contact_title" class="text-anime-style-2" data-cursor="-opaque">Gəlin detallı <span>müzakirə</span> edək</h2>
                         </div>
                         <!-- Section Title End -->
 
@@ -125,7 +132,7 @@
                                     <img src="images/icon-phone.svg" alt="">
                                 </div>
                                 <div class="contact-info-content">
-                                    <h3>Telefon nömrəsi</h3>
+                                    <h3 data-i18n="phone">Telefon nömrəsi</h3>
                                     <p>+994 (10) 451-6373</p>
                                 </div>
                             </div>
@@ -137,7 +144,7 @@
                                     <img src="images/icon-mail.svg" alt="">
                                 </div>
                                 <div class="contact-info-content">
-                                    <h3>E-poçt ünvanı</h3>
+                                    <h3 data-i18n="email">E-poçt ünvanı</h3>
                                     <p>info@saytyarat.com</p>
                                 </div>
                             </div>
@@ -149,8 +156,8 @@
                                     <img src="images/icon-location.svg" alt="">
                                 </div>
                                 <div class="contact-info-content">
-                                    <h3>Adress</h3>
-                                    <p>Bakı şəh, Yasamal ray, Murtuza Muxtarov 6</p>
+                                    <h3 data-i18n="loc">Adress</h3>
+                                    <p data-i18n="index_footer_address">Bakı şəh, Yasamal ray, Murtuza Muxtarov 6</p>
                                 </div>
                             </div>
                             <!-- Contact Info Item End -->
@@ -174,37 +181,37 @@
                             <form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.25s">
                                 <div class="row">
                                     <div class="form-group col-md-6 mb-4">
-                                        <label class="form-label">Adınız</label>
+                                        <label data-i18n="name" class="form-label">Adınız</label>
                                         <input type="text" name="fname" class="form-control" id="fname" placeholder="Adınız" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-6 mb-4">
-                                        <label class="form-label">Soyadınız</label>
+                                        <label data-i18n="surname" class="form-label">Soyadınız</label>
                                         <input type="text" name="lname" class="form-control" id="lname" placeholder="Soyadınız" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-6 mb-4">
-                                        <label class="form-label">E-poçt ünvanı</label>
+                                        <label data-i18n="email" class="form-label">E-poçt ünvanı</label>
                                         <input type="email" name ="email" class="form-control" id="email" placeholder="E-poçt ünvanı" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-6 mb-4">
-                                        <label class="form-label">Telefon nömrəniz</label>
+                                        <label data-i18n="phone" class="form-label">Telefon nömrəniz</label>
                                         <input type="text" name="phone" class="form-control" id="phone" placeholder="Telefon nömrəniz" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-12 mb-5">
-                                        <label class="form-label">Mesajınız</label>
+                                        <label data-i18n="message" class="form-label">Mesajınız</label>
                                         <textarea name="message" class="form-control" id="message" rows="4" placeholder="Mesajınız"></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="col-md-12">
-                                        <button type="submit" class="btn-default">Göndər</button>
+                                        <button data-i18n="send" type="submit" class="btn-default">Göndər</button>
                                         <div id="msgSubmit" class="h3 hidden"></div>
                                     </div>
                                 </div>
@@ -228,7 +235,7 @@
                         <div class="col-lg-12">
                             <!-- Footer Title Content Start -->
                             <div class="footer-title-content">
-                                <h2><a href="contact.html">Başlayaq</a></h2>
+                                <h2><a data-i18n="index_footer_cta" href="contact.html">Başlayaq</a></h2>
                             </div>
                             <!-- Footer Title Content End -->
                         </div>
@@ -251,7 +258,7 @@
         
                                 <!-- About Footer Content Start -->
                                 <div class="about-footer-content">
-                                    <p>Bizimlə rəqəmsal dünyada uğura doğru irəliləyin. Kreativ və texnoloji həllərlə biznesinizi zirvəyə daşıyırıq.</p>
+                                    <p data-i18n="index_footer_about">Bizimlə rəqəmsal dünyada uğura doğru irəliləyin. Kreativ və texnoloji həllərlə biznesinizi zirvəyə daşıyırıq.</p>
                                 </div>
                                 <!-- Footer Social Links Start -->
                                 <div class="footer-social-links">
@@ -269,12 +276,12 @@
                         <div class="col-lg-2 col-md-3 col-6">
                             <!-- About Links Start -->
                             <div class="footer-links">
-                                <h3>Səhifələr</h3>
+                                <h3 data-i18n="index_footer_pages">Səhifələr</h3>
                                 <ul>
-                                    <li><a href="index.html">Ana səhifə</a></li>
-                                    <li><a href="about.html">Haqqımızda</a></li>
-                                    <li><a href="services.html">Xidmətlərimiz</a></li>
-                                    <li><a href="portfolio.html">Portfoliomuz</a></li>
+                                    <li><a data-i18n="index_a_1" href="index.html">Ana səhifə</a></li>
+                                    <li><a data-i18n="index_a_2" href="about.html">Haqqımızda</a></li>
+                                    <li><a data-i18n="index_a_3" href="services.html">Xidmətlərimiz</a></li>
+                                    <li><a data-i18n="index_a_4" href="portfolio.html">Portfoliomuz</a></li>
                                 </ul>
                             </div>
                             <!-- About Links End -->
@@ -283,7 +290,7 @@
                         <div class="col-lg-3 col-md-4 col-6">
                             <!-- About Links Start -->
                             <div class="footer-links">
-                                <h3>Xidmətlərimiz</h3>
+                                <h3 data-i18n="index_footer_services">Xidmətlərimiz</h3>
                                 <ul>
                                     <li><a href="services.html">UI/UX Dizayn</a></li>
                                     <li><a href="services.html">Qrafik Dizayn</a></li>
@@ -298,7 +305,7 @@
                         <div class="col-lg-3 col-md-5">
                             <!-- About Links Start -->
                             <div class="footer-contact">
-                                <h3>Əlaqə məlumatları</h3>
+                                <h3 data-i18n="index_footer_contact">Əlaqə məlumatları</h3>
                                 <!-- Footer Contact Details Start -->
                                 <div class="footer-contact-details">
                                     <!-- Footer Info Box Start -->
@@ -329,7 +336,7 @@
                                             <i class="fa-solid fa-location-dot"></i>
                                         </div>
                                         <div class="footer-info-box-content">
-                                            <p>Bakı şəh, Yasamal ray, Murtuza Muxtarov 6</p>
+                                            <p data-i18n="index_footer_address">Bakı şəh, Yasamal ray, Murtuza Muxtarov 6</p>
                                         </div>                                
                                     </div>
                                     <!-- Footer Info Box End -->
@@ -395,5 +402,8 @@
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
+
+    <script src="js/translate_page.js"></script>
+
 </body>
 </html>

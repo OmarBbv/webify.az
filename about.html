@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="az">
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
+	<meta name="author" content="Emil Abbasov">
 	<!-- Page Title -->
     <title>SaytYarat.com - Haqqımızda</title>
 	<!-- Favicon Icon -->
@@ -50,27 +50,34 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <!-- Logo Start -->
-                    <a class="navbar-brand" href="./">
+                    <a class="navbar-brand" href="./index.html">
                         <img src="images/logo.svg" alt="Logo">
                     </a>
+                    <div class="language-switcher">
+                        <button id="changeLanguage" class="btn">
+                            <i class="fas fa-globe"></i>
+                        </button>
+                    </div>
                     <!-- Logo End -->
 
                     <!-- Main Menu Start -->
                     <div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="./index.html">Ana səhifə</a></li>                                
-                                <li class="nav-item"><a class="nav-link" href="about.html">Haqqımızda</a>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Xidmətlərimiz</a></li>
-                                <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfoliomuz</a></li>
-                                <li class="nav-item highlighted-menu"><a class="nav-link" href="contact.html">Əlaqə</a></li>                           
+                                <li class="nav-item"><a class="nav-link" data-i18n="index_a_1" href="./index.html">Ana səhifə</a></li>                                
+                                <li class="nav-item"><a class="nav-link" data-i18n="index_a_2" href="about.html">Haqqımızda</a>
+                                <li class="nav-item"><a class="nav-link" data-i18n="index_a_3" href="services.html">Xidmətlərimiz</a></li>
+                                <li class="nav-item"><a class="nav-link" data-i18n="index_a_4" href="portfolio.html">Portfoliomuz</a></li>
+                                <li class="nav-item highlighted-menu"><a class="nav-link" data-i18n="index_a_5" href="contact.html">Əlaqə</a></li>                           
                             </ul>
                         </div>
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="contact.html" class="btn-default">Əlaqə</a>
+                            <a href="contact.html" data-i18n="index_a_6" class="btn-default">Əlaqə</a>
                         </div>
                         <!-- Header Btn End -->
+
+                        
                     </div>
                     <!-- Main Menu End -->
                     <div class="navbar-toggle"></div>
@@ -88,11 +95,11 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Bizim <span>haqqımızda</span></h1>
+                        <h1 class="text-anime-style-2" data-i18n="page_header_title" data-cursor="-opaque">Bizim <span>haqqımızda</span></h1>
                         <nav class="wow fadeInUp" data-wow-delay="0.25s">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="./">Ana Səhifə</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Haqqımızda</li>
+                                <li class="breadcrumb-item"><a data-i18n="index_a_1" href="./">Ana Səhifə</a></li>
+                                <li class="breadcrumb-item active" data-i18n="index_a_2" aria-current="page">Haqqımızda</li>
                             </ol>
                         </nav>
                     </div>
@@ -122,9 +129,9 @@
                     <div class="about-us-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h3 class="wow fadeInUp">Haqqımızda</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Yaradıcı Düşüncəyə</span> Sahib Komanda</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">İlham verən ideyalar, analitik düşüncə və yüksək estetik zövq — komandamız hər bir layihəyə kreativlik və peşəkarlıqla yanaşır. Biz sadəcə dizayn etmirik, markanızın hekayəsini qurur, ona dəyər və fərqlilik qatırıq. Hər addımda sizi dinləyir, ehtiyaclarınıza uyğun fərdi həllər təqdim edirik.</p>
+                            <h3 data-i18n="index_a_2" class="wow fadeInUp">Haqqımızda</h3>
+                            <h2 data-i18n="about_us_subtitle" class="text-anime-style-2" data-cursor="-opaque"><span>Yaradıcı Düşüncəyə</span> Sahib Komanda</h2>
+                            <p data-i18n="about_us_description" class="wow fadeInUp" data-wow-delay="0.2s">İlham verən ideyalar, analitik düşüncə və yüksək estetik zövq — komandamız hər bir layihəyə kreativlik və peşəkarlıqla yanaşır. Biz sadəcə dizayn etmirik, markanızın hekayəsini qurur, ona dəyər və fərqlilik qatırıq. Hər addımda sizi dinləyir, ehtiyaclarınıza uyğun fərdi həllər təqdim edirik.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -133,10 +140,10 @@
                                 <!-- About Us Info List Start -->
                                 <div class="about-us-info-list wow fadeInUp" data-wow-delay="0.4s">
                                     <ul>
-                                        <li>Kreativ və funksional yanaşma</li>
-                                        <li>Brendə uyğun fərdi həllər</li>
-                                        <li>Müasir dizayn və texnologiyalar</li>
-                                        <li>Komanda işi və çeviklik</li>
+                                        <li data-i18n="about_us_info_1">Kreativ və funksional yanaşma</li>
+                                        <li data-i18n="about_us_info_2">Brendə uyğun fərdi həllər</li>
+                                        <li data-i18n="about_us_info_3">Müasir dizayn və texnologiyalar</li>
+                                        <li data-i18n="about_us_info_4">Komanda işi və çeviklik</li>
                                     </ul>
                                 </div>
                                 <!-- About Us Info List End -->
@@ -153,7 +160,7 @@
                     <div class="trusted-client-box">
                         <!-- Trusted Client Title Start -->
                         <div class="trusted-client-title">
-                            <h3>Bizə güvənən şirkətlər</h3>
+                            <h3 data-i18n="index_h3_1">Bizə güvənən şirkətlər</h3>
                         </div>
                         <!-- Trusted Client Title End -->
         
@@ -238,7 +245,7 @@
                         <div class="cta-counter-content-box">
                             <!-- CTA Box Content Start -->
                             <div class="cta-box-content wow fadeInUp">
-                                <p>İstər yeni yaranan bir startap olun, istərsə də fəaliyyətini genişləndirmək istəyən bir biznes — biz sizin üçün rəqəmsal dünyada möhkəm təməl qururuq. Müasir vebsaytların hazırlanması, istifadəçi təcrübəsini ön planda tutan UI/UX dizaynlar, brendinizi yadda qalan edən qrafik həllər, hədəfli SEO strategiyaları və effektiv Meta reklam kampaniyaları ilə biznesinizi növbəti mərhələyə daşıyırıq. Komandamız hər layihəyə yaradıcı yanaşma və texniki dəqiqliklə yanaşır. Siz də rəqəmsal dünyada fərqlənmək və daha geniş auditoriyaya çatmaq istəyirsinizsə — biz buradayıq!</p>
+                                <p data-i18n="cta_text">İstər yeni yaranan bir startap olun, istərsə də fəaliyyətini genişləndirmək istəyən bir biznes — biz sizin üçün rəqəmsal dünyada möhkəm təməl qururuq. Müasir vebsaytların hazırlanması, istifadəçi təcrübəsini ön planda tutan UI/UX dizaynlar, brendinizi yadda qalan edən qrafik həllər, hədəfli SEO strategiyaları və effektiv Meta reklam kampaniyaları ilə biznesinizi növbəti mərhələyə daşıyırıq. Komandamız hər layihəyə yaradıcı yanaşma və texniki dəqiqliklə yanaşır. Siz də rəqəmsal dünyada fərqlənmək və daha geniş auditoriyaya çatmaq istəyirsinizsə — biz buradayıq!</p>
                             </div>
                             <!-- CTA Box Content End -->
 
@@ -247,21 +254,21 @@
                                 <!-- CTA Counter Item Start -->
                                 <div class="cta-counter-item">
                                     <h3><span class="counter">50</span>+</h3>
-                                    <p>Layihə tamamlanıb</p>
+                                    <p data-i18n="cta_projects">Layihə tamamlanıb</p>
                                 </div>
                                 <!-- CTA Counter Item End -->
 
                                 <!-- CTA Counter Item Start -->
                                 <div class="cta-counter-item">
                                     <h3><span class="counter">2</span>+</h3>
-                                    <p>təcrübə</p>
+                                    <p data-i18n="cta_exp">təcrübə</p>
                                 </div>
                                 <!-- CTA Counter Item End -->
 
                                 <!-- CTA Counter Item Start -->
                                 <div class="cta-counter-item">
                                     <h3><span class="counter">100</span>%</h3>
-                                    <p>müştəri məmnuniyəti</p>
+                                    <p data-i18n="cta_client">müştəri məmnuniyəti</p>
                                 </div>
                                 <!-- CTA Counter Item End -->
                             </div>
@@ -287,8 +294,8 @@
                 <div class="col-lg-8">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">Bizim heyət</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">İnnovativ ideyaları reallığa gətirən <span>möhtəşəm</span> komanda</h2>
+                        <h3 data-i18n="index_team_title_1" class="wow fadeInUp">Bizim heyət</h3>
+                        <h2 data-i18n="index_team_title_2" class="text-anime-style-2" data-cursor="-opaque">İnnovativ ideyaları reallığa gətirən <span>möhtəşəm</span> komanda</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -296,7 +303,7 @@
                 <div class="col-lg-4">
                     <!-- Section Button Start -->
                     <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="team.html" class="btn-default">Bütün komanda üzvləri</a>
+                        <a data-i18n="index_team_btn_1" href="./about.html" class="btn-default">Bütün komanda üzvləri</a>
                     </div>
                     <!-- Section Button End -->
                 </div>
@@ -431,7 +438,7 @@
                     </div>
                     <!-- Team Member Item End -->
                 </div>
-                
+
             
                 <div class="col-lg-3 col-md-6">
                     <!-- Team Member Item Start -->
@@ -509,8 +516,8 @@
                 <div class="col-lg-12">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">Müştərilərimizin Sözləri</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Müştərilərimizin <span>uğuru</span> bizim uğurumuzdur</h2>
+                        <h3 data-i18n="index_testimonial_title_1" class="wow fadeInUp">Müştərilərimizin Sözləri</h3>
+                        <h2 data-i18n="index_testimonial_title_2" class="text-anime-style-2" data-cursor="-opaque">Müştərilərimizin <span>uğuru</span> bizim uğurumuzdur</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -535,7 +542,7 @@
                                             </div>
                                         </div>                                    
                                         <div class="testimonial-content">
-                                            <p>Bizim üçün sadəcə bir sayt deyil, güvənli və peşəkar bir dijital üz hazırladılar. SaytYarat komandası ilə işləmək inanılmaz dərəcədə rahat və ilhamverici idi. İşlərini vaxtında və gözləntilərimizi aşacaq şəkildə təqdim etdilər.</p>
+                                            <p data-i18n="index_testimonial_1_text">Bizim üçün sadəcə bir sayt deyil, güvənli və peşəkar bir dijital üz hazırladılar. SaytYarat komandası ilə işləmək inanılmaz dərəcədə rahat və ilhamverici idi. İşlərini vaxtında və gözləntilərimizi aşacaq şəkildə təqdim etdilər.</p>
                                         </div>
                                         <div class="testimonial-author">
                                             <div class="author-content">
@@ -560,7 +567,7 @@
                                             </div>
                                         </div>                                    
                                         <div class="testimonial-content">
-                                            <p>SaytYarat-a müraciət etdikdə bizə sadəcə dizayn deyil, tam bir həll təqdim etdilər. İstifadəçi dostu interfeys və mobil uyğunluq sayəsində saytımız tələbələrimiz tərəfindən çox sevilir. Onlara minnətdarıq.</p>
+                                            <p data-i18n="index_testimonial_2_text">SaytYarat-a müraciət etdikdə bizə sadəcə dizayn deyil, tam bir həll təqdim etdilər. İstifadəçi dostu interfeys və mobil uyğunluq sayəsində saytımız tələbələrimiz tərəfindən çox sevilir. Onlara minnətdarıq.</p>
                                         </div>
                                         <div class="testimonial-author">
                                             <div class="author-content">
@@ -585,7 +592,7 @@
                                             </div>
                                         </div>                                    
                                         <div class="testimonial-content">
-                                            <p>SaytYarat komandası brendimizin ruhunu tam olaraq anlayıb ona uyğun, müasir və funksional bir sayt ərsəyə gətirdi. Satışlarımızda artım hiss etdikdən sonra doğru seçim etdiyimizi bir daha anladıq.</p>
+                                            <p data-i18n="index_testimonial_3_text">SaytYarat komandası brendimizin ruhunu tam olaraq anlayıb ona uyğun, müasir və funksional bir sayt ərsəyə gətirdi. Satışlarımızda artım hiss etdikdən sonra doğru seçim etdiyimizi bir daha anladıq.</p>
                                         </div>
                                         <div class="testimonial-author">
                                             <div class="author-content">
@@ -610,7 +617,7 @@
                                             </div>
                                         </div>                                    
                                         <div class="testimonial-content">
-                                            <p>İlk dəfə idi ki, bir agentliklə işləyirdik və açığı narahat idik. Amma SaytYarat komandası bizi hər mərhələdə məlumatlandırdı, ehtiyaclarımıza diqqətlə yanaşdı. Nəticə isə mükəmməl oldu.</p>
+                                            <p data-i18n="index_testimonial_4_text">İlk dəfə idi ki, bir agentliklə işləyirdik və açığı narahat idik. Amma SaytYarat komandası bizi hər mərhələdə məlumatlandırdı, ehtiyaclarımıza diqqətlə yanaşdı. Nəticə isə mükəmməl oldu.</p>
                                         </div>
                                         <div class="testimonial-author">
                                             <div class="author-content">
@@ -620,11 +627,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Testimonial Slide End -->
+                                <!-- Testimonial Slide End --> 
 
                                 <!-- Testimonial Slide Start -->
                                 <div class="swiper-slide">
-                                    <div class="testimonial-item">
+                                    <div class="testimonial-item">  
                                         <div class="testimonial-header">         
                                             <div class="testimonial-rating">
                                                 <i class="fa-solid fa-star"></i>
@@ -635,7 +642,7 @@
                                             </div>
                                         </div>                                    
                                         <div class="testimonial-content">
-                                            <p>SaytYarat-a hüquq xidmətlərimizi tanıtmaq üçün sayt hazırlanması işini tapşırdıq. Minimalist və etibarlı görünüşlü saytımız sayəsində yeni müştərilər əldə etdik. Gözlədiyimizdən daha çox nəticə verdilər.</p>
+                                            <p data-i18n="index_testimonial_5_text">SaytYarat-a hüquq xidmətlərimizi tanıtmaq üçün sayt hazırlanması işini tapşırdıq. Minimalist və etibarlı görünüşlü saytımız sayəsində yeni müştərilər əldə etdik. Gözlədiyimizdən daha çox nəticə verdilər.</p>
                                         </div>
                                         <div class="testimonial-author">
                                             <div class="author-content">
@@ -645,7 +652,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Testimonial Slide End -->  
+                                <!-- Testimonial Slide End -->                                
                             </div>
                             <div class="testimonial-pagination"></div>
                         </div>
@@ -666,7 +673,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">FAQ's</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Tez-tez</span> Verilən Suallar</h2>
+                        <h2 data-i18n="faq_title" class="text-anime-style-2" data-cursor="-opaque"><span>Tez-tez</span> Verilən Suallar</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -681,13 +688,13 @@
                             <!-- FAQ Item Start -->
                             <div class="accordion-item wow fadeInUp">
                                 <h2 class="accordion-header" id="heading1">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                    <button data-i18n="faq_1_title" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                                         Vebsayt hazırlama müddəti nə qədər çəkir?
                                     </button>
                                 </h2>
                                 <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
                                     <div class="accordion-body">
-                                        <p>Hazırlanacaq saytın funksionallığından asılı olaraq 5 gündən 30 günədək dəyişə bilər.</p>
+                                        <p data-i18n="faq_1_answer">Hazırlanacaq saytın funksionallığından asılı olaraq 5 gündən 30 günədək dəyişə bilər.</p>
                                     </div>
                                 </div>
                             </div>
@@ -696,13 +703,13 @@
                             <!-- FAQ Item Start -->
                             <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
                                 <h2 class="accordion-header" id="heading2">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    <button data-i18n="faq_2_title" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
                                         Mobil uyğun (responsive) sayt hazırlayırsınız?
                                     </button>
                                 </h2>
                                 <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
                                     <div class="accordion-body">
-                                        <p>Bəli, bütün saytlarımız mobil, planşet və masaüstü cihazlara tam uyğun şəkildə hazırlanır.</p>
+                                        <p data-i18n="faq_2_answer">Bəli, bütün saytlarımız mobil, planşet və masaüstü cihazlara tam uyğun şəkildə hazırlanır.</p>
                                     </div>
                                 </div>
                             </div>
@@ -711,13 +718,13 @@
                             <!-- FAQ Item Start -->
                             <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
                                 <h2 class="accordion-header" id="heading3">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                    <button data-i18n="faq_3_title" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
                                         UI/UX dizaynı ayrıca sifariş edə bilərəmmi?
                                     </button>
                                 </h2>
                                 <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
                                     <div class="accordion-body">
-                                        <p>Əlbəttə! İstəsəniz yalnız dizayn xidməti təklif edirik və onu istədiyiniz platforma üçün təhvil veririk.</p>
+                                        <p data-i18n="faq_3_answer">Əlbəttə! İstəsəniz yalnız dizayn xidməti təklif edirik və onu istədiyiniz platforma üçün təhvil veririk.</p>
                                     </div>
                                 </div>
                             </div>
@@ -726,13 +733,13 @@
                             <!-- FAQ Item Start -->
                             <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
                                 <h2 class="accordion-header" id="heading4">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                    <button data-i18n="faq_4_title" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                                         SEO xidməti paketlərə daxildirmi, yoxsa ayrıca ödənişlidir?
                                     </button>
                                 </h2>
                                 <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
                                     <div class="accordion-body">
-                                        <p>Standart vebsayt paketimizə əsas SEO daxildir, lakin genişləndirilmiş SEO xidməti əlavə ödənişlə təqdim olunur.</p>
+                                        <p data-i18n="faq_4_answer">Standart vebsayt paketimizə əsas SEO daxildir, lakin genişləndirilmiş SEO xidməti əlavə ödənişlə təqdim olunur.</p>
                                     </div>
                                 </div>
                             </div>
@@ -741,13 +748,13 @@
                             <!-- FAQ Item Start -->
                             <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
                                 <h2 class="accordion-header" id="heading5">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                    <button data-i18n="faq_5_title" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
                                         Ödəniş necə həyata keçirilir?
                                     </button>
                                 </h2>
                                 <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion">
                                     <div class="accordion-body">
-                                        <p>Layihənin başlanğıcında ilkin ödəniş alınır, qalan hissəsi isə işin tamamlanmasından sonra həyata keçirilir.</p>
+                                        <p data-i18n="faq_5_answer">Layihənin başlanğıcında ilkin ödəniş alınır, qalan hissəsi isə işin tamamlanmasından sonra həyata keçirilir.</p>
                                     </div>
                                 </div>
                             </div>
@@ -781,7 +788,7 @@
                         <div class="col-lg-12">
                             <!-- Footer Title Content Start -->
                             <div class="footer-title-content">
-                                <h2><a href="contact.html">Başlayaq</a></h2>
+                                <h2><a data-i18n="index_footer_cta" href="contact.html">Başlayaq</a></h2>
                             </div>
                             <!-- Footer Title Content End -->
                         </div>
@@ -804,7 +811,7 @@
         
                                 <!-- About Footer Content Start -->
                                 <div class="about-footer-content">
-                                    <p>Bizimlə rəqəmsal dünyada uğura doğru irəliləyin. Kreativ və texnoloji həllərlə biznesinizi zirvəyə daşıyırıq.</p>
+                                    <p data-i18n="index_footer_about">Bizimlə rəqəmsal dünyada uğura doğru irəliləyin. Kreativ və texnoloji həllərlə biznesinizi zirvəyə daşıyırıq.</p>
                                 </div>
                                 <!-- Footer Social Links Start -->
                                 <div class="footer-social-links">
@@ -822,12 +829,12 @@
                         <div class="col-lg-2 col-md-3 col-6">
                             <!-- About Links Start -->
                             <div class="footer-links">
-                                <h3>Səhifələr</h3>
+                                <h3 data-i18n="index_footer_pages">Səhifələr</h3>
                                 <ul>
-                                    <li><a href="index.html">Ana səhifə</a></li>
-                                    <li><a href="about.html">Haqqımızda</a></li>
-                                    <li><a href="services.html">Xidmətlərimiz</a></li>
-                                    <li><a href="portfolio.html">Portfoliomuz</a></li>
+                                    <li><a data-i18n="index_a_1" href="index.html">Ana səhifə</a></li>
+                                    <li><a data-i18n="index_a_2" href="about.html">Haqqımızda</a></li>
+                                    <li><a data-i18n="index_a_3" href="services.html">Xidmətlərimiz</a></li>
+                                    <li><a data-i18n="index_a_4" href="portfolio.html">Portfoliomuz</a></li>
                                 </ul>
                             </div>
                             <!-- About Links End -->
@@ -836,7 +843,7 @@
                         <div class="col-lg-3 col-md-4 col-6">
                             <!-- About Links Start -->
                             <div class="footer-links">
-                                <h3>Xidmətlərimiz</h3>
+                                <h3 data-i18n="index_footer_services">Xidmətlərimiz</h3>
                                 <ul>
                                     <li><a href="services.html">UI/UX Dizayn</a></li>
                                     <li><a href="services.html">Qrafik Dizayn</a></li>
@@ -851,7 +858,7 @@
                         <div class="col-lg-3 col-md-5">
                             <!-- About Links Start -->
                             <div class="footer-contact">
-                                <h3>Əlaqə məlumatları</h3>
+                                <h3 data-i18n="index_footer_contact">Əlaqə məlumatları</h3>
                                 <!-- Footer Contact Details Start -->
                                 <div class="footer-contact-details">
                                     <!-- Footer Info Box Start -->
@@ -882,7 +889,7 @@
                                             <i class="fa-solid fa-location-dot"></i>
                                         </div>
                                         <div class="footer-info-box-content">
-                                            <p>Bakı şəh, Yasamal ray, Murtuza Muxtarov 6</p>
+                                            <p data-i18n="index_footer_address">Bakı şəh, Yasamal ray, Murtuza Muxtarov 6</p>
                                         </div>                                
                                     </div>
                                     <!-- Footer Info Box End -->
@@ -948,5 +955,8 @@
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
+
+    <script src="js/translate_page.js"></script>
+
 </body>
 </html>
