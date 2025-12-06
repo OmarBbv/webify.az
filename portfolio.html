@@ -225,11 +225,12 @@
 
           <div class="col-lg-12">
             <!-- Project Item Boxes start -->
-            <div
+            <!-- <div
               class="row work-item-boxes align-items-center our-portfolio-projects"
             >
-              <!-- This where the projects get fetched and listed -->
-            </div>
+            </div> -->
+
+            <div class="projects"></div>
             <!-- Project Item Boxes End -->
           </div>
         </div>
@@ -455,7 +456,7 @@
       fetch("projects.json")
         .then((res) => res.json())
         .then((data) => {
-          const container = document.querySelector(".our-portfolio-projects");
+          const container = document.querySelector(".projects");
 
           data.forEach((item, index) => {
             const delay = index % 2 === 1 ? 'data-wow-delay="0.2s"' : "";
@@ -463,7 +464,7 @@
             container.insertAdjacentHTML(
               "beforeend",
               `
-              <div class="col-lg-4 col-md-6 work-item-box uix_ux logo_design">
+              <div class="work-item-box uix_ux logo_design">
                 <div class="work-item wow fadeInUp" ${delay}>
                   <div class="work-image">
                     <a href="${item.link}" data-cursor-text="View">

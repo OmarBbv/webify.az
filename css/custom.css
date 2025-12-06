@@ -42,16 +42,38 @@
 /*** 	 01. Global Variables	  ***/
 /************************************/
 
-.our-portfolio-projects {
-  display: flex;
-  flex-wrap: wrap;
-  height: fit-content;
-  gap: 2rem;
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  gap: 20px;
+}
 
-  .work-item-box {
-    flex: 0 0 100%; /* default full width on mobile */
-    padding: 10px; /* optional spacing between items */
-    box-sizing: border-box;
+/* Əgər işarə etmişsən: work-item-box üçün full width */
+.projects .work-item-box {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Optional: tablet üçün daha böyük gap */
+@media (max-width: 1135px) {
+  .projects {
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    gap: 15px;
+  }
+}
+
+/* Mobil üçün 1 sütun */
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr; /* bütün kartlar alt-alta */
+    gap: 10px;
+  }
+}
+
+/* Əgər çox kiçik ekranlar üçün əlavə tənzimləmə */
+@media (max-width: 480px) {
+  .projects {
+    gap: 8px;
   }
 }
 
