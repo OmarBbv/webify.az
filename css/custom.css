@@ -45,6 +45,14 @@
 .our-portfolio-projects {
   display: flex;
   flex-wrap: wrap;
+  height: fit-content;
+  gap: 2rem;
+
+  .work-item-box {
+    flex: 0 0 100%; /* default full width on mobile */
+    padding: 10px; /* optional spacing between items */
+    box-sizing: border-box;
+  }
 }
 
 .whatsapp-float {
