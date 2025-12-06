@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Migranto Updated",
+    "image": "images/migranto-updated.png",
+    "link": "portfolio.html",
+    "target": "https://migranto-updated.vercel.app"
+  },
+  {
+    "title": "Emporium",
+    "image": "images/emporium.png",
+    "link": "portfolio.html",
+    "target": "https://www.emporium.az/en"
+  },
+  {
+    "title": "Marianna Senchina",
+    "image": "images/marianna.png",
+    "link": "portfolio.html",
+    "target": "https://mariannasenchina.com"
+  },
+
+  {
+    "title": "Sushi Avenue",
+    "image": "images/sushiav.png",
+    "link": "portfolio.html",
+    "target": "https://sushiav.ru/"
+  },
+  {
+    "title": "Climat",
+    "image": "images/climat.png",
+    "link": "portfolio.html",
+    "target": "https://climat.az/"
+  },
+  {
+    "title": "İberAuto",
+    "image": "images/iberauto-port.png",
+    "link": "portfolio.html",
+    "target": "https://iberauto.az/"
+  },
+  {
+    "title": "Oboy-Evi",
+    "image": "images/oboyevi-port.png",
+    "link": "portfolio.html",
+    "target": "https://oboy-evi.az/"
+  },
+  {
+    "title": "UGloria",
+    "image": "images/ugloria-port.png",
+    "link": "portfolio.html",
+    "target": "https://ugloria.com/"
+  },
+  {
+    "title": "OmTransport",
+    "image": "images/omtransport.png",
+    "link": "portfolio.html",
+    "target": "https://omtransport.az/"
+  },
+  {
+    "title": "UberQeydiyyati",
+    "image": "images/uberqeydiyyati.png",
+    "link": "portfolio.html",
+    "target": "https://uberqeydiyyati.com/"
+  },
+  {
+    "title": "IndPy World",
+    "image": "images/indpy-port.png",
+    "link": "portfolio.html",
+    "target": "https://indpyworld.com/"
+  }
+]
