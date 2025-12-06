@@ -460,30 +460,48 @@
           data.forEach((item, index) => {
             const delay = index % 2 === 1 ? 'data-wow-delay="0.2s"' : "";
 
-            container.innerHTML += `
-                <div class="col-lg-4 col-md-6 work-item-box uix_ux logo_design">
-                  <div class="work-item wow fadeInUp" ${delay}>
-                    <div class="work-image">
-                      <a href="${item.link}" data-cursor-text="View">
-                        <figure class="image-anime">
-                          <img src="${item.image}" alt="${item.title}" />
-                        </figure>
-                      </a>
+            container.insertAdjacentHTML(
+              "beforeend",
+              `
+              <div class="col-lg-4 col-md-6 work-item-box uix_ux logo_design">
+                <div class="work-item wow fadeInUp" ${delay}>
+                  <div class="work-image">
+                    <a href="${item.link}" data-cursor-text="View">
+                      <figure class="image-anime">
+                        <img src="${item.image}" alt="${item.title}" />
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="work-body">
+                    <div class="work-content">
+                      <h3><a href="${item.link}">${item.title}</a></h3>
                     </div>
-                    <div class="work-body">
-                      <div class="work-content">
-                        <h3><a href="${item.link}">${item.title}</a></h3>
-                      </div>
-                      <div class="work-btn">
-                        <a href="${item.target}" target="_blank">
-                          <img src="images/arrrow-light.svg" alt="" />
-                        </a>
-                      </div>
+                    <div class="work-btn">
+                      <a href="${item.target}" target="_blank">
+                        <img src="images/arrrow-light.svg" alt="" />
+                      </a>
                     </div>
                   </div>
                 </div>
-              `;
+              </div>
+            `
+            );
           });
+
+          // IMPORTANT — initialize isotope AFTER items inserted
+          const iso = new Isotope(".work-item-boxes", {
+            itemSelector: ".work-item-box",
+            percentPosition: true,
+            layoutMode: "fitRows",
+          });
+
+          // IMPORTANT — recalc when images finish loading
+          imagesLoaded(container, function () {
+            iso.layout();
+          });
+
+          // WOW animations re-scan
+          new WOW().init();
         });
     </script>
   </body>
