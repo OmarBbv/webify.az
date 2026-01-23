@@ -1,5 +1,11 @@
 [
   {
+    "title": "BirBina.az",
+    "image": "images/birbina.png",
+    "link": "portfolio.html",
+    "target": "https://birbina.az"
+  },
+  {
     "title": "IMoms Germany",
     "image": "images/imoms-germany.png",
     "link": "portfolio.html",
