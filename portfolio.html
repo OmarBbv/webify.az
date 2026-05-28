@@ -12,7 +12,7 @@
     <meta name="keywords" content="" />
     <meta name="author" content="Emil Abbasov" />
     <!-- Page Title -->
-    <title>SaytYarat.online - Portfoliomuz</title>
+    <title>Webify.az - Portfoliomuz</title>
     <!-- Favicon Icon -->
     <link rel="icon" href="./images/favicon.ico" />
     <link
@@ -32,7 +32,7 @@
     <link rel="manifest" href="./images/site.webmanifest" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.saytyarat.online/" />
+    <meta property="og:url" content="https://www.webify.az/" />
     <meta property="og:title" content="Sayt Yarat – Ana səhifə" />
     <meta
       property="og:description"
@@ -40,7 +40,7 @@
     />
     <meta
       property="og:image"
-      content="https://www.saytyarat.online/images/favicon-96x96.png"
+      content="https://www.webify.az/images/favicon-96x96.png"
     />
     <!-- Google Fonts Css-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -368,9 +368,7 @@
                       </div>
                       <div class="footer-info-box-content">
                         <p>
-                          <a href="mailto:info@saytyarat.online"
-                            >info@saytyarat.online</a
-                          >
+                          <a href="mailto:info@webify.az">info@webify.az</a>
                         </p>
                       </div>
                     </div>
@@ -453,16 +451,16 @@
 
     <script src="js/translate_page.js"></script>
     <script>
-      fetch("projects.json")
+      fetch('projects.json')
         .then((res) => res.json())
         .then((data) => {
-          const container = document.querySelector(".projects");
+          const container = document.querySelector('.projects');
 
           data.forEach((item, index) => {
-            const delay = index % 2 === 1 ? 'data-wow-delay="0.2s"' : "";
+            const delay = index % 2 === 1 ? 'data-wow-delay="0.2s"' : '';
 
             container.insertAdjacentHTML(
-              "beforeend",
+              'beforeend',
               `
               <div class="work-item-box uix_ux logo_design">
                 <a href="${item.target}">
@@ -492,10 +490,10 @@
           });
 
           // IMPORTANT — initialize isotope AFTER items inserted
-          const iso = new Isotope(".work-item-boxes", {
-            itemSelector: ".work-item-box",
+          const iso = new Isotope('.work-item-boxes', {
+            itemSelector: '.work-item-box',
             percentPosition: true,
-            layoutMode: "fitRows",
+            layoutMode: 'fitRows',
           });
 
           // IMPORTANT — recalc when images finish loading
