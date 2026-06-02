@@ -133,7 +133,7 @@ header {
   --divider-color: #ffffff1a;
   --dark-divider-color: #1c1c1c33;
   --error-color: rgb(230, 87, 87);
-  --default-font: "Montserrat", serif;
+  --default-font: 'Montserrat', serif;
 }
 
 /************************************/
@@ -216,7 +216,7 @@ body {
 }
 
 .image-anime:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 200%;
   height: 0%;
@@ -293,7 +293,7 @@ body {
 }
 
 .btn-default::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   right: 0;
@@ -312,7 +312,7 @@ body {
 }
 
 .btn-default::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -349,12 +349,12 @@ body {
 }
 
 .readmore-btn:after {
-  content: "";
+  content: '';
   position: absolute;
   right: 0;
   top: 50%;
   transform: translate(0, -50%);
-  background: url("../images/arrow-accent.svg") no-repeat;
+  background: url('../images/arrow-accent.svg') no-repeat;
   background-position: right center;
   background-size: cover;
   width: 24px;
@@ -464,7 +464,7 @@ body {
 }
 
 .section-title h3::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 0;
@@ -556,7 +556,7 @@ header.main-header .header-sticky.active {
 }
 
 .navbar-brand img {
-  width: 150px;
+  width: 110px;
   height: auto;
 }
 
@@ -587,8 +587,8 @@ header.main-header .header-sticky.active {
 }
 
 .main-menu ul li.submenu > a:after {
-  content: "\f107";
-  font-family: "FontAwesome";
+  content: '\f107';
+  font-family: 'FontAwesome';
   font-weight: 900;
   font-size: 14px;
   margin-left: 8px;
@@ -634,7 +634,7 @@ header.main-header .header-sticky.active {
 }
 
 .main-menu ul li.submenu ul li.submenu > a:after {
-  content: "\f105";
+  content: '\f105';
   float: right;
 }
 
@@ -778,8 +778,8 @@ header.main-header .header-sticky.active {
 }
 
 .slicknav_arrow:after {
-  content: "\f107";
-  font-family: "FontAwesome";
+  content: '\f107';
+  font-family: 'FontAwesome';
   font-weight: 900;
   font-size: 12px;
   margin-left: 8px;
@@ -806,7 +806,7 @@ header.main-header .header-sticky.active {
 }
 
 .hero::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
@@ -840,7 +840,7 @@ header.main-header .header-sticky.active {
 }
 
 .hero.bg-image {
-  background: url("../images/hero-bg.jpg") no-repeat;
+  background: url('../images/hero-bg.jpg') no-repeat;
   background-position: center center;
   background-size: cover;
   padding: 256px 0 150px;
@@ -853,7 +853,7 @@ header.main-header .header-sticky.active {
 
 .hero.hero-slider-layout .hero-slide {
   position: relative;
-  background: url("../images/hero-bg.jpg");
+  background: url('../images/hero-bg.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -861,14 +861,14 @@ header.main-header .header-sticky.active {
 }
 
 .hero.hero-slider-layout .hero-slide.slide-2 {
-  background: url("../images/hero-bg-2.jpg");
+  background: url('../images/hero-bg-2.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 .hero.hero-slider-layout .hero-slide::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -933,7 +933,7 @@ header.main-header .header-sticky.active {
 }
 
 .hero-content .section-title h1 span::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1058,7 +1058,7 @@ header.main-header .header-sticky.active {
 }
 
 .our-services::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -80px;
@@ -1141,7 +1141,7 @@ header.main-header .header-sticky.active {
 }
 
 .our-services-nav ul li .nav-link::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   bottom: 0;
@@ -1151,7 +1151,7 @@ header.main-header .header-sticky.active {
   height: 48px;
   border-radius: 50%;
   background-color: var(--secondary-color);
-  background-image: url("../images/arrrow-light.svg");
+  background-image: url('../images/arrrow-light.svg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 24px auto;
@@ -1205,7 +1205,7 @@ header.main-header .header-sticky.active {
 }
 
 .service-box-item::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1232,7 +1232,7 @@ header.main-header .header-sticky.active {
 }
 
 .service-box-item .icon-box:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1301,7 +1301,7 @@ header.main-header .header-sticky.active {
 }
 
 .work-item::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1408,7 +1408,7 @@ header.main-header .header-sticky.active {
 }
 
 .creative-tools::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: -60px;
@@ -1458,7 +1458,7 @@ header.main-header .header-sticky.active {
 }
 
 .creative-tool-item::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
@@ -1611,13 +1611,13 @@ header.main-header .header-sticky.active {
 
 .work-faq-accordion .work-accordion-item .accordion-button::after,
 .work-faq-accordion .work-accordion-item .accordion-button.collapsed::after {
-  content: "";
+  content: '';
   position: absolute;
   right: 0;
   top: 50%;
   transform: translateY(-50%) rotate(-45deg);
   background-color: var(--bg-color);
-  background-image: url("../images/arrrow-light.svg");
+  background-image: url('../images/arrrow-light.svg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 24px auto;
@@ -1656,7 +1656,7 @@ header.main-header .header-sticky.active {
 }
 
 .our-achievements::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -60px;
@@ -1725,7 +1725,7 @@ header.main-header .header-sticky.active {
 }
 
 .achievements-item h3::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 0;
@@ -1832,7 +1832,7 @@ header.main-header .header-sticky.active {
 }
 
 .our-team::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: -70px;
@@ -1892,7 +1892,7 @@ header.main-header .header-sticky.active {
 }
 
 .team-body::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1968,7 +1968,7 @@ header.main-header .header-sticky.active {
 
 .our-testimonial {
   padding: 100px 0;
-  background: url("../images/our-testimonial-bg.png"), var(--secondary-color);
+  background: url('../images/our-testimonial-bg.png'), var(--secondary-color);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -2073,7 +2073,7 @@ header.main-header .header-sticky.active {
 
 .testimonial-slider
   .swiper-pagination-bullet.swiper-pagination-bullet-active:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2094,7 +2094,7 @@ header.main-header .header-sticky.active {
 }
 
 .our-blog::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -40px;
@@ -2197,7 +2197,7 @@ header.main-header .header-sticky.active {
 }
 
 .footer-section::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: -90px;
@@ -2420,13 +2420,13 @@ header.main-header .header-sticky.active {
 }
 
 .page-about-us::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: -60px;
   top: 50%;
   transform: rotate(44deg);
-  background: url("../images/section-bg-shape-2.png") no-repeat;
+  background: url('../images/section-bg-shape-2.png') no-repeat;
   background-position: left center;
   background-size: contain;
   width: 242px;
@@ -2470,8 +2470,8 @@ header.main-header .header-sticky.active {
 }
 
 .about-us-info-list ul li:before {
-  content: "\f058";
-  font-family: "Font Awesome 6 Free";
+  content: '\f058';
+  font-family: 'Font Awesome 6 Free';
   font-weight: 900;
   font-size: 16px;
   color: var(--accent-color);
@@ -2571,8 +2571,8 @@ header.main-header .header-sticky.active {
 }
 
 .vision-mission-list ul li:before {
-  content: "\f058";
-  font-family: "Font Awesome 6 Free";
+  content: '\f058';
+  font-family: 'Font Awesome 6 Free';
   font-weight: 900;
   font-size: 16px;
   color: var(--accent-color);
@@ -2589,13 +2589,13 @@ header.main-header .header-sticky.active {
 }
 
 .our-faqs:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -60px;
   top: 50px;
   transform: rotate(44deg);
-  background: url("../images/section-bg-shape-5.png") no-repeat;
+  background: url('../images/section-bg-shape-5.png') no-repeat;
   background-position: left center;
   background-size: contain;
   width: 152px;
@@ -2633,8 +2633,8 @@ header.main-header .header-sticky.active {
 
 .faq-accordion .accordion-item .accordion-button::after,
 .faq-accordion .accordion-item .accordion-button.collapsed::after {
-  content: "\f068";
-  font-family: "Font Awesome 6 Free";
+  content: '\f068';
+  font-family: 'Font Awesome 6 Free';
   font-size: 20px;
   font-weight: 900;
   color: var(--accent-color);
@@ -2645,7 +2645,7 @@ header.main-header .header-sticky.active {
 }
 
 .faq-accordion .accordion-item .accordion-button.collapsed::after {
-  content: "\f067";
+  content: '\f067';
   color: var(--text-color);
 }
 
@@ -2684,13 +2684,13 @@ header.main-header .header-sticky.active {
 }
 
 .page-services:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: -80px;
   top: 100px;
   transform: rotate(24deg);
-  background: url("../images/section-bg-shape-4.png") no-repeat;
+  background: url('../images/section-bg-shape-4.png') no-repeat;
   background-position: left center;
   background-size: contain;
   width: 265px;
@@ -2701,12 +2701,12 @@ header.main-header .header-sticky.active {
 }
 
 .page-services:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -80px;
   bottom: 150px;
-  background: url("../images/section-bg-shape-1.png") no-repeat;
+  background: url('../images/section-bg-shape-1.png') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 254px;
@@ -2731,7 +2731,7 @@ header.main-header .header-sticky.active {
 }
 
 .service-item::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
@@ -2839,7 +2839,7 @@ header.main-header .header-sticky.active {
 }
 
 .page-service-single::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: -40px;
@@ -2855,7 +2855,7 @@ header.main-header .header-sticky.active {
 }
 
 .page-service-single::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -80px;
@@ -2925,7 +2925,7 @@ header.main-header .header-sticky.active {
 }
 
 .service-catagery-list ul li a::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   right: 0;
@@ -3036,8 +3036,8 @@ header.main-header .header-sticky.active {
 }
 
 .service-benefit-list ul li::before {
-  content: "\f058";
-  font-family: "FontAwesome";
+  content: '\f058';
+  font-family: 'FontAwesome';
   font-weight: 900;
   font-size: 16px;
   color: var(--accent-color);
@@ -3104,7 +3104,7 @@ header.main-header .header-sticky.active {
 }
 
 .design-process-item .icon-box::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
@@ -3153,12 +3153,12 @@ header.main-header .header-sticky.active {
 }
 
 .page-works:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: -60px;
   top: 100px;
-  background: url("../images/section-bg-shape-3.png") no-repeat;
+  background: url('../images/section-bg-shape-3.png') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 280px;
@@ -3169,12 +3169,12 @@ header.main-header .header-sticky.active {
 }
 
 .page-works:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -80px;
   top: 50%;
-  background: url("../images/section-bg-shape-1.png") no-repeat;
+  background: url('../images/section-bg-shape-1.png') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 254px;
@@ -3211,7 +3211,7 @@ header.main-header .header-sticky.active {
 }
 
 .our-work-nav ul li a::before {
-  content: "/";
+  content: '/';
   position: absolute;
   top: 0;
   bottom: 0;
@@ -3239,7 +3239,7 @@ header.main-header .header-sticky.active {
 }
 
 .page-work-single::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -60px;
@@ -3255,7 +3255,7 @@ header.main-header .header-sticky.active {
 }
 
 .page-work-single::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: -40px;
@@ -3411,8 +3411,8 @@ header.main-header .header-sticky.active {
 }
 
 .work-entry ul li::before {
-  content: "\f058";
-  font-family: "FontAwesome";
+  content: '\f058';
+  font-family: 'FontAwesome';
   font-weight: 900;
   font-size: 16px;
   color: var(--accent-color);
@@ -3471,7 +3471,7 @@ header.main-header .header-sticky.active {
 }
 
 .project-features-item .icon-box::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
@@ -3524,12 +3524,12 @@ header.main-header .header-sticky.active {
 }
 
 .page-blog:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -80px;
   top: 100px;
-  background: url("../images/section-bg-shape-3.png") no-repeat;
+  background: url('../images/section-bg-shape-3.png') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 280px;
@@ -3583,13 +3583,13 @@ header.main-header .header-sticky.active {
 }
 
 .page-single-post:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: -80px;
   top: 100px;
   transform: rotate(24deg);
-  background: url("../images/section-bg-shape-4.png") no-repeat;
+  background: url('../images/section-bg-shape-4.png') no-repeat;
   background-position: left center;
   background-size: contain;
   width: 265px;
@@ -3600,12 +3600,12 @@ header.main-header .header-sticky.active {
 }
 
 .page-single-post:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -80px;
   top: 50%;
-  background: url("../images/section-bg-shape-3.png") no-repeat;
+  background: url('../images/section-bg-shape-3.png') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 280px;
@@ -3646,7 +3646,7 @@ header.main-header .header-sticky.active {
 }
 
 .post-entry:after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
@@ -3752,7 +3752,7 @@ header.main-header .header-sticky.active {
 }
 
 .post-entry blockquote {
-  background: url("../images/icon-blockquote.svg"), var(--accent-color);
+  background: url('../images/icon-blockquote.svg'), var(--accent-color);
   background-repeat: no-repeat;
   background-position: 35px 25px;
   background-size: 55px;
@@ -3850,12 +3850,12 @@ header.main-header .header-sticky.active {
 }
 
 .page-team:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -80px;
   top: 150px;
-  background: url("../images/section-bg-shape-1.png") no-repeat;
+  background: url('../images/section-bg-shape-1.png') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 254px;
@@ -3875,7 +3875,7 @@ header.main-header .header-sticky.active {
 }
 
 .page-team-single::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -80px;
@@ -3891,7 +3891,7 @@ header.main-header .header-sticky.active {
 }
 
 .page-team-single::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: -70px;
@@ -3959,7 +3959,7 @@ header.main-header .header-sticky.active {
 }
 
 .team-contact-box .icon-box:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
@@ -4073,8 +4073,8 @@ header.main-header .header-sticky.active {
 }
 
 .team-expertise-list ul li::before {
-  content: "\f058";
-  font-family: "FontAwesome";
+  content: '\f058';
+  font-family: 'FontAwesome';
   font-weight: 900;
   font-size: 16px;
   color: var(--accent-color);
@@ -4142,12 +4142,12 @@ header.main-header .header-sticky.active {
 }
 
 .page-pricing:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: -40px;
   top: 150px;
-  background: url("../images/section-bg-shape-5.png") no-repeat;
+  background: url('../images/section-bg-shape-5.png') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 154px;
@@ -4158,12 +4158,12 @@ header.main-header .header-sticky.active {
 }
 
 .page-pricing:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -80px;
   bottom: 100px;
-  background: url("../images/section-bg-shape-3.png") no-repeat;
+  background: url('../images/section-bg-shape-3.png') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 280px;
@@ -4237,8 +4237,8 @@ header.main-header .header-sticky.active {
 }
 
 .pricing-list ul li:before {
-  content: "\f058";
-  font-family: "Font Awesome 6 Free";
+  content: '\f058';
+  font-family: 'Font Awesome 6 Free';
   font-weight: 900;
   font-size: 16px;
   color: var(--accent-color);
@@ -4324,12 +4324,12 @@ header.main-header .header-sticky.active {
 }
 
 .page-testimonial:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: -40px;
   top: 150px;
-  background: url("../images/section-bg-shape-5.png") no-repeat;
+  background: url('../images/section-bg-shape-5.png') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 154px;
@@ -4340,12 +4340,12 @@ header.main-header .header-sticky.active {
 }
 
 .page-testimonial:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -80px;
   bottom: 100px;
-  background: url("../images/section-bg-shape-3.png") no-repeat;
+  background: url('../images/section-bg-shape-3.png') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 280px;
@@ -4371,13 +4371,13 @@ header.main-header .header-sticky.active {
 }
 
 .page-faqs:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: -80px;
   top: 100px;
   transform: rotate(24deg);
-  background: url("../images/section-bg-shape-4.png") no-repeat;
+  background: url('../images/section-bg-shape-4.png') no-repeat;
   background-position: left center;
   background-size: contain;
   width: 265px;
@@ -4388,12 +4388,12 @@ header.main-header .header-sticky.active {
 }
 
 .page-faqs:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -80px;
   top: 50%;
-  background: url("../images/section-bg-shape-1.png") no-repeat;
+  background: url('../images/section-bg-shape-1.png') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 254px;
@@ -4448,13 +4448,13 @@ header.main-header .header-sticky.active {
 }
 
 .faq-catagery-list ul li a::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   right: 0;
   width: 24px;
   height: 24px;
-  background-image: url("../images/arrrow-light.svg");
+  background-image: url('../images/arrrow-light.svg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4479,12 +4479,12 @@ header.main-header .header-sticky.active {
 }
 
 .page-contact-us:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: -40px;
   top: 150px;
-  background: url("../images/section-bg-shape-5.png") no-repeat;
+  background: url('../images/section-bg-shape-5.png') no-repeat;
   background-position: left top;
   background-size: contain;
   width: 154px;
@@ -4495,12 +4495,12 @@ header.main-header .header-sticky.active {
 }
 
 .page-contact-us:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -80px;
   bottom: 150px;
-  background: url("../images/section-bg-shape-3.png") no-repeat;
+  background: url('../images/section-bg-shape-3.png') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 280px;
@@ -4546,7 +4546,7 @@ header.main-header .header-sticky.active {
 }
 
 .contact-info-item .icon-box::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -4638,12 +4638,12 @@ header.main-header .header-sticky.active {
 }
 
 .error-page:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -80px;
   top: 150px;
-  background: url("../images/section-bg-shape-1.png") no-repeat;
+  background: url('../images/section-bg-shape-1.png') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 254px;
