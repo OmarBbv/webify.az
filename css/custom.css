@@ -1063,7 +1063,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   right: -80px;
   bottom: 150px;
-  background: url(../images/section-bg-shape-1.png) no-repeat;
+  background: url(../images/section-bg-shape-1.webp) no-repeat;
   background-position: right center;
   background-size: contain;
   width: 254px;
@@ -1414,7 +1414,7 @@ header.main-header .header-sticky.active {
   left: -60px;
   top: 150px;
   transform: rotate(44deg);
-  background: url(../images/section-bg-shape-2.png) no-repeat;
+  background: url(../images/section-bg-shape-2.webp) no-repeat;
   background-position: left center;
   background-size: contain;
   width: 242px;
@@ -1661,7 +1661,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   right: -60px;
   top: 100px;
-  background: url(../images/section-bg-shape-3.png) no-repeat;
+  background: url(../images/section-bg-shape-3.webp) no-repeat;
   background-position: right center;
   background-size: contain;
   width: 280px;
@@ -1838,7 +1838,7 @@ header.main-header .header-sticky.active {
   left: -70px;
   top: 100px;
   transform: rotate(24deg);
-  background: url(../images/section-bg-shape-4.png) no-repeat;
+  background: url(../images/section-bg-shape-4.webp) no-repeat;
   background-position: left center;
   background-size: contain;
   width: 265px;
@@ -2099,7 +2099,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   right: -40px;
   top: 0;
-  background: url(../images/section-bg-shape-5.png) no-repeat;
+  background: url(../images/section-bg-shape-5.webp) no-repeat;
   background-position: right center;
   background-size: contain;
   width: 154px;
@@ -2203,7 +2203,7 @@ header.main-header .header-sticky.active {
   left: -90px;
   top: -200px;
   transform: translateY(-50%) rotate(44deg);
-  background: url(../images/section-bg-shape-2.png) no-repeat;
+  background: url(../images/section-bg-shape-2.webp) no-repeat;
   background-position: left center;
   background-size: contain;
   width: 242px;
@@ -2426,7 +2426,7 @@ header.main-header .header-sticky.active {
   left: -60px;
   top: 50%;
   transform: rotate(44deg);
-  background: url('../images/section-bg-shape-2.png') no-repeat;
+  background: url('../images/section-bg-shape-2.webp') no-repeat;
   background-position: left center;
   background-size: contain;
   width: 242px;
@@ -2595,7 +2595,7 @@ header.main-header .header-sticky.active {
   right: -60px;
   top: 50px;
   transform: rotate(44deg);
-  background: url('../images/section-bg-shape-5.png') no-repeat;
+  background: url('../images/section-bg-shape-5.webp') no-repeat;
   background-position: left center;
   background-size: contain;
   width: 152px;
@@ -2690,7 +2690,7 @@ header.main-header .header-sticky.active {
   left: -80px;
   top: 100px;
   transform: rotate(24deg);
-  background: url('../images/section-bg-shape-4.png') no-repeat;
+  background: url('../images/section-bg-shape-4.webp') no-repeat;
   background-position: left center;
   background-size: contain;
   width: 265px;
@@ -2706,7 +2706,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   right: -80px;
   bottom: 150px;
-  background: url('../images/section-bg-shape-1.png') no-repeat;
+  background: url('../images/section-bg-shape-1.webp') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 254px;
@@ -2844,7 +2844,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   left: -40px;
   top: 6%;
-  background: url(../images/section-bg-shape-5.png) no-repeat;
+  background: url(../images/section-bg-shape-5.webp) no-repeat;
   background-position: left top;
   background-size: contain;
   width: 154px;
@@ -2860,7 +2860,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   right: -80px;
   top: 25%;
-  background: url(../images/section-bg-shape-3.png) no-repeat;
+  background: url(../images/section-bg-shape-3.webp) no-repeat;
   background-position: right center;
   background-size: contain;
   width: 280px;
@@ -3158,7 +3158,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   left: -60px;
   top: 100px;
-  background: url('../images/section-bg-shape-3.png') no-repeat;
+  background: url('../images/section-bg-shape-3.webp') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 280px;
@@ -3174,7 +3174,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   right: -80px;
   top: 50%;
-  background: url('../images/section-bg-shape-1.png') no-repeat;
+  background: url('../images/section-bg-shape-1.webp') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 254px;
@@ -3244,7 +3244,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   right: -60px;
   top: 50%;
-  background: url(../images/section-bg-shape-5.png) no-repeat;
+  background: url(../images/section-bg-shape-5.webp) no-repeat;
   background-position: right center;
   background-size: contain;
   width: 154px;
@@ -3260,7 +3260,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   left: -40px;
   top: 15%;
-  background: url(../images/section-bg-shape-3.png) no-repeat;
+  background: url(../images/section-bg-shape-3.webp) no-repeat;
   background-position: left top;
   background-size: contain;
   width: 280px;
@@ -3529,7 +3529,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   right: -80px;
   top: 100px;
-  background: url('../images/section-bg-shape-3.png') no-repeat;
+  background: url('../images/section-bg-shape-3.webp') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 280px;
@@ -3589,7 +3589,7 @@ header.main-header .header-sticky.active {
   left: -80px;
   top: 100px;
   transform: rotate(24deg);
-  background: url('../images/section-bg-shape-4.png') no-repeat;
+  background: url('../images/section-bg-shape-4.webp') no-repeat;
   background-position: left center;
   background-size: contain;
   width: 265px;
@@ -3605,7 +3605,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   right: -80px;
   top: 50%;
-  background: url('../images/section-bg-shape-3.png') no-repeat;
+  background: url('../images/section-bg-shape-3.webp') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 280px;
@@ -3855,7 +3855,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   right: -80px;
   top: 150px;
-  background: url('../images/section-bg-shape-1.png') no-repeat;
+  background: url('../images/section-bg-shape-1.webp') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 254px;
@@ -3880,7 +3880,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   right: -80px;
   top: 50%;
-  background: url(../images/section-bg-shape-1.png) no-repeat;
+  background: url(../images/section-bg-shape-1.webp) no-repeat;
   background-position: right center;
   background-size: contain;
   width: 254px;
@@ -3897,7 +3897,7 @@ header.main-header .header-sticky.active {
   left: -70px;
   top: 100px;
   transform: rotate(24deg);
-  background: url(../images/section-bg-shape-4.png) no-repeat;
+  background: url(../images/section-bg-shape-4.webp) no-repeat;
   background-position: left center;
   background-size: contain;
   width: 265px;
@@ -4147,7 +4147,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   left: -40px;
   top: 150px;
-  background: url('../images/section-bg-shape-5.png') no-repeat;
+  background: url('../images/section-bg-shape-5.webp') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 154px;
@@ -4163,7 +4163,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   right: -80px;
   bottom: 100px;
-  background: url('../images/section-bg-shape-3.png') no-repeat;
+  background: url('../images/section-bg-shape-3.webp') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 280px;
@@ -4329,7 +4329,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   left: -40px;
   top: 150px;
-  background: url('../images/section-bg-shape-5.png') no-repeat;
+  background: url('../images/section-bg-shape-5.webp') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 154px;
@@ -4345,7 +4345,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   right: -80px;
   bottom: 100px;
-  background: url('../images/section-bg-shape-3.png') no-repeat;
+  background: url('../images/section-bg-shape-3.webp') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 280px;
@@ -4377,7 +4377,7 @@ header.main-header .header-sticky.active {
   left: -80px;
   top: 100px;
   transform: rotate(24deg);
-  background: url('../images/section-bg-shape-4.png') no-repeat;
+  background: url('../images/section-bg-shape-4.webp') no-repeat;
   background-position: left center;
   background-size: contain;
   width: 265px;
@@ -4393,7 +4393,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   right: -80px;
   top: 50%;
-  background: url('../images/section-bg-shape-1.png') no-repeat;
+  background: url('../images/section-bg-shape-1.webp') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 254px;
@@ -4484,7 +4484,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   left: -40px;
   top: 150px;
-  background: url('../images/section-bg-shape-5.png') no-repeat;
+  background: url('../images/section-bg-shape-5.webp') no-repeat;
   background-position: left top;
   background-size: contain;
   width: 154px;
@@ -4500,7 +4500,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   right: -80px;
   bottom: 150px;
-  background: url('../images/section-bg-shape-3.png') no-repeat;
+  background: url('../images/section-bg-shape-3.webp') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 280px;
@@ -4643,7 +4643,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   right: -80px;
   top: 150px;
-  background: url('../images/section-bg-shape-1.png') no-repeat;
+  background: url('../images/section-bg-shape-1.webp') no-repeat;
   background-position: right center;
   background-size: contain;
   width: 254px;

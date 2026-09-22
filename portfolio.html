@@ -297,13 +297,17 @@
                         <a
                           href="https://www.facebook.com/profile.php?id=61575514037867"
                           target="_blank"
+                          rel="noopener"
+                          aria-label="Webify Facebook"
                           ><i class="fa-brands fa-facebook-f"></i
                         ></a>
                       </li>
                       <li>
                         <a
-                          href="https://www.instagram.com/saytyarat_com_az/"
+                          href="https://www.instagram.com/webify.az/"
                           target="_blank"
+                          rel="noopener"
+                          aria-label="Webify Instagram"
                           ><i class="fa-brands fa-instagram"></i
                         ></a>
                       </li>
@@ -348,7 +352,7 @@
                     <li><a href="services.html">UI/UX Dizayn</a></li>
                     <li><a href="services.html">Qrafik Dizayn</a></li>
                     <li><a href="sayt-yaradilmasi.html">Sayt yaradılması</a></li>
-                    <li><a href="services.html">SEO Xidmətləri</a></li>
+                    <li><a href="seo-xidmeti.html">SEO Xidmətləri</a></li>
                     <li><a href="services.html">Meta Reklamlar</a></li>
                   </ul>
                 </div>
@@ -414,7 +418,7 @@
               <div class="col-lg-12">
                 <!-- Footer Copyright Start -->
                 <div class="footer-copyright-text">
-                  <p>Copyright © 2025 All Rights Reserved.</p>
+                  <p>Copyright © 2026 Webify. Bütün hüquqlar qorunur.</p>
                 </div>
                 <!-- Footer Copyright End -->
               </div>
@@ -474,21 +478,21 @@
               'beforeend',
               `
               <div class="work-item-box uix_ux logo_design">
-                <a href="${item.target}">
+                <a href="${item.target}" target="_blank" rel="noopener noreferrer">
                   <div class="work-item wow fadeInUp" ${delay}>
                     <div class="work-image">
-                      <a href="${item.target}" data-cursor-text="View">
+                      <a href="${item.target}" target="_blank" rel="noopener noreferrer" data-cursor-text="View">
                         <figure class="image-anime">
-                          <img loading="lazy" decoding="async" src="${item.image}" alt="${item.title}" />
+                          <img loading="lazy" decoding="async" src="${item.image}" srcset="${item.image.replace('.webp', '-800.webp')} 800w, ${item.image} 1400w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 50vw, 33vw" alt="${item.title}" />
                         </figure>
                       </a>
                     </div>
                     <div class="work-body">
                       <div class="work-content">
-                        <h3><a href="${item.target}">${item.title}</a></h3>
+                        <h3><a href="${item.target}" target="_blank" rel="noopener noreferrer">${item.title}</a></h3>
                       </div>
                       <div class="work-btn">
-                        <a href="${item.target}" target="_blank">
+                        <a href="${item.target}" target="_blank" rel="noopener noreferrer">
                           <img loading="lazy" decoding="async" src="images/arrrow-light.svg" alt="" />
                         </a>
                       </div>

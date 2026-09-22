@@ -1,5 +1,23 @@
 [
   {
+    "title": "Memix.az",
+    "image": "images/memix.webp",
+    "link": "portfolio.html",
+    "target": "https://memix.az/"
+  },
+  {
+    "title": "Memix mobil tətbiqi",
+    "image": "images/memix-app.webp",
+    "link": "portfolio.html",
+    "target": "https://apps.apple.com/az/app/memix-az/id6790427328"
+  },
+  {
+    "title": "Alal.az",
+    "image": "images/alal.webp",
+    "link": "portfolio.html",
+    "target": "https://alal.az/"
+  },
+  {
     "title": "BirBina.az",
     "image": "images/birbina.webp",
     "link": "portfolio.html",
@@ -31,7 +49,7 @@
   },
   {
     "title": "Marianna Senchina",
-    "image": "images/marianna-png.webp",
+    "image": "images/marianna-site.webp",
     "link": "portfolio.html",
     "target": "https://mariannasenchina.com"
   },

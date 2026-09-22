@@ -6,8 +6,8 @@ const translations = {
     index_a_4: 'Portfolio',
     index_a_5: 'Contact',
     index_a_6: 'Get in Touch',
-    index_h1_1: 'Professional Website Development in Baku',
-    index_span_1: 'Website',
+    index_h1_1: 'Your Website — Your Most Powerful Salesperson',
+    index_span_1: 'Salesperson',
     index_p_1:
       'We create stunning websites and experiences that engage users and elevate brands.',
     index_a_7: 'Explore Our Work',
@@ -106,7 +106,7 @@ const translations = {
     index_footer_phone: '+994 (10) 451-6373',
     index_footer_email: 'info@webify.az',
     index_footer_address: '6 Murtuza Muxtarov St, Yasamal, Baku',
-    index_footer_copyright: 'Copyright © 2025. All Rights Reserved.',
+    index_footer_copyright: 'Copyright © 2026 Webify. All Rights Reserved.',
 
     // Portfolio Section
     index_portfolio_title_1: 'Portfolio',
@@ -231,8 +231,8 @@ const translations = {
     index_a_4: 'Portfoliomuz',
     index_a_5: 'Əlaqə',
     index_a_6: 'Əlaqə',
-    index_h1_1: 'Bakıda peşəkar sayt yaradılması',
-    index_span_1: 'sayt',
+    index_h1_1: 'Saytınız — ən güclü satıcınız',
+    index_span_1: 'satıcınız',
     index_p_1:
       'Korporativ saytlar, onlayn mağazalar və landing page-lər: mobil uyğun, sürətli və SEO-ya hazır vebsayt hazırlanması ilə brendinizi onlayn dünyaya daşıyırıq.',
     index_a_7: 'Portfoliomuza keçid edin',
@@ -334,7 +334,7 @@ const translations = {
     index_footer_phone: '+994 (10) 451-6373',
     index_footer_email: 'info@webify.az',
     index_footer_address: 'Bakı şəh, Yasamal ray, Murtuza Muxtarov 6',
-    index_footer_copyright: 'Copyright © 2025 All Rights Reserved.',
+    index_footer_copyright: 'Copyright © 2026 Webify. Bütün hüquqlar qorunur.',
 
     // Portfolio Section
     index_portfolio_title_1: 'Portfolio',
