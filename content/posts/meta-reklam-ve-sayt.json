@@ -1,0 +1,76 @@
+{
+  "slug": "meta-reklam-ve-sayt",
+  "title": "Meta reklamları və sayt birlikdə necə işləyir?",
+  "h1": "Meta reklamları və <span>sayt</span>",
+  "metaTitle": "Meta Reklamları və Sayt Birlikdə Necə İşləyir? | Webify",
+  "description": "Facebook və Instagram reklamlarını sayta yönəltmək nə verir, reklam büdcəsi harada itir və nəticəni ölçmək üçün nə qurulmalıdır.",
+  "date": "2026-09-07",
+  "cta": "Reklam büdcənizdən nəticə almaq istəyirsiniz?",
+  "sections": [
+    {
+      "paras": [
+        "Çox biznes reklamı birbaşa Instagram profilinə və ya direct-ə yönəldir. Bu, işləyə bilər, amma ölçülmür və miqyaslanmır. Reklamı sayta yönəltdikdə isə hər manatın nəticəsini görmək mümkün olur."
+      ]
+    },
+    {
+      "h2": "Reklam trafiki hara getməlidir?",
+      "paras": [
+        "Ən yaxşı nəticəni reklamın mesajı ilə eyni şeyi deyən səhifə verir. Adam \"20% endirim\" reklamına klikləyib ana səhifəyə düşürsə və orada endirimdən söz gedmirsə, çıxıb gedir.",
+        "Ona görə hər kampaniya üçün ayrıca <a href=\"/bloq/landing-page-nedir\">landing page</a> və ya uyğun xidmət səhifəsi hazırlamaq daha effektivdir."
+      ]
+    },
+    {
+      "h2": "Reklam büdcəsi ən çox harada itir?",
+      "list": [
+        "Yavaş açılan səhifə: adam yüklənməni gözləmir.",
+        "Telefonda pozulan dizayn.",
+        "Reklamdakı vədlə səhifədəki mətnin uyğunsuzluğu.",
+        "Qiymət haqqında heç bir məlumatın olmaması.",
+        "Uzun forma və ya yalnız zəng tələb edilməsi.",
+        "Ölçmənin qurulmaması: hansı reklamın işlədiyi bilinmir."
+      ]
+    },
+    {
+      "h2": "Ölçməni qurmaq",
+      "paras": [
+        "Reklamın nəticəsini görmək üçün sayta izləmə kodu (Meta piksel) qurulur və vacib hadisələr qeyd olunur: forma göndərildi, WhatsApp düyməsinə klik oldu, sifariş tamamlandı.",
+        "Bundan sonra hesabatda hansı reklamın neçə müraciət gətirdiyi və bir müraciətin neçəyə başa gəldiyi görünür. Bu rəqəm olmadan reklamı idarə etmək mümkün deyil."
+      ]
+    },
+    {
+      "h2": "Reklam və SEO bir-birini əvəz etmir",
+      "paras": [
+        "Reklam tez nəticə verir, amma büdcə dayandığı gün trafik kəsilir. SEO gec başlayır, amma uzun müddət davam edir.",
+        "Praktikada ən yaxşı model budur: başlanğıcda reklamla müraciət və məlumat toplayırsınız, paralel olaraq məzmun və <a href=\"/seo-xidmeti\">SEO</a> üzərində işləyirsiniz. Bir neçə aydan sonra reklamdan asılılıq azalır."
+      ]
+    },
+    {
+      "h2": "Kiçik büdcə ilə başlamaq",
+      "list": [
+        "Bir hədəf seçin: müraciət, zəng və ya sifariş.",
+        "İki-üç fərqli reklam variantı sınayın, birini yox.",
+        "Ən azı bir neçə gün gözləyin, tez qərar verməyin.",
+        "Nəticəsi zəif olanı dayandırın, yaxşı işləyəni gücləndirin.",
+        "Səhifənin özünü də dəyişib müqayisə edin: çox vaxt problem reklamda yox, səhifədədir."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Reklamı profilə yox, sayta yönəltmək daha yaxşıdır?",
+      "a": "Nəticəni ölçmək və satışı avtomatlaşdırmaq istəyirsinizsə, bəli. Tanınma məqsədi güdürsünüzsə, profil də uyğun ola bilər."
+    },
+    {
+      "q": "Nə qədər büdcə lazımdır?",
+      "a": "Kiçik büdcə ilə də başlamaq olar, amma məlumat toplamaq üçün kampaniyaya bir neçə gün vaxt vermək lazımdır."
+    },
+    {
+      "q": "Reklamı özüm idarə edə bilərəmmi?",
+      "a": "Sadə kampaniyaları bəli. Ölçmənin qurulması və kampaniyaların optimallaşdırılması isə təcrübə tələb edir."
+    }
+  ],
+  "service": {
+    "url": "/seo-xidmeti",
+    "text": "SEO xidmətimiz"
+  }
+}

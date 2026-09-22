@@ -1,0 +1,80 @@
+{
+  "slug": "onlayn-magaza-nece-acilir",
+  "title": "Onlayn mağaza necə açılır?",
+  "h1": "Onlayn mağaza <span>necə</span> açılır?",
+  "metaTitle": "Onlayn Mağaza Necə Açılır? Addım-Addım Bələdçi | Webify",
+  "description": "Onlayn mağaza açmaq üçün nə lazımdır: platforma seçimi, məhsul kataloqu, ödəniş və çatdırılma, ilk satışlar. Praktik addımlar.",
+  "date": "2026-09-22",
+  "cta": "Onlayn mağaza açmaq istəyirsiniz?",
+  "sections": [
+    {
+      "paras": [
+        "Instagram-dan satış edirsiniz, sifarişləri əl ilə yazırsınız və hər gün eyni sualları cavablandırırsınız. Onlayn mağaza məhz bu mərhələdə lazım olur. Aşağıda mağazanı sıfırdan açmaq üçün lazım olan addımlar var."
+      ]
+    },
+    {
+      "h2": "1. Əvvəlcə rəqəmləri müəyyənləşdirin",
+      "paras": [
+        "Texnikadan əvvəl biznes tərəfi aydın olmalıdır: neçə məhsul satacaqsınız, məhsulların variantları (ölçü, rəng) varmı, çatdırılmanı kim edəcək, qaytarma şərtləri nədir və ödənişi necə qəbul edəcəksiniz.",
+        "Bu suallara cavab vermədən platforma seçmək səhvdir, çünki hər platforma fərqli ssenari üçün uyğundur."
+      ]
+    },
+    {
+      "h2": "2. Platformanı seçin",
+      "list": [
+        "<strong>Hazır mağaza platformaları.</strong> Tez başlamaq üçün əlverişlidir, aylıq abunə ilə işləyir. Dizayn və funksiyalar məhduddur.",
+        "<strong>WordPress + WooCommerce.</strong> Çevikdir, çoxlu plagin var. Amma sürət, təhlükəsizlik və yeniləmələr sizin üzərinizdə qalır.",
+        "<strong>Fərdi hazırlanmış mağaza.</strong> Biznesinizin iş qaydasına uyğun qurulur, ən sürətli və ən çevik variantdır. Başlanğıc xərci daha yüksəkdir."
+      ]
+    },
+    {
+      "h2": "3. Məhsul kataloqunu hazırlayın",
+      "paras": [
+        "Mağazanın ən çox vaxt aparan hissəsi budur. Hər məhsul üçün lazımdır: aydın ad, təmiz fonda şəkillər, qiymət, qalıq sayı, ölçü cədvəli və qısa təsvir.",
+        "Məhsul təsvirlərini istehsalçının saytından kopyalamayın. Eyni mətn onlarla saytda olanda Google onu təkrar məzmun kimi görür və heç birini yuxarı çıxarmır. Öz sözlərinizlə, müştərinin verdiyi real suallara cavab verən mətn yazın."
+      ]
+    },
+    {
+      "h2": "4. Ödəniş və çatdırılmanı qurun",
+      "paras": [
+        "Ödəniş üçün iki əsas variant var: kartla onlayn ödəniş və qapıda ödəniş. Onlayn ödəniş üçün bank və ya ödəniş provayderi ilə müqavilə bağlanır, bu proses sənədləşmə tələb edir və bir neçə gün çəkə bilər. Ona görə mağaza hazır olmamışdan əvvəl başlamaq məsləhətdir.",
+        "Çatdırılma qiymətlərini və müddətlərini saytda açıq yazın. Gizlədilmiş çatdırılma haqqı səbətin tərk edilməsinin ən çox yayılmış səbəbidir."
+      ]
+    },
+    {
+      "h2": "5. Açılışdan əvvəl yoxlama siyahısı",
+      "list": [
+        "Telefonda bütün mərhələləri özünüz keçin: məhsul seçimi, səbət, sifariş.",
+        "Sınaq sifarişi verin və bildirişin sizə gəldiyinə əmin olun.",
+        "Çatdırılma, qaytarma və məxfilik qaydalarını ayrıca səhifədə yazın.",
+        "Əlaqə nömrəsi və WhatsApp düyməsi hər səhifədə görünsün.",
+        "Saytı Google Search Console-a əlavə edin və sitemap göndərin."
+      ]
+    },
+    {
+      "h2": "6. İlk satışlar haradan gəlir?",
+      "paras": [
+        "Yeni mağaza açılan kimi Google-dan müştəri gəlmir, bu, aylar çəkir. Başlanğıcda trafikin əsas mənbəyi mövcud auditoriyanız və reklam olur: Instagram, Meta reklamları, mövcud müştəri bazası.",
+        "Paralel olaraq kateqoriya və məhsul səhifələrini axtarış üçün optimallaşdırın. Bu, bir neçə ay sonra reklamdan asılılığı azaldır. Bu barədə <a href=\"/seo-xidmeti\">SEO xidməti</a> səhifəmizdə yazmışıq."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Onlayn mağaza açmaq neçə vaxt çəkir?",
+      "a": "Məhsul sayından və funksiyalardan asılı olaraq adətən 2–4 həftə. Ən çox vaxtı məhsul məlumatlarının hazırlanması aparır."
+    },
+    {
+      "q": "Instagram mağazam var, sayta ehtiyac varmı?",
+      "a": "Sayt sizə Google-dan pulsuz müştəri, avtomatlaşdırılmış sifariş qəbulu və hesab bloklananda itirilməyən müştəri bazası verir."
+    },
+    {
+      "q": "Neçə məhsulla başlamaq olar?",
+      "a": "İstənilən sayda. Amma 10 yaxşı hazırlanmış məhsul səhifəsi 100 yarımçıq səhifədən daha çox satır."
+    }
+  ],
+  "service": {
+    "url": "/onlayn-magaza-yaradilmasi",
+    "text": "Onlayn mağaza yaradılması"
+  }
+}

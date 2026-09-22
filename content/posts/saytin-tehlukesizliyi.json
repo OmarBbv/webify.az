@@ -1,0 +1,85 @@
+{
+  "slug": "saytin-tehlukesizliyi",
+  "title": "Saytın təhlükəsizliyi: SSL, yedəkləmə və yeniləmələr",
+  "h1": "Saytın <span>təhlükəsizliyi</span>",
+  "metaTitle": "Saytın Təhlükəsizliyi: SSL və Yedəkləmə | Webify",
+  "description": "Sayt niyə hack olunur, SSL nədir, yedəkləmə necə qurulmalıdır və sahibinin mütləq bilməli olduğu təhlükəsizlik qaydaları.",
+  "date": "2026-09-14",
+  "cta": "Saytınızın təhlükəsizliyini yoxlayaq?",
+  "sections": [
+    {
+      "paras": [
+        "Saytların çoxu hədəfli hücumla yox, avtomatik skriptlərlə sındırılır. Həmin skriptlər internetdə köhnəlmiş sistemləri axtarır. Yəni kiçik sayt da hədəf ola bilər. Yaxşı xəbər odur ki, əsas qorunma tədbirləri sadədir."
+      ]
+    },
+    {
+      "h2": "SSL: saytın https ilə açılması",
+      "paras": [
+        "SSL sertifikatı ziyarətçi ilə sayt arasındakı məlumatı şifrələyir. Onsuz brauzer \"Təhlükəsiz deyil\" xəbərdarlığı göstərir, bu isə müştərini qorxudur.",
+        "Sertifikat əksər hostinqlərdə pulsuz verilir. Quraşdırdıqdan sonra bütün <em>http</em> ünvanlarının <em>https</em>-ə yönləndirildiyinə əmin olun."
+      ]
+    },
+    {
+      "h2": "Sayt niyə sındırılır?",
+      "list": [
+        "Köhnəlmiş sistem, şablon və ya plaginlər.",
+        "Zəif parollar və ya bütün xidmətlərdə eyni parol.",
+        "Naməlum mənbədən yüklənmiş \"pulsuz\" şablon və plaginlər.",
+        "Admin panelinə çoxsaylı giriş cəhdlərinin məhdudlaşdırılmaması.",
+        "Hostinqin köhnə proqram versiyaları."
+      ]
+    },
+    {
+      "h2": "Minimum qorunma dəsti",
+      "list": [
+        "Bütün yeniləmələri vaxtında edin, xüsusilə təhlükəsizlik yeniləmələrini.",
+        "Admin üçün güclü, unikal parol qoyun və mümkünsə iki mərhələli təsdiqi aktiv edin.",
+        "İstifadə etmədiyiniz plagin və şablonları silin, sadəcə deaktiv etməklə kifayətlənməyin.",
+        "Formalarda spam-a qarşı qorunma qurun.",
+        "Girişləri məhdudlaşdırın: çoxsaylı səhv cəhddən sonra bloklama."
+      ]
+    },
+    {
+      "h2": "Yedəkləmə: ən vacib addım",
+      "paras": [
+        "Yedək olmasa, ən kiçik problem belə saytın itirilməsi demək ola bilər. Yedəkləmə qurarkən üç suala cavab verin: nə qədər tez-tez saxlanılır, harada saxlanılır və bərpası nə qədər çəkir?",
+        "Yedəyin nüsxəsi saytın özündən başqa yerdə də olmalıdır. Ən azı ildə bir dəfə bərpanı sınayın: işləmədiyi məlum olan yedək, yedək sayılmır."
+      ]
+    },
+    {
+      "h2": "Giriş məlumatları sizdə olsun",
+      "paras": [
+        "Domen, hostinq, sayt admini və e-poçt hesablarının girişləri sahibində olmalıdır. Bu, texniki deyil, təşkilati məsələdir və ən çox problem yaradan yerdir.",
+        "Giriş məlumatlarını parol menecerində saxlayın, WhatsApp yazışmasında yox."
+      ]
+    },
+    {
+      "h2": "Sayt sındırılıbsa nə etməli?",
+      "list": [
+        "Bütün parolları dəyişin, o cümlədən hostinq və e-poçt parollarını.",
+        "Saytı təmiz yedəkdən bərpa edin.",
+        "Bütün sistemləri və plaginləri yeniləyin.",
+        "Google Search Console-da təhlükəsizlik xəbərdarlıqlarını yoxlayın.",
+        "Girişin haradan olduğunu tapın, əks halda hadisə təkrarlanır."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Statik saytlar daha təhlükəsizdirmi?",
+      "a": "Bəli, hücum səthi kiçik olur, çünki serverdə icra olunan kod və verilənlər bazası olmur."
+    },
+    {
+      "q": "SSL sertifikatı pulludurmu?",
+      "a": "Əksər hallarda pulsuz variant kifayətdir. Xüsusi sertifikatlar əsasən böyük təşkilatlara lazım olur."
+    },
+    {
+      "q": "Yedək nə qədər tez-tez alınmalıdır?",
+      "a": "Məzmun nə qədər tez-tez dəyişirsə, o qədər tez-tez. Onlayn mağaza üçün gündəlik, statik sayt üçün həftəlik kifayətdir."
+    }
+  ],
+  "service": {
+    "url": "/sayt-yaradilmasi",
+    "text": "Sayt yaradılması xidmətimiz"
+  }
+}

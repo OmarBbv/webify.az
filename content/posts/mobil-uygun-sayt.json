@@ -1,0 +1,78 @@
+{
+  "slug": "mobil-uygun-sayt",
+  "title": "Mobil uyğun sayt nədir və niyə vacibdir?",
+  "h1": "Mobil uyğun sayt <span>niyə</span> vacibdir?",
+  "metaTitle": "Mobil Uyğun Sayt Nədir və Niyə Vacibdir? | Webify",
+  "description": "Mobil uyğun sayt nədir, Google niyə mobil versiyaya baxır, telefonda ən çox rast gəlinən problemlər və onları necə yoxlamaq olar.",
+  "date": "2026-09-17",
+  "cta": "Saytınız telefonda rahat işləyirmi?",
+  "sections": [
+    {
+      "paras": [
+        "Azərbaycanda saytlara girişlərin böyük hissəsi telefondandır. Yəni sizin saytınızı ilk dəfə görən adam çox güman ki, onu kiçik ekranda, hərəkətdə və zəif internetlə açır. Mobil uyğun sayt həmin ekrana avtomatik uyğunlaşan saytdır."
+      ]
+    },
+    {
+      "h2": "Google mobil versiyaya baxır",
+      "paras": [
+        "Google saytları qiymətləndirərkən əsasən mobil versiyanı əsas götürür. Yəni kompüterdə hər şey gözəl görünsə də, telefonda mətn kiçikdirsə, düymələr bir-birinə yapışıbsa və ya sayt gec açılırsa, bu, sıralamaya mənfi təsir edir.",
+        "Bu, ayrıca mobil sayt hazırlamaq demək deyil. Müasir yanaşma birdir: eyni sayt ekran ölçüsünə görə uyğunlaşır."
+      ]
+    },
+    {
+      "h2": "Telefonda ən çox rast gəlinən problemlər",
+      "list": [
+        "Mətn çox kiçikdir, oxumaq üçün böyütmək lazım gəlir.",
+        "Düymələr kiçikdir və barmaqla düz yerə dəymək çətindir.",
+        "Səhifə üfüqi sürüşür, yəni nəyinsə eni ekrana sığmır.",
+        "Cədvəllər və qiymət siyahıları ekrana sığmır.",
+        "Bağlanmayan pop-up bütün ekranı örtür.",
+        "Böyük şəkillər mobil internetdə uzun yüklənir.",
+        "Telefon nömrəsi kliklənən deyil, əl ilə yazmaq lazımdır."
+      ]
+    },
+    {
+      "h2": "Necə yoxlamaq olar?",
+      "paras": [
+        "Ən sadə yol: saytı öz telefonunuzda açıb bir müştəri kimi hərəkət edin. Xidməti tapın, qiyməti oxuyun, zəng etməyə çalışın. Harada ləngiyirsinizsə, problem oradadır.",
+        "Sonra Google PageSpeed Insights-da saytın ünvanını yoxlayın və mobil nəticəyə baxın. Search Console-un \"Mobile usability\" bölməsi də problemli səhifələri göstərir."
+      ]
+    },
+    {
+      "h2": "Nəyə diqqət etmək lazımdır",
+      "list": [
+        "Əsas mətn ən azı 16px ölçüsündə olsun.",
+        "Düymələr barmaq üçün kifayət qədər böyük olsun.",
+        "Telefon nömrəsi və WhatsApp bir toxunuşla açılsın.",
+        "Formada sahə sayı minimal olsun.",
+        "Şəkillər WebP formatında və ekran ölçüsünə uyğun olsun.",
+        "Menyu telefonda rahat açılsın və bağlansın."
+      ]
+    },
+    {
+      "h2": "Nəticə",
+      "paras": [
+        "Mobil uyğunluq dizayn detalı deyil, satış məsələsidir. Telefonda rahat işləməyən sayt həm müştərini, həm də Google-dakı mövqeyini itirir.",
+        "Biz hazırladığımız bütün saytları telefon, planşet və kompüterdə yoxlayırıq. Ətraflı: <a href=\"/sayt-yaradilmasi\">sayt yaradılması</a>."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Mobil uyğun sayt üçün ayrıca versiya lazımdırmı?",
+      "a": "Xeyr. Müasir saytlar responsive qurulur: eyni sayt bütün ekranlara uyğunlaşır."
+    },
+    {
+      "q": "Köhnə saytımı mobil uyğun etmək olarmı?",
+      "a": "Çox vaxt bəli. Bəzən dizaynın bir hissəsini yenidən qurmaq lazım gəlir, bu isə saytın vəziyyətindən asılıdır."
+    },
+    {
+      "q": "Tətbiq (mobil aplikasiya) daha yaxşı deyilmi?",
+      "a": "Tətbiq yükləmə tələb edir. Yeni müştəri cəlb etmək üçün mobil uyğun sayt, mövcud müştərini saxlamaq üçün isə tətbiq işləyir."
+    }
+  ],
+  "service": {
+    "url": "/sayt-yaradilmasi",
+    "text": "Sayt yaradılması xidmətimiz"
+  }
+}

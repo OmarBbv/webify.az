@@ -1,0 +1,78 @@
+{
+  "slug": "seo-nedir",
+  "title": "SEO nədir və necə işləyir?",
+  "h1": "SEO <span>nədir</span> və necə işləyir?",
+  "metaTitle": "SEO Nədir və Necə İşləyir? Başlanğıc Bələdçisi | Webify",
+  "description": "SEO nədir, Google sıralamanı necə müəyyən edir, texniki SEO, məzmun və linklər nə deməkdir və nəticə real olaraq nə vaxt görünür.",
+  "date": "2026-09-19",
+  "cta": "Saytınızı Google-da irəli çıxarmaq istəyirsiniz?",
+  "sections": [
+    {
+      "paras": [
+        "SEO (Search Engine Optimization) saytın axtarış sistemlərində daha yuxarı çıxması üçün görülən işlərin ümumi adıdır. Reklamdan fərqi odur ki, hər klik üçün pul ödəmirsiniz. Əvəzində nəticə daha gec gəlir, amma daha uzun qalır."
+      ]
+    },
+    {
+      "h2": "Google nəyə baxır?",
+      "paras": [
+        "Google-un yüzlərlə amili var, amma onları üç böyük qrupa bölmək olar:"
+      ],
+      "list": [
+        "<strong>Texniki tərəf.</strong> Sayt açılırmı, tez yüklənirmi, telefonda rahatdırmı, Google səhifələri gəzə bilirmi.",
+        "<strong>Məzmun.</strong> Səhifə istifadəçinin sualına cavab verirmi, mövzunu tam əhatə edirmi, başlıqlar aydındırmı.",
+        "<strong>Etibar.</strong> Başqa saytlar sizə link verirmi, brendinizi axtarırlarmı, real bizness olduğunuz görünürmü."
+      ]
+    },
+    {
+      "h2": "Açar söz nədir və necə seçilir?",
+      "paras": [
+        "Açar söz müştərinin Google-a yazdığı ifadədir. Siz \"veb tərtibat həlləri\" deyə bilərsiniz, müştəri isə \"sayt qiymətləri\" yazır. Sizin sözünüz yox, onun sözü lazımdır.",
+        "Sadə üsul: Google-a əsas ifadəni yazıb altındakı təklifləri və səhifənin sonundakı \"Bununla bağlı axtarışlar\" bölməsini oxuyun. Orada real sorğular var.",
+        "Hər səhifə bir əsas mövzunu hədəfləməlidir. On mövzunu bir səhifəyə yığanda heç biri üçün yaxşı nəticə vermir."
+      ]
+    },
+    {
+      "h2": "Səhifə daxilində nə edilir?",
+      "list": [
+        "Title: axtarış nəticəsində görünən başlıq. Açar söz orada olmalıdır.",
+        "Meta description: nəticənin altındakı izah. Sıralamaya birbaşa təsir etmir, amma klik sayını artırır.",
+        "H1 və alt başlıqlar: səhifənin strukturu aydın olsun.",
+        "Mətn: müştərinin suallarına cavab versin, süni söz təkrarı olmasın.",
+        "Şəkillərin alt mətnləri və faylların sıxılması.",
+        "Daxili keçidlər: əlaqəli səhifələr bir-birinə bağlansın."
+      ]
+    },
+    {
+      "h2": "Linklər niyə vacibdir?",
+      "paras": [
+        "Başqa saytdan sizə verilən link Google üçün tövsiyə deməkdir. Nə qədər çox etibarlı sayt sizə link verirsə, bir o qədər güclü görünürsünüz.",
+        "Link almaq üçün ən real yollar: müştərilərinizin saytlarında qeyd olunmaq, yerli kataloq və platformalarda profil yaratmaq, faydalı məqalələr yazmaq və partnyorlarla qarşılıqlı əməkdaşlıq. Link almaq isə uzunmüddətli işdir, satın alınan linklər risklidir."
+      ]
+    },
+    {
+      "h2": "Nəticə nə vaxt görünür?",
+      "paras": [
+        "Texniki düzəlişlərin təsiri bir neçə həftəyə görünə bilər. Rəqabətli sorğularda möhkəm mövqe üçün adətən 3–6 ay və daha çox davamlı iş lazımdır.",
+        "Kim sizə \"bir ayda birinci yer\" vəd edirsə, ehtiyatlı olun. Sıralamaya Google qərar verir və heç bir agentlik ona zəmanət verə bilməz."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "SEO-nu özüm edə bilərəmmi?",
+      "a": "Əsas işləri bəli: title və description yazmaq, Search Console qurmaq, şəkilləri sıxmaq, faydalı mətnlər yazmaq. Texniki audit və rəqabətli sahələr üçün təcrübə lazım olur."
+    },
+    {
+      "q": "SEO nə qədər davam etməlidir?",
+      "a": "SEO bir dəfəlik iş deyil. Rəqiblər də işləyir, Google da dəyişir. Ən azı bir neçə ay davamlı iş lazımdır, sonra isə saxlama rejimi."
+    },
+    {
+      "q": "Reklam versəm, SEO-ya ehtiyac qalmır?",
+      "a": "Reklam dayandığı anda trafik kəsilir. SEO-dan gələn ziyarətçi isə uzun müddət davam edir. Ən yaxşısı ikisini birlikdə işlətməkdir."
+    }
+  ],
+  "service": {
+    "url": "/seo-xidmeti",
+    "text": "SEO xidmətimiz"
+  }
+}

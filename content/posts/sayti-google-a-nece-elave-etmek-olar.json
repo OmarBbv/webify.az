@@ -1,0 +1,78 @@
+{
+  "slug": "sayti-google-a-nece-elave-etmek-olar",
+  "title": "Saytı Google-a necə əlavə etmək olar?",
+  "h1": "Saytı Google-a <span>necə</span> əlavə etmək olar?",
+  "metaTitle": "Saytı Google-a Necə Əlavə Etmək Olar? | Webify",
+  "description": "Yeni sayt Google-da görünmür? Search Console-a əlavə etmək, sitemap göndərmək və indeksləmə tələb etmək üçün addım-addım bələdçi.",
+  "date": "2026-09-21",
+  "cta": "Saytınız Google-da görünmür?",
+  "sections": [
+    {
+      "paras": [
+        "Sayt hazır oldu, amma adını Google-da yazanda tapılmır. Bu, normaldır: Google yeni saytları dərhal tanımır. Aşağıdakı addımlar prosesi sürətləndirir və saytın vəziyyətini izləməyə imkan verir."
+      ]
+    },
+    {
+      "h2": "1. Google Search Console-a əlavə edin",
+      "paras": [
+        "Search Console Google-un pulsuz alətidir və saytınızın axtarışda necə göründüyünü göstərir. <em>search.google.com/search-console</em> ünvanına daxil olub saytı əlavə edin.",
+        "İki seçim var. <strong>Domain</strong> variantı bütün versiyaları (www və www-suz, http və https) bir yerdə əhatə edir, amma təsdiq üçün domenin DNS ayarlarına TXT qeydi əlavə etmək lazımdır. <strong>URL prefix</strong> variantı isə HTML faylı və ya meta teq ilə təsdiqlənir, bu daha asandır, amma yalnız bir versiyanı əhatə edir."
+      ]
+    },
+    {
+      "h2": "2. Sitemap göndərin",
+      "paras": [
+        "Sitemap saytınızdakı səhifələrin siyahısıdır. Search Console-da Sitemaps bölməsinə keçib <em>sitemap.xml</em> yazın və göndərin.",
+        "Bir neçə gün sonra həmin bölmədə neçə ünvanın tapıldığını görəcəksiniz. Əgər sitemap oxunmursa, ünvanı brauzerdə açıb işlədiyinə əmin olun."
+      ]
+    },
+    {
+      "h2": "3. Vacib səhifələr üçün indeksləmə istəyin",
+      "paras": [
+        "Yuxarıdakı axtarış sahəsinə səhifənin tam ünvanını yazın. Google sizə həmin səhifənin indekslənib-indekslənmədiyini deyəcək. İndekslənməyibsə, <strong>Request indexing</strong> düyməsini basın.",
+        "Bunu ana səhifə və əsas xidmət səhifələri üçün edin. Hər səhifə üçün ayrıca etməyə ehtiyac yoxdur, qalanlarını Google sitemap vasitəsilə özü tapacaq."
+      ]
+    },
+    {
+      "h2": "4. robots.txt saytın qapısını bağlamasın",
+      "paras": [
+        "Ən çox rast gəlinən səhv budur: sayt hazırlanarkən axtarış sistemlərinə bağlanır və açılış zamanı bunu açmağı unudurlar.",
+        "<em>saytiniz.az/robots.txt</em> ünvanını açın. Orada <em>Disallow: /</em> yazılıbsa, Google bütün saytı gəzməkdən imtina edir. Səhifələrin kodunda <em>noindex</em> teqinin qalmadığına da əmin olun."
+      ]
+    },
+    {
+      "h2": "Nə qədər gözləmək lazımdır?",
+      "paras": [
+        "Yeni saytın indekslənməsi adətən bir neçə gündən bir neçə həftəyə qədər çəkir. Səhifə indekslənəndən sonra da sıralamada yuxarı qalxmaq ayrı bir işdir: bunun üçün məzmun, daxili keçidlər və digər saytlardan gələn linklər lazımdır.",
+        "Ona görə indeksləmə yalnız başlanğıcdır. Sonrakı addımları <a href=\"/seo-xidmeti\">SEO xidməti</a> səhifəsində izah etmişik."
+      ]
+    },
+    {
+      "h2": "Bu göstəricilərə müntəzəm baxın",
+      "list": [
+        "<strong>Pages</strong> — neçə səhifə indekslənib, hansılar indekslənməyib və niyə.",
+        "<strong>Performance</strong> — hansı sorğularla göründüyünüz, neçə klik və neçə göstərim.",
+        "<strong>Core Web Vitals</strong> — saytın sürət göstəriciləri.",
+        "<strong>Mobile usability</strong> — telefonda problem yaradan səhifələr."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Saytı Google-a əlavə etmək pulludurmu?",
+      "a": "Xeyr. Search Console və indeksləmə tamamilə pulsuzdur. Ödəniş yalnız reklam (Google Ads) üçündür və reklam sıralamaya təsir etmir."
+    },
+    {
+      "q": "Sayt indeksləndi, amma axtarışda tapılmır. Niyə?",
+      "a": "İndekslənmə sıralama demək deyil. Saytın adını yazanda tapılırsınızsa, amma xidmət sorğularında yoxsunuzsa, deməli həmin sorğular üçün məzmun və linklər lazımdır."
+    },
+    {
+      "q": "Search Console ilə Analytics eyni şeydir?",
+      "a": "Xeyr. Search Console Google axtarışındakı vəziyyəti, Analytics isə sayta gələn ziyarətçilərin davranışını göstərir. İkisini birlikdə istifadə etmək məsləhətdir."
+    }
+  ],
+  "service": {
+    "url": "/seo-xidmeti",
+    "text": "SEO xidmətimiz"
+  }
+}

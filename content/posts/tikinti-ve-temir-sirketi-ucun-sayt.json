@@ -1,0 +1,82 @@
+{
+  "slug": "tikinti-ve-temir-sirketi-ucun-sayt",
+  "title": "Tikinti və təmir şirkəti üçün sayt",
+  "h1": "Tikinti və təmir şirkəti üçün <span>sayt</span>",
+  "metaTitle": "Tikinti və Təmir Şirkəti Üçün Sayt | Webify",
+  "description": "Tikinti və təmir şirkətinin saytında portfolio, qiymət, iş prosesi və zəmanət necə göstərilməlidir ki, müştəri müraciət etsin. Praktik tövsiyələr.",
+  "date": "2026-09-09",
+  "cta": "Şirkətiniz üçün sayt hazırlayaq?",
+  "sections": [
+    {
+      "paras": [
+        "Bu sahədə müştəri böyük məbləğ və uzun müddət haqqında qərar verir. Ona görə saytın əsas işi inandırmaqdır: siz bunu əvvəl də etmisiniz, proses aydındır və sonda nə alacağı məlumdur."
+      ]
+    },
+    {
+      "h2": "Portfolio ən vacib bölmədir",
+      "paras": [
+        "Sadəcə gözəl şəkillər kifayət deyil. Hər layihə üçün qısa hekayə yazın: obyektin növü, sahəsi, görülən işlər, müddət və nəticə. Mümkünsə əvvəl-sonra şəkilləri qoyun.",
+        "Layihələri kateqoriyalara bölün: mənzil, ofis, ticarət obyekti, fasad. Belə olduqda müştəri öz vəziyyətinə uyğun nümunəni tez tapır."
+      ]
+    },
+    {
+      "h2": "Qiymət sualını yarımçıq qoymayın",
+      "paras": [
+        "Dəqiq qiymət deməyin mümkün olmadığını başa düşürük, amma tam susmaq da müraciəti azaldır. Ən azı bir aralıq və ya hesablama məntiqi verin: nəyə görə qiymət dəyişir, ölçüyə, materiala, işin mürəkkəbliyinə görə.",
+        "Kalkulyator və ya \"ölçü götürmə üçün müraciət\" forması bu mərhələdə yaxşı işləyir."
+      ]
+    },
+    {
+      "h2": "Prosesi addım-addım izah edin",
+      "list": [
+        "Müraciət və ilkin söhbət.",
+        "Obyektə baxış və ölçü götürmə.",
+        "Smeta və müqavilə.",
+        "İşin mərhələləri və nəzarət.",
+        "Təhvil və zəmanət.",
+        "Hər addımın təxmini müddəti."
+      ]
+    },
+    {
+      "h2": "Etibarı gücləndirən elementlər",
+      "list": [
+        "Zəmanət şərtləri: nəyə, nə qədər müddətə.",
+        "Komanda: ustaların sayı, təcrübəsi, real fotolar.",
+        "Müştəri rəyləri, mümkünsə obyektin adı ilə.",
+        "Sertifikatlar, lisenziyalar, tərəfdaş brendlər.",
+        "İşlədiyiniz materiallar və onların üstünlükləri."
+      ]
+    },
+    {
+      "h2": "Şəhər və rayon səhifələri",
+      "paras": [
+        "İnsanlar çox vaxt yerlə birlikdə axtarır: \"Bakıda mənzil təmiri\", \"Sumqayıtda fasad işləri\". Fəaliyyət göstərdiyiniz ərazilər üçün ayrıca səhifələr yaratmaq faydalıdır.",
+        "Amma səhifələri kopyalayıb yalnız şəhərin adını dəyişməyin. Hər səhifədə həmin ərazidəki real layihələr və konkret məlumat olmalıdır, əks halda Google onları təkrar məzmun kimi görür."
+      ]
+    },
+    {
+      "h2": "Telefonla əlaqə asan olsun",
+      "paras": [
+        "Bu sahədə müraciətlərin çoxu zənglə gəlir. Nömrə hər səhifədə, yuxarıda görünsün və telefonda kliklənən olsun. WhatsApp düyməsi də əlavə edin: bir çox müştəri əvvəlcə şəkil göndərmək istəyir."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Portfoliom azdır, sayt hazırlatmaq tezdirmi?",
+      "a": "Xeyr. 3–5 yaxşı təqdim olunmuş layihə ilə də başlamaq olar. Vacib olan hər layihəni ətraflı göstərməkdir."
+    },
+    {
+      "q": "Qiymət kalkulyatoru işləyirmi?",
+      "a": "Təxmini hesablama verən kalkulyator müraciəti artırır, çünki müştəri ilkin təsəvvür alır. Dəqiq qiymət yenə də baxışdan sonra deyilir."
+    },
+    {
+      "q": "Saytda hansı şəkillər olmalıdır?",
+      "a": "Öz obyektlərinizin real şəkilləri. Stok şəkillər etibarı azaldır, çünki müştəri onları başqa saytlarda da görür."
+    }
+  ],
+  "service": {
+    "url": "/korporativ-sayt",
+    "text": "Korporativ sayt hazırlanması"
+  }
+}

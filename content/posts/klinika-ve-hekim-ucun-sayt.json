@@ -1,0 +1,81 @@
+{
+  "slug": "klinika-ve-hekim-ucun-sayt",
+  "title": "Klinika və həkim üçün sayt: nələrə diqqət etmək lazımdır?",
+  "h1": "Klinika və həkim üçün <span>sayt</span>",
+  "metaTitle": "Klinika və Həkim Üçün Sayt: Nələr Olmalıdır? | Webify",
+  "description": "Tibbi saytda etibar necə qurulur: həkim profilləri, xidmət səhifələri, qeydiyyat, rəylər və pasiyentin axtardığı məlumatlar.",
+  "date": "2026-09-10",
+  "cta": "Klinikanız üçün sayt hazırlayaq?",
+  "sections": [
+    {
+      "paras": [
+        "Sağlamlıq mövzusunda insan qərar verməzdən əvvəl çox araşdırır. Ona görə klinika saytında əsas məsələ dizayn deyil, etibardır: kim müalicə edir, hansı təcrübəyə malikdir, qiymət nə qədərdir və necə qeydiyyatdan keçmək olar."
+      ]
+    },
+    {
+      "h2": "Həkim profilləri ən çox oxunan səhifədir",
+      "paras": [
+        "Pasiyent klinikanı yox, konkret həkimi seçir. Hər həkim üçün ayrıca səhifə olmalıdır: ad, ixtisas, təhsil, iş təcrübəsi, sertifikatlar, iş saatları və real foto.",
+        "Bu səhifələr həm etibar yaradır, həm də həkimin adı ilə edilən axtarışlarda tapılmağa kömək edir."
+      ]
+    },
+    {
+      "h2": "Hər xidmət üçün ayrıca səhifə",
+      "paras": [
+        "\"Xidmətlərimiz\" adlı bir səhifədə 30 xidmətin siyahısı SEO baxımından zəif işləyir. İnsanlar konkret axtarır: müayinə, analiz, müalicə üsulu.",
+        "Hər xidmət səhifəsində olmalıdır: bu nədir, kimə lazımdır, necə keçirilir, nə qədər çəkir, hazırlıq tələb edirmi, təxmini qiymət və hansı həkimlər bunu edir."
+      ]
+    },
+    {
+      "h2": "Qeydiyyat asan olsun",
+      "list": [
+        "Telefon nömrəsi hər səhifədə görünsün və kliklənən olsun.",
+        "WhatsApp düyməsi: bir çox pasiyent zəng etməkdənsə yazmağı üstün tutur.",
+        "Qısa qeydiyyat forması: ad, telefon, şikayət və ya xidmət.",
+        "İş saatları və növbə qaydası açıq yazılsın.",
+        "Ünvan, xəritə və ictimai nəqliyyatla necə gəlmək məlumatı."
+      ]
+    },
+    {
+      "h2": "Məzmun yazarkən ehtiyatlı olun",
+      "paras": [
+        "Tibbi mövzular Google tərəfindən xüsusi diqqətlə qiymətləndirilir, çünki insan sağlamlığına təsir edir. Ona görə mətnlər mütəxəssis tərəfindən yoxlanmalı və müəllifi göstərilməlidir.",
+        "Zəmanətli nəticə vəd etməyin, mübaliğəli ifadələrdən və özbaşına diaqnoz təlimatlarından çəkinin. Reklamla bağlı yerli tələblərə uyğunluğu da yoxlayın."
+      ]
+    },
+    {
+      "h2": "Pasiyent məlumatlarının qorunması",
+      "list": [
+        "Sayt mütləq https ilə işləsin.",
+        "Formalarda yalnız zəruri məlumatı toplayın.",
+        "Analiz nəticələri kimi həssas sənədləri adi formaya yükləməyin.",
+        "Məxfilik siyasəti səhifəsi olsun və məlumatın necə istifadə edildiyini izah etsin."
+      ]
+    },
+    {
+      "h2": "Rəylər və lokal axtarış",
+      "paras": [
+        "Klinika seçimində rəylər həlledici rol oynayır. Google Business Profile açın, pasiyentlərdən rəy yazmağı xahiş edin və rəylərə hörmətlə cavab verin.",
+        "Saytdakı ad, ünvan və telefon profildəki ilə hərfi-hərfinə eyni olsun: bu, lokal nəticələrdə vacibdir."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Onlayn qeydiyyat sistemi qoşmaq olarmı?",
+      "a": "Bəli, həkimin cədvəlinə bağlı qeydiyyat sistemi qurula bilər. Sadə variant isə formadır: müraciət gəlir, operator zəng edir."
+    },
+    {
+      "q": "Qiymətləri saytda göstərmək lazımdırmı?",
+      "a": "Ən azı aralıq göstərmək müraciət sayını artırır. Qiymət gizlədiləndə insan çox vaxt başqa klinikaya keçir."
+    },
+    {
+      "q": "Saytda bloq lazımdırmı?",
+      "a": "Bəli. Xəstəliklər və müalicə üsulları haqqında suallara cavab verən məqalələr axtarışdan pasiyent gətirir, amma mütəxəssis nəzarəti ilə yazılmalıdır."
+    }
+  ],
+  "service": {
+    "url": "/korporativ-sayt",
+    "text": "Korporativ sayt hazırlanması"
+  }
+}

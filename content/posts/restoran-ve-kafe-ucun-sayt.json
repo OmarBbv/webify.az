@@ -1,0 +1,77 @@
+{
+  "slug": "restoran-ve-kafe-ucun-sayt",
+  "title": "Restoran və kafe üçün sayt nəyə lazımdır?",
+  "h1": "Restoran və kafe üçün <span>sayt</span>",
+  "metaTitle": "Restoran və Kafe Üçün Sayt: Nələr Olmalıdır? | Webify",
+  "description": "Restoran saytında hansı bölmələr olmalıdır: menyu, rezervasiya, çatdırılma, xəritə. Qonağın axtardığı məlumat və lokal axtarışda görünmək.",
+  "date": "2026-09-11",
+  "cta": "Restoranınız üçün sayt hazırlayaq?",
+  "sections": [
+    {
+      "paras": [
+        "İnsan restoran seçəndə telefonda üç şeyə baxır: menyu və qiymətlər, yer və iş saatları, şəkillər. Bu üçü tez tapılmırsa, növbəti restorana keçir. Sayt məhz bu qərar anını qazanmaq üçündür."
+      ]
+    },
+    {
+      "h2": "Menyu PDF olmasın",
+      "paras": [
+        "Ən çox rast gəlinən səhv menyunun PDF fayl kimi qoyulmasıdır. Telefonda PDF gec açılır, yazılar kiçik olur, böyütmək lazım gəlir. Üstəlik Google onun içindəki yeməkləri düzgün oxumur.",
+        "Menyu adi səhifə kimi hazırlanmalıdır: kateqoriyalar, yemək adları, qısa tərkib, qiymət və mümkünsə şəkil. Qiymət dəyişəndə isə tez yenilənə bilməlidir."
+      ]
+    },
+    {
+      "h2": "Saytda mütləq olmalı bölmələr",
+      "list": [
+        "Menyu və qiymətlər, aktual vəziyyətdə.",
+        "Ünvan, xəritə və parkinq haqqında məlumat.",
+        "İş saatları, bayram günləri daxil.",
+        "Telefon və WhatsApp: bir toxunuşla zəng.",
+        "Rezervasiya forması və ya birbaşa zəng düyməsi.",
+        "Çatdırılma və ya özün-götür seçimi.",
+        "Real fotolar: interyer, yeməklər, komanda.",
+        "Tədbirlər: banket, doğum günü, korporativ."
+      ]
+    },
+    {
+      "h2": "Lokal axtarışda görünmək",
+      "paras": [
+        "Qonaqların çoxu \"yaxınlıqda kafe\" və ya \"Nərimanovda restoran\" kimi axtarışlar edir. Burada saytdan əvvəl Google xəritəsi işləyir.",
+        "Ona görə <a href=\"/bloq/google-business-profile-nece-acilir\">Google Business Profile</a> açmaq, foto yükləmək, iş saatlarını doğru göstərmək və rəy toplamaq vacibdir. Saytdakı ünvan və telefon profildəkilərlə tam eyni olmalıdır."
+      ]
+    },
+    {
+      "h2": "Sürət və şəkillər",
+      "paras": [
+        "Restoran saytları adətən şəkillərlə ağırlaşır və mobil internetdə gec açılır. Şəkilləri WebP formatına çevirmək və ölçüsünü azaltmaq həcmi bir neçə dəfə kiçildir, keyfiyyət isə gözlə görünən dərəcədə dəyişmir.",
+        "Avtomatik oynayan video fonlardan çəkinin: onlar həm trafiki yeyir, həm də səhifəni yavaşladır."
+      ]
+    },
+    {
+      "h2": "Nəyi ölçmək lazımdır",
+      "list": [
+        "Zəng düyməsinə neçə klik olub.",
+        "Menyu səhifəsinə neçə baxış və orada nə qədər vaxt.",
+        "Rezervasiya formasının neçə dəfə göndərildiyi.",
+        "Xəritəyə neçə klik: bu, gələnlərin sayına yaxın göstəricidir."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Instagram hesabım var, sayt lazımdırmı?",
+      "a": "Instagram mövcud izləyicilər üçün yaxşıdır. Google-da \"yaxınlıqda restoran\" axtaran yeni qonağı isə sayt və xəritə profili gətirir."
+    },
+    {
+      "q": "Menyunu özüm yeniləyə bilərəmmi?",
+      "a": "Bəli, idarəetmə paneli ilə. Qiymətlər tez-tez dəyişdiyi üçün bu, restoran saytında xüsusilə vacibdir."
+    },
+    {
+      "q": "Onlayn sifariş qəbulu qoşmaq olar?",
+      "a": "Bəli. Sadə variant menyu və səbətdir, daha mürəkkəb variantda ödəniş və çatdırılma zonaları da qoşulur."
+    }
+  ],
+  "service": {
+    "url": "/korporativ-sayt",
+    "text": "Korporativ sayt hazırlanması"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "sayt-yaratmaq-neceye-basa-gelir",
+  "title": "Sayt yaratmaq neçəyə başa gəlir?",
+  "h1": "Sayt yaratmaq <span>neçəyə</span> başa gəlir?",
+  "metaTitle": "Sayt Yaratmaq Neçəyə Başa Gəlir? | Webify",
+  "description": "Saytın qiyməti nədən asılıdır: səhifə sayı, dizayn, funksiyalar, domen və hostinq. Qiymət təklifini oxumağı və gizli xərcləri görməyi izah edirik.",
+  "date": "2026-09-22",
+  "cta": "Layihəniz üçün dəqiq qiymət istəyirsiniz?",
+  "sections": [
+    {
+      "paras": [
+        "Bu, sayt haqqında ən çox verilən sualdır və dürüst cavab belədir: tək bir rəqəm yoxdur. Eyni sözlə adlandırılan iki sayt arasında on qat fərq ola bilər, çünki biri hazır şablona köçürülmüş beş səhifədir, digəri isə ödəniş sistemi və anbar inteqrasiyası olan mağazadır. Aşağıda qiyməti formalaşdıran amilləri və təklifləri müqayisə edərkən nəyə baxmağı izah edirik."
+      ]
+    },
+    {
+      "h2": "Qiymətə təsir edən əsas amillər",
+      "paras": [
+        "Sizə verilən qiymət təklifi əslində bu suallara verilən cavabların cəmidir:"
+      ],
+      "list": [
+        "<strong>Səhifə sayı.</strong> Beş səhifəlik vizit saytı ilə 40 xidmət səhifəsi olan sayt eyni iş deyil.",
+        "<strong>Dizayn.</strong> Hazır şablon ucuzdur, brendinizə uyğun sıfırdan dizayn daha bahalıdır və daha çox vaxt aparır.",
+        "<strong>Funksiyalar.</strong> Əlaqə forması ucuz başa gəlir. Səbət, onlayn ödəniş, şəxsi kabinet, rezervasiya və ya anbar sistemi ilə inteqrasiya qiyməti kəskin artırır.",
+        "<strong>Dil sayı.</strong> Hər əlavə dil həm tərcümə, həm də əlavə SEO işi deməkdir.",
+        "<strong>Mətn və şəkillər.</strong> Onları siz verirsinizsə, ucuz olur. Peşəkar mətn və çəkiliş ayrıca xərcdir.",
+        "<strong>İdarəetmə paneli.</strong> Məzmunu özünüz dəyişmək istəyirsinizsə, arxa tərəfdə ayrıca sistem qurulmalıdır."
+      ]
+    },
+    {
+      "h2": "Bir dəfəlik xərc və davamlı xərclər",
+      "paras": [
+        "Çoxları yalnız hazırlanma qiymətini soruşur, sonra isə illik xərclərlə qarşılaşır. Saytın iki növ xərci var.",
+        "Bir dəfəlik: dizayn, proqramlaşdırma, məzmunun hazırlanması və yayıma çıxarılma.",
+        "Davamlı: domen (illik), hostinq (aylıq və ya illik), lazım olduqda texniki dəstək, təhlükəsizlik yeniləmələri və SEO işi. Domen və hostinq adətən saytın ən kiçik xərcidir, amma onları büdcəyə daxil etmək lazımdır."
+      ]
+    },
+    {
+      "h2": "Ucuz təklifdə nəyə diqqət etmək lazımdır",
+      "paras": [
+        "Çox ucuz təkliflər adətən nəyinsə hesabına olur. Müqaviləni imzalamazdan əvvəl bu sualları verin:"
+      ],
+      "list": [
+        "Sayt kimin adına qeydiyyatdadır? Domen sizin adınıza olmalıdır, hazırlayanın yox.",
+        "Sayt hazır olandan sonra mətni özüm dəyişə biləcəyəmmi, yoxsa hər kiçik dəyişiklik üçün ödəniş edəcəyəm?",
+        "Mobil versiya qiymətə daxildir, yoxsa əlavə?",
+        "Əsas SEO ayarları edilirmi: başlıqlar, meta təsvirlər, sitemap, sürət?",
+        "Sayt kimin hostinqində olacaq və ora girişim olacaqmı?",
+        "Təhvildən sonra nə qədər müddət düzəlişlər pulsuzdur?"
+      ]
+    },
+    {
+      "h2": "Saytın qiyməti yox, gətirdiyi nəticə vacibdir",
+      "paras": [
+        "Saytı xərc kimi deyil, satıcı kimi düşünmək daha faydalıdır. Ayda üç yeni müştəri gətirən sayt öz qiymətini tez çıxarır. Heç kimin tapmadığı, telefonda açılmayan ucuz sayt isə nə qədər ucuz olsa da, itirilmiş puldur.",
+        "Ona görə təklifləri müqayisə edərkən yalnız rəqəmə deyil, nəyin daxil olduğuna baxın. Bizim <a href=\"/sayt-yaradilmasi\">sayt yaradılması</a> səhifəsində prosesin necə getdiyini ətraflı yazmışıq."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Sayt yaratmaq neçə gün çəkir?",
+      "a": "Funksionallıqdan asılı olaraq 5 gündən 30 günədək. Landing page bir neçə günə, onlayn mağaza isə bir neçə həftəyə hazır olur."
+    },
+    {
+      "q": "Ödəniş necə aparılır?",
+      "a": "Adətən işin başlanğıcında ilkin ödəniş alınır, qalan hissə isə sayt təhvil veriləndən sonra ödənilir."
+    },
+    {
+      "q": "Domen və hostinq qiymətə daxildir?",
+      "a": "Bu, təklifdən asılıdır və mütləq əvvəlcədən dəqiqləşdirilməlidir. Domen hər halda sizin adınıza qeydiyyatdan keçirilməlidir."
+    }
+  ],
+  "service": {
+    "url": "/sayt-yaradilmasi",
+    "text": "Sayt yaradılması xidmətimiz"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "domen-ve-hostinq-nedir",
+  "title": "Domen və hostinq nədir? Necə seçmək lazımdır",
+  "h1": "Domen və hostinq <span>nədir</span>?",
+  "metaTitle": "Domen və Hostinq Nədir? .az Domeni Necə Alınır | Webify",
+  "description": "Domen və hostinq nədir, arasındakı fərq nədir, .az domeni necə alınır və hansı hostinqi seçmək lazımdır. Sadə dildə izah.",
+  "date": "2026-09-22",
+  "cta": "Domen və hostinq seçimində kömək lazımdır?",
+  "sections": [
+    {
+      "paras": [
+        "Sayt hazırlatmaq istəyən hər kəs bu iki sözlə qarşılaşır. Sadə müqayisə ilə izah etsək: domen mağazanızın ünvanıdır, hostinq isə mağazanın özünün yerləşdiyi binadır. İkisi də lazımdır və ikisi ayrı-ayrı xidmətlərdir."
+      ]
+    },
+    {
+      "h2": "Domen nədir?",
+      "paras": [
+        "Domen saytınızın internetdəki ünvanıdır: <em>webify.az</em> kimi. İnsanlar bu ünvanı brauzerə yazaraq sizə gəlir. Domen kimsə tərəfindən tutulubsa, eyni adı ikinci dəfə almaq mümkün deyil.",
+        "Domen illik ödənişlə icarəyə götürülür. Ödənişi vaxtında etməsəniz, domen sərbəst buraxılır və başqası onu ala bilər. Bu, real hadisədir: illərlə işləyən şirkətlər unutqanlıq üzündən öz adlarını itirib."
+      ],
+      "list": [
+        "<strong>.az</strong> — Azərbaycan bizneslərində ən çox etibar yaradan seçim.",
+        "<strong>.com</strong> — beynəlxalq fəaliyyət və ya xaricdəki müştərilər üçün.",
+        "<strong>.com.az, .net.az</strong> — şirkətlər üçün istifadə olunan ikinci səviyyəli variantlar."
+      ]
+    },
+    {
+      "h2": ".az domeni necə alınır?",
+      "paras": [
+        "Domeni yerli registrator şirkətlər vasitəsilə almaq olar. Əvvəlcə istədiyiniz adın boş olduğunu yoxlayırsınız, sonra qeydiyyat üçün müraciət edirsiniz. Bəzi domen zonalarında qeydiyyat üçün şirkət sənədləri tələb oluna bilər, ona görə registratorun şərtlərini əvvəlcədən oxuyun.",
+        "Ən vacib qayda: <strong>domen sizin və ya şirkətinizin adına qeydiyyatdan keçməlidir.</strong> Saytı hazırlayan şirkətin adına yazılsa, gələcəkdə əməkdaşlıq bitəndə ünvanınızı itirmək riski yaranır."
+      ]
+    },
+    {
+      "h2": "Hostinq nədir?",
+      "paras": [
+        "Hostinq saytın fayllarının saxlandığı və 24 saat internetə açıq olan kompüterdir, yəni serverdir. Kimsə ünvanınızı yazanda həmin server saytı ona göndərir. Hostinq zəifdirsə, sayt yavaş açılır və ya bəzən ümumiyyətlə açılmır."
+      ],
+      "list": [
+        "<strong>Paylaşılan hostinq.</strong> Ucuzdur, bir serverdə çoxlu sayt yerləşir. Kiçik vizit saytları üçün kifayətdir.",
+        "<strong>VPS.</strong> Sizə ayrılmış resurslar. Onlayn mağaza, veb tətbiq və yüksək trafikli saytlar üçün.",
+        "<strong>Bulud platformaları.</strong> Statik və müasir saytlar üçün, avtomatik miqyaslanır və çox vaxt daha sürətli olur."
+      ]
+    },
+    {
+      "h2": "Hostinq seçərkən nəyə baxmaq lazımdır",
+      "list": [
+        "Serverin yeri: müştəriləriniz Azərbaycandadırsa, yaxın serverlər daha sürətli işləyir.",
+        "SSL sertifikatı: saytın <em>https</em> ilə açılması üçün lazımdır və adətən pulsuz verilir.",
+        "Avtomatik yedəkləmə: saytın kopyası nə qədər tez-tez saxlanılır və bərpası nə qədər çəkir?",
+        "Dəstək: problem gecə yaranarsa, sizə nə vaxt cavab verəcəklər?",
+        "Yeniləmə qiyməti: ilk il ucuz, ikinci il bir neçə dəfə baha ola bilər."
+      ]
+    },
+    {
+      "h2": "Vacib qeyd",
+      "paras": [
+        "Domen, hostinq və saytın özünə aid bütün giriş məlumatları sizdə olmalıdır. Onları bir yerdə yazıb saxlayın. Bu, sonradan komanda dəyişəndə ən çox problem yaradan məsələdir.",
+        "Sayt hazırlatmaq barədə ümumi məlumat üçün <a href=\"/sayt-nece-yaradilir\">sayt necə yaradılır</a> bələdçimizə baxa bilərsiniz."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Domen və hostinqi eyni şirkətdən almaq lazımdır?",
+      "a": "Xeyr, ayrı-ayrı yerlərdən ala bilərsiniz. Eyni yerdən almaq idarəetməni sadələşdirir, amma məcburi deyil."
+    },
+    {
+      "q": "Domeni başqa şirkətə köçürmək olar?",
+      "a": "Bəli. Domen sizin adınıza qeydiyyatdadırsa, onu başqa registratora köçürmək mümkündür."
+    },
+    {
+      "q": "Hostinqsiz sayt olarmı?",
+      "a": "Xeyr, saytın faylları hardasa saxlanmalıdır. Amma statik saytlar üçün bulud platformalarının pulsuz planları var."
+    }
+  ],
+  "service": {
+    "url": "/sayt-yaradilmasi",
+    "text": "Sayt yaradılması xidmətimiz"
+  }
+}

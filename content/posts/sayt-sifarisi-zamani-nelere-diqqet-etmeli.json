@@ -1,0 +1,87 @@
+{
+  "slug": "sayt-sifarisi-zamani-nelere-diqqet-etmeli",
+  "title": "Sayt sifariş edərkən nələrə diqqət etmək lazımdır?",
+  "h1": "Sayt sifariş edərkən <span>nələrə</span> diqqət etməli?",
+  "metaTitle": "Sayt Sifariş Edərkən Nələrə Diqqət Etmək Lazımdır? | Webify",
+  "description": "Sayt sifarişindən əvvəl razılaşdırılmalı məsələlər: iş əhatəsi, müddət, ödəniş, domen sahibliyi, mənbə kodu və təhvildən sonrakı dəstək.",
+  "date": "2026-09-13",
+  "cta": "Şəffaf şərtlərlə işləmək istəyirsiniz?",
+  "sections": [
+    {
+      "paras": [
+        "Sayt sifarişində problemlərin çoxu texniki deyil, razılaşma səhvlərindən yaranır: tərəflər bir-birini fərqli başa düşür. Aşağıdakı suallar işə başlamazdan əvvəl yazılı şəkildə aydınlaşdırılmalıdır."
+      ]
+    },
+    {
+      "h2": "1. İşin əhatəsi dəqiq yazılsın",
+      "paras": [
+        "\"Sayt hazırlanması\" ifadəsi az şey deyir. Razılaşmada olmalıdır: neçə səhifə, hansı səhifələr, hansı funksiyalar, neçə dil, mətnləri kim yazır, şəkilləri kim verir.",
+        "Belə olmayanda iş ortasında \"bu, razılaşmaya daxil deyildi\" mübahisəsi yaranır."
+      ]
+    },
+    {
+      "h2": "2. Müddət və mərhələlər",
+      "list": [
+        "Ümumi müddət və hər mərhələnin bitmə tarixi.",
+        "Sizin cavab verməli olduğunuz məqamlar: mətnlərin, dizaynın təsdiqi.",
+        "Gecikmə səbəbləri: material gec verilsə, müddət nə qədər uzanır?",
+        "Neçə dəfə dizayn düzəlişi daxildir?"
+      ]
+    },
+    {
+      "h2": "3. Ödəniş şərtləri",
+      "paras": [
+        "Adi təcrübə: başlanğıcda ilkin ödəniş, təhvildən sonra qalan hissə. Bəzən üç mərhələyə bölünür: başlanğıc, dizaynın təsdiqi, təhvil.",
+        "Nəyin əlavə ödənişli olduğu da yazılsın: yeni səhifə, əlavə dil, sonrakı dəyişikliklər, aylıq dəstək."
+      ]
+    },
+    {
+      "h2": "4. Domen, hostinq və girişlər kimin adına?",
+      "paras": [
+        "Bu, ən vacib bənddir. Domen sizin və ya şirkətinizin adına qeydiyyatdan keçməlidir. Hostinq hesabına girişiniz olmalıdır.",
+        "Layihə bitəndə sizə təhvil verilməli olanların siyahısı: domen girişi, hostinq girişi, sayt admin paneli, e-poçt hesabları, Analytics və Search Console girişləri."
+      ]
+    },
+    {
+      "h2": "5. Mənbə kodu və məzmun kimindir?",
+      "paras": [
+        "Təhvildən sonra saytın faylları sizdə qalırmı? Başqa komanda ilə davam etmək istəsəniz, bu mümkün olacaqmı?",
+        "Hazır şablon və ya lisenziyalı komponentlər istifadə olunursa, lisenziyanın kimin adına olduğunu və illik ödənişini soruşun."
+      ]
+    },
+    {
+      "h2": "6. Təhvildən sonra nə olur?",
+      "list": [
+        "Neçə müddət pulsuz düzəliş var və nələr ona daxildir?",
+        "Texniki dəstək ayrıca müqavilədirmi, qiyməti nədir?",
+        "Sayt sınsa və ya açılmasa, kim neçə saat ərzində reaksiya verir?",
+        "Məzmunu özüm dəyişə biləcəyəmmi, bunun üçün təlim veriləcəkmi?"
+      ]
+    },
+    {
+      "h2": "7. SEO və ölçmə daxildirmi?",
+      "paras": [
+        "Ən azı əsas ayarlar daxil olmalıdır: hər səhifə üçün title və description, sitemap, robots.txt, sürət optimallaşdırması, Search Console və Analytics qurulması.",
+        "Daha geniş SEO işi adətən ayrıca xidmətdir. Bu barədə <a href=\"/seo-xidmeti\">SEO xidməti</a> səhifəsində yazmışıq."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Müqavilə mütləqdirmi?",
+      "a": "Kiçik layihədə də ən azı yazılı razılaşma olmalıdır: əhatə, müddət, qiymət, təhvil olunacaqlar."
+    },
+    {
+      "q": "Ön ödənişsiz işləyən varmı?",
+      "a": "Nadirdir. Ön ödəniş hər iki tərəf üçün ciddiyyət göstəricisidir. Vacib olan mərhələlərin aydın yazılmasıdır."
+    },
+    {
+      "q": "Saytı hazırlayan itsə nə olacaq?",
+      "a": "Domen, hostinq və giriş məlumatları sizdə olanda istənilən komanda işi davam etdirə bilər. Ona görə bu bənd vacibdir."
+    }
+  ],
+  "service": {
+    "url": "/sayt-yaradilmasi",
+    "text": "Sayt yaradılması xidmətimiz"
+  }
+}

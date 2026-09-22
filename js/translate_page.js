@@ -4,6 +4,7 @@ const translations = {
     index_a_2: 'About Us',
     index_a_3: 'Services',
     index_a_4: 'Portfolio',
+    index_a_blog: 'Blog',
     index_a_5: 'Contact',
     index_a_6: 'Get in Touch',
     index_hero_eyebrow: 'Website development in Baku',
@@ -231,6 +232,7 @@ const translations = {
     index_a_2: 'Haqqımızda',
     index_a_3: 'Xidmətlərimiz',
     index_a_4: 'Portfoliomuz',
+    index_a_blog: 'Bloq',
     index_a_5: 'Əlaqə',
     index_a_6: 'Əlaqə',
     index_hero_eyebrow: 'Bakıda sayt yaradılması',
@@ -474,21 +476,23 @@ function translatePage(language) {
   });
 }
 
-// Check the language preference stored in localStorage or default to Azerbaijani (az).
-// The HTML is already in Azerbaijani, so it is only rewritten when another language
-// was chosen — this keeps the original markup for search engines and first-time visitors.
+// Sayt həmişə Azərbaycan dilində açılır. İstifadəçi globus düyməsi ilə ingilis
+// dilinə keçə bilər, lakin bu seçim yalnız cari sessiyada (açıq tab-da) saxlanılır —
+// yeni ziyarətdə sayt yenidən Azərbaycan dilində açılır.
+// HTML onsuz da Azərbaycan dilindədir, ona görə mətn yalnız başqa dil seçiləndə əvəzlənir;
+// bu, axtarış sistemlərinin və ilk dəfə gələn istifadəçinin orijinal mətni görməsini təmin edir.
 let userLanguage = 'az';
 try {
-  userLanguage = localStorage.getItem('language') || 'az';
+  localStorage.removeItem('language'); // köhnə daimi seçimi təmizlə
+  userLanguage = sessionStorage.getItem('language') || 'az';
 } catch (e) {}
-if (userLanguage !== 'az') translatePage(userLanguage); // Apply initial translation
+if (userLanguage !== 'az') translatePage(userLanguage);
 
-// Event listener for changing language
+// Dil dəyişdirmə düyməsi
 document.getElementById('changeLanguage').addEventListener('click', () => {
-  // Toggle language between English and Azerbaijani
-  userLanguage = userLanguage === 'en' ? 'az' : 'en'; // Update userLanguage dynamically
+  userLanguage = userLanguage === 'en' ? 'az' : 'en';
   try {
-    localStorage.setItem('language', userLanguage); // Store the new language preference
+    sessionStorage.setItem('language', userLanguage);
   } catch (e) {}
-  translatePage(userLanguage); // Update the page content with the new language
+  translatePage(userLanguage);
 });

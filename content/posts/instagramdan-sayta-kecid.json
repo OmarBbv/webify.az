@@ -1,0 +1,75 @@
+{
+  "slug": "instagramdan-sayta-kecid",
+  "title": "Instagram-dan satışı sayta necə keçirmək olar?",
+  "h1": "Instagram-dan satışı <span>sayta</span> keçirmək",
+  "metaTitle": "Instagram-dan Satışı Sayta Necə Keçirmək Olar? | Webify",
+  "description": "Instagram-dan satan biznes üçün sayt nə verir, keçid necə planlaşdırılır və sosial şəbəkə ilə sayt birlikdə necə işləyir.",
+  "date": "2026-09-12",
+  "cta": "Instagram satışlarınızı sayta keçirək?",
+  "sections": [
+    {
+      "paras": [
+        "Azərbaycanda bir çox biznes satışa Instagram-dan başlayır və bu, məntiqlidir: auditoriya oradadır, başlamaq pulsuzdur. Problem biznes böyüyəndə yaranır: sifarişlər direct-də itir, qiymət sualları təkrarlanır, hesab bloklananda isə hər şey dayanır."
+      ]
+    },
+    {
+      "h2": "Sayt nə verir?",
+      "list": [
+        "<strong>Google-dan pulsuz müştəri.</strong> Instagram-da yalnız sizi tanıyanlar tapır, Google-da isə məhsulu axtaran yeni adamlar.",
+        "<strong>Sifarişin avtomatlaşması.</strong> Müştəri özü seçir, ölçünü göstərir, ünvanı yazır. Siz yalnız təsdiq edirsiniz.",
+        "<strong>Etibar.</strong> Öz domeni, qaytarma qaydaları və əlaqə məlumatı olan sayt daha ciddi görünür.",
+        "<strong>Risqin azalması.</strong> Hesab bloklansa belə, saytınız və müştəri bazanız qalır.",
+        "<strong>Ölçmə.</strong> Hansı məhsula neçə nəfər baxdığını və harada imtina etdiyini görürsünüz."
+      ]
+    },
+    {
+      "h2": "Nədən başlamaq lazımdır?",
+      "paras": [
+        "Hamısını birdən köçürməyə çalışmayın. Ən çox satılan 10–20 məhsulla başlayın, prosesi işlədin, sonra kataloqu genişləndirin.",
+        "Tez-tez verilən sualları yığın: ölçü, çatdırılma müddəti, qaytarma, ödəniş. Onlar saytın əsas mətnləri olacaq."
+      ]
+    },
+    {
+      "h2": "Keçid planı",
+      "list": [
+        "Profil linkini sayta yönəldin, bio-da qısa izah yazın.",
+        "Hər məhsul paylaşımında saytdakı səhifəyə keçid verin.",
+        "Story-lərdə birbaşa məhsul linkindən istifadə edin.",
+        "Direct-də cavab verərkən linki göndərin: \"Ölçü cədvəli və sifariş burada\".",
+        "Saytdan sifariş verənlərə kiçik bir üstünlük təklif edin: çatdırılma güzəşti və ya kod."
+      ]
+    },
+    {
+      "h2": "Sosial şəbəkəni bağlamaq lazım deyil",
+      "paras": [
+        "Ən yaxşı model bölgüdür: Instagram diqqət cəlb edir və güvən qurur, sayt isə sifarişi qəbul edir və axtarışdan yeni müştəri gətirir.",
+        "Meta reklamlarını da sayta yönəltmək olar. Bu halda reklamdan gələn trafikin nəticəsini dəqiq ölçmək mümkün olur."
+      ]
+    },
+    {
+      "h2": "Nəyə hazır olmalısınız?",
+      "paras": [
+        "Sayt sehrli deyil. Açılan kimi Google-dan sifariş gəlmir, məhsul səhifələrinin axtarışda görünməsi aylar çəkir. İlk dövrdə trafikin əsas hissəsi sizin mövcud auditoriyanızdan və reklamdan gələcək.",
+        "Ona görə keçidi tədricən planlaşdırın. Onlayn mağazanın necə qurulduğunu <a href=\"/onlayn-magaza-yaradilmasi\">onlayn mağaza yaradılması</a> səhifəsində yazmışıq."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Instagram hesabımı bağlamalıyammı?",
+      "a": "Xeyr. Instagram diqqət və güvən üçün, sayt isə sifariş və axtarış trafiki üçün işləyir. İkisi bir-birini tamamlayır."
+    },
+    {
+      "q": "Neçə məhsulla başlamaq olar?",
+      "a": "Ən çox satılan 10–20 məhsul kifayətdir. Az sayda yaxşı hazırlanmış səhifə çox sayda yarımçıq səhifədən effektivdir."
+    },
+    {
+      "q": "Saytdan sifariş gəlməsə nə etməli?",
+      "a": "Əvvəlcə ölçün: adamlar hansı mərhələdə çıxır. Çox vaxt səbəb çatdırılma məlumatının gizli olması, uzun forma və ya yavaş açılan səhifədir."
+    }
+  ],
+  "service": {
+    "url": "/onlayn-magaza-yaradilmasi",
+    "text": "Onlayn mağaza yaradılması"
+  }
+}

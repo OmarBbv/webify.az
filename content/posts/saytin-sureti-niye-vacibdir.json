@@ -1,0 +1,77 @@
+{
+  "slug": "saytin-sureti-niye-vacibdir",
+  "title": "Saytın sürəti niyə vacibdir?",
+  "h1": "Saytın sürəti <span>niyə</span> vacibdir?",
+  "metaTitle": "Saytın Sürəti Niyə Vacibdir? | Webify",
+  "description": "Yavaş sayt niyə müştəri itirir, Google sürəti necə qiymətləndirir və saytı sürətləndirmək üçün hansı addımlar atılmalıdır.",
+  "date": "2026-09-22",
+  "cta": "Saytınız yavaş açılır?",
+  "sections": [
+    {
+      "paras": [
+        "Sayt açılana qədər gözləyən istifadəçi sizin haqqınızda qərar verir. Telefonda, zəif internetlə gəzən adam bir neçə saniyə gözləyəndə geri qayıdır və növbəti nəticəyə keçir. Reklama pul xərcləmisinizsə, həmin pul da itir."
+      ]
+    },
+    {
+      "h2": "Google sürəti necə ölçür?",
+      "paras": [
+        "Google saytları Core Web Vitals adlanan göstəricilərlə qiymətləndirir. Sadə dillə üç şeyə baxır:"
+      ],
+      "list": [
+        "<strong>Ən böyük məzmun nə vaxt görünür.</strong> Yəni başlıq və ya əsas şəkil ekranda nə qədər tez peyda olur.",
+        "<strong>Səhifə nə qədər sabitdir.</strong> Yüklənərkən düymələr və mətnlər yerini dəyişirsə, istifadəçi səhv yerə klikləyir.",
+        "<strong>Səhifə nə qədər tez cavab verir.</strong> Kliklədikdə reaksiya dərhal olmalıdır."
+      ]
+    },
+    {
+      "h2": "Saytı yavaşladan ən çox yayılmış səbəblər",
+      "list": [
+        "<strong>Böyük şəkillər.</strong> Telefonla çəkilmiş 4 MB-lıq şəkil birbaşa sayta qoyulanda hər ziyarətçi onu yükləməli olur.",
+        "<strong>Köhnə format.</strong> PNG və JPEG əvəzinə WebP istifadə edildikdə fayl ölçüsü bir neçə dəfə kiçilir.",
+        "<strong>Çoxlu skript.</strong> Hər plagin və hər xarici xidmət əlavə yükləmə deməkdir.",
+        "<strong>Ağır şablonlar.</strong> İstifadə etmədiyiniz onlarca bölmənin kodu da yüklənir.",
+        "<strong>Zəif hostinq.</strong> Server gec cavab verirsə, qalan optimallaşdırmalar az kömək edir.",
+        "<strong>Avtomatik oynayan videolar.</strong> Xüsusilə mobil internetdə ağır yükdür."
+      ]
+    },
+    {
+      "h2": "Nə etmək olar?",
+      "paras": [
+        "Sürət işi adətən bir neçə sadə addımla başlayır və nəticə dərhal görünür:"
+      ],
+      "list": [
+        "Şəkilləri WebP formatına çevirin və göstərildiyi ölçüyə uyğun kiçildin.",
+        "Ekranda görünməyən şəkilləri sonra yükləyin (lazy loading).",
+        "İstifadə olunmayan plagin və skriptləri silin.",
+        "Şriftləri məhdudlaşdırın: iki şrift ailəsi çox vaxt kifayətdir.",
+        "Serverdə sıxılmanı (gzip və ya brotli) və keşləməni aktiv edin.",
+        "Nəticəni PageSpeed Insights ilə ölçün və dəyişikliklərdən əvvəl-sonra müqayisə edin."
+      ]
+    },
+    {
+      "h2": "Real nümunə",
+      "paras": [
+        "Öz saytımızda şəkilləri WebP-yə çevirib ekranda göstərildiyi ölçüyə uyğunlaşdırdıq. Şəkillərin ümumi həcmi təxminən 27 MB-dan 2 MB-a düşdü, özü də gözlə görünən keyfiyyət itkisi olmadan. Telefon üçün ayrıca daha kiçik versiyalar da hazırlandı.",
+        "Belə işlər dizaynı dəyişmir, amma saytın açılma sürətini və Google göstəricilərini birbaşa yaxşılaşdırır."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Sayt neçə saniyəyə açılmalıdır?",
+      "a": "Mobil internetdə əsas məzmunun 2–3 saniyəyə görünməsi yaxşı göstəricidir. Bundan uzun çəkəndə istifadəçilərin bir hissəsi geri qayıdır."
+    },
+    {
+      "q": "Sürət sıralamaya təsir edirmi?",
+      "a": "Bəli, Google üçün sürət sıralama amillərindən biridir. Amma tək sürətlə birinci yerə çıxmaq olmur, məzmun və linklər də lazımdır."
+    },
+    {
+      "q": "Saytın sürətini necə yoxlaya bilərəm?",
+      "a": "Google PageSpeed Insights səhifəsinə saytın ünvanını yazın. Mobil nəticəyə baxın, çünki ziyarətçilərin çoxu telefondan gəlir."
+    }
+  ],
+  "service": {
+    "url": "/seo-xidmeti",
+    "text": "SEO və sürət optimallaşdırması"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "ui-ux-nedir",
+  "title": "UI və UX nədir? Fərqi nədir?",
+  "h1": "UI və UX <span>nədir</span>?",
+  "metaTitle": "UI/UX Nədir və Fərqi Nədir? Sadə İzah | Webify",
+  "description": "UI və UX arasındakı fərq nədir, yaxşı istifadəçi təcrübəsinin əlamətləri hansılardır və dizayn saytın satışına necə təsir edir.",
+  "date": "2026-09-15",
+  "cta": "Saytınızın dizaynı müştəri itirir?",
+  "sections": [
+    {
+      "paras": [
+        "Bu iki qısaltma tez-tez yan-yana yazılır, amma fərqli şeyləri ifadə edir. UX (User Experience) istifadəçinin təcrübəsidir: insan məqsədinə asan çatırmı. UI (User Interface) isə interfeysin görünüşüdür: rənglər, şriftlər, düymələr, məsafələr."
+      ]
+    },
+    {
+      "h2": "Sadə müqayisə",
+      "paras": [
+        "UX mağazanın planıdır: rəflərin yerləşməsi, kassaya gedən yol, məhsulun tapılması. UI isə həmin mağazanın işıqlandırması, lövhələri və rəngləridir.",
+        "Gözəl UI pis UX-i xilas etmir. Sayt çox gözəl ola bilər, amma qiyməti tapmaq mümkün deyilsə, adam çıxıb gedir."
+      ]
+    },
+    {
+      "h2": "Yaxşı UX-in əlamətləri",
+      "list": [
+        "İlk ekranda nə təklif etdiyiniz aydındır.",
+        "Əsas hərəkət (zəng, sifariş, müraciət) həmişə əlçatandır.",
+        "Qiymət və şərtlər gizlədilmir.",
+        "Forma qısadır və səhv olanda nəyin səhv olduğunu aydın yazır.",
+        "Səhifələr tez açılır, gözləmək lazım gəlmir.",
+        "Menyu qısadır və adları anlaşıqlıdır: \"Xidmətlər\", \"Qiymətlər\", \"Əlaqə\"."
+      ]
+    },
+    {
+      "h2": "Ən çox rast gəlinən UX səhvləri",
+      "list": [
+        "Yaradıcı, amma anlaşılmayan menyu adları.",
+        "Ekranı örtən və bağlanmayan pop-up.",
+        "Az kontrastlı mətn: açıq boz fonda açıq boz yazı.",
+        "Kliklənən elementin kliklənən kimi görünməməsi.",
+        "Telefonda kiçik düymələr.",
+        "Sonsuz sürüşən slayderlər: istifadəçi çox vaxt onlara baxmır."
+      ]
+    },
+    {
+      "h2": "Dizayn satışa necə təsir edir?",
+      "paras": [
+        "Ziyarətçi saytda üç sual verir: bu nədir, mənə fayda verirmi, indi nə etməliyəm? Yaxşı UX bu üç suala baxış boyu cavab verir.",
+        "Ona görə dizayn işini rənglərdən deyil, strukturdan başlamaq lazımdır: hansı səhifələr olacaq, hər səhifədə hansı ardıcıllıqla nə deyiləcək, hansı addım əsas olacaq."
+      ]
+    },
+    {
+      "h2": "Prosesi necə qururuq",
+      "list": [
+        "Məqsəd və auditoriyanın müəyyən edilməsi.",
+        "Səhifələrin strukturu və məzmun planı.",
+        "Prototip: rəngsiz sxem, burada məntiq yoxlanılır.",
+        "Vizual dizayn: brend, rənglər, tipoqrafiya.",
+        "Kodlaşdırma və bütün cihazlarda test.",
+        "Yayımdan sonra ölçmə və düzəlişlər."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Yalnız dizayn sifariş etmək olarmı?",
+      "a": "Bəli. Dizaynı Figma-da hazırlayıb istədiyiniz komandaya təhvil verə bilərik."
+    },
+    {
+      "q": "Prototip nəyə lazımdır?",
+      "a": "Struktur səhvlərini kod yazılmamışdan əvvəl tapmaq üçün. Bu, həm vaxta, həm də pula qənaət edir."
+    },
+    {
+      "q": "Dizaynı nə qədər tez-tez yeniləmək lazımdır?",
+      "a": "Adətən 3–5 ildən bir, yaxud biznesin təklifi ciddi dəyişəndə."
+    }
+  ],
+  "service": {
+    "url": "/services",
+    "text": "UI/UX dizayn xidmətimiz"
+  }
+}

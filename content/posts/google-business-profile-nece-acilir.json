@@ -1,0 +1,81 @@
+{
+  "slug": "google-business-profile-nece-acilir",
+  "title": "Google Business Profile necə açılır?",
+  "h1": "Google Business Profile <span>necə</span> açılır?",
+  "metaTitle": "Google Business Profile Necə Açılır? | Webify",
+  "description": "Biznesinizi Google xəritəsində göstərmək üçün Business Profile necə açılır, necə təsdiqlənir və hansı məlumatlar doldurulmalıdır.",
+  "date": "2026-09-20",
+  "cta": "Lokal axtarışlarda görünmək istəyirsiniz?",
+  "sections": [
+    {
+      "paras": [
+        "İnsan telefonunda \"yaxınlıqda kafe\" və ya \"Bakıda sayt yaradılması\" yazanda Google əvvəlcə xəritə və üç biznes göstərir. Ora düşmək üçün sayt yox, Google Business Profile lazımdır. Üstəlik pulsuzdur."
+      ]
+    },
+    {
+      "h2": "Kimə lazımdır?",
+      "paras": [
+        "Müştəri qəbul edən ünvanı olan və ya müəyyən əraziyə xidmət göstərən hər bizness: mağaza, kafe, klinika, salon, usta, hüquq və ya rəqəmsal agentlik.",
+        "Ünvanınızı açıq göstərmək istəmirsinizsə, xidmət ərazisi (məsələn, Bakı) seçmək olar."
+      ]
+    },
+    {
+      "h2": "Addımlar",
+      "list": [
+        "<em>business.google.com</em> ünvanına Google hesabınızla daxil olun.",
+        "Biznesin adını yazın. Ad real tabeliniz və sənədlərinizdəki adla eyni olmalıdır, içinə açar söz doldurulmamalıdır.",
+        "Kateqoriya seçin. Bu, hansı axtarışlarda görünəcəyinizi müəyyən edir, ona görə ən dəqiq kateqoriyanı seçin.",
+        "Ünvanı və ya xidmət ərazisini göstərin.",
+        "Telefon və sayt ünvanını əlavə edin.",
+        "Təsdiqləmə üsulunu seçin: poçtla gələn kod, telefon, e-poçt və ya video."
+      ]
+    },
+    {
+      "h2": "Profili tam doldurun",
+      "paras": [
+        "Yarımçıq profil xəritədə aşağı düşür. Doldurulmalı əsas hissələr:"
+      ],
+      "list": [
+        "İş saatları, o cümlədən bayram günləri.",
+        "Xidmətlərin siyahısı və qısa təsvirləri.",
+        "Real fotolar: ofis, komanda, işlər. Stok şəkillərdən qaçın.",
+        "Biznesin təsviri: nə etdiyinizi sadə dillə yazın.",
+        "Sayta keçid: əsas səhifə və ya uyğun xidmət səhifəsi."
+      ]
+    },
+    {
+      "h2": "Rəylər ən güclü amildir",
+      "paras": [
+        "Xəritə nəticələrində rəylərin sayı və qiyməti birbaşa rol oynayır. İş bitəndən sonra müştəridən rəy yazmağı xahiş edin. Ən yaxşısı, birbaşa rəy linkini WhatsApp-la göndərməkdir.",
+        "Rəy alqı-satqısı etməyin, Google bunu aşkarlayır və profili bloklaya bilər. Mənfi rəyə də sakit və konkret cavab yazın: bunu digər müştərilər oxuyur."
+      ]
+    },
+    {
+      "h2": "Müntəzəm nə etmək lazımdır",
+      "list": [
+        "Ayda bir-iki dəfə yeni foto əlavə edin.",
+        "Yeniliklər və kampaniyalar üçün \"Post\" bölməsindən istifadə edin.",
+        "Suallar bölməsinə gələn sualları cavablandırın.",
+        "Profildəki məlumat saytdakı ilə eyni olsun: ad, ünvan, telefon."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Google Business Profile pulsuzdurmu?",
+      "a": "Bəli, profilin yaradılması və istifadəsi tamamilə pulsuzdur."
+    },
+    {
+      "q": "Ofisim yoxdur, evdən işləyirəm. Profil aça bilərəmmi?",
+      "a": "Bəli. Ünvanı gizlədib yalnız xidmət göstərdiyiniz əraziləri seçə bilərsiniz."
+    },
+    {
+      "q": "Təsdiqləmə nə qədər çəkir?",
+      "a": "Üsuldan asılıdır. Telefon və video ilə bir neçə gün, poçt kodu ilə isə daha uzun çəkə bilər."
+    }
+  ],
+  "service": {
+    "url": "/seo-xidmeti",
+    "text": "SEO xidmətimiz"
+  }
+}

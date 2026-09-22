@@ -2,103 +2,103 @@
   {
     "title": "Memix.az",
     "image": "images/memix.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://memix.az/"
   },
   {
     "title": "Memix mobil tətbiqi",
     "image": "images/memix-app.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://apps.apple.com/az/app/memix-az/id6790427328"
   },
   {
     "title": "Alal.az",
     "image": "images/alal.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://alal.az/"
   },
   {
     "title": "BirBina.az",
     "image": "images/birbina.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://birbina.az"
   },
   {
     "title": "IMoms Germany",
     "image": "images/imoms-germany.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://imoms-germany.com"
   },
   {
     "title": "Migranto Updated",
     "image": "images/migranto-updated.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://miqranto-web-app.onrender.com/seminars"
   },
   {
     "title": "12Store AZ",
     "image": "images/12storeez.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://12storeez.store"
   },
   {
     "title": "Emporium",
     "image": "images/emporium.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://www.emporium.az/en"
   },
   {
     "title": "Marianna Senchina",
     "image": "images/marianna-site.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://mariannasenchina.com"
   },
   {
     "title": "Sushi Avenue",
     "image": "images/sushiav.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://sushiav.ru/"
   },
   {
     "title": "Climat",
     "image": "images/climat.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://climat.az/"
   },
   {
     "title": "İberAuto",
     "image": "images/iberauto-port.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://iberauto.az/"
   },
   {
     "title": "Oboy-Evi",
     "image": "images/oboyevi-port.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://oboy-evi.az/"
   },
   {
     "title": "UGloria",
     "image": "images/ugloria-port.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://ugloria.com/"
   },
   {
     "title": "OmTransport",
     "image": "images/omtransport.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://omtransport.az/"
   },
   {
     "title": "UberQeydiyyati",
     "image": "images/uberqeydiyyati.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://uberqeydiyyati.com/"
   },
   {
     "title": "IndPy World",
     "image": "images/indpy-port.webp",
-    "link": "portfolio.html",
+    "link": "/portfolio",
     "target": "https://indpyworld.com/"
   }
 ]

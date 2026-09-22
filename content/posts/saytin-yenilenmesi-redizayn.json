@@ -1,0 +1,78 @@
+{
+  "slug": "saytin-yenilenmesi-redizayn",
+  "title": "Saytın yenilənməsi: nə vaxt redizayn lazımdır?",
+  "h1": "Saytın <span>yenilənməsi</span>: nə vaxt lazımdır?",
+  "metaTitle": "Saytın Yenilənməsi (Redizayn): Nə Vaxt və Necə? | Webify",
+  "description": "Saytı nə vaxt yeniləmək lazımdır, redizayn zamanı SEO mövqelərini necə qorumaq olar və köhnə ünvanlar necə yönləndirilir.",
+  "date": "2026-09-08",
+  "cta": "Saytınızı yeniləmək istəyirsiniz?",
+  "sections": [
+    {
+      "paras": [
+        "Sayt köhnəldikcə müştəri itirir, amma redizayn səhv aparılanda daha böyük itki olur: Google-dakı mövqelər. Aşağıda yeniləmənin nə vaxt lazım olduğu və necə edilməli olduğu var."
+      ]
+    },
+    {
+      "h2": "Yeniləmə vaxtının əlamətləri",
+      "list": [
+        "Sayt telefonda rahat işləmir.",
+        "Səhifələr gec açılır və optimallaşdırma kömək etmir.",
+        "Məzmunu özünüz dəyişə bilmirsiniz.",
+        "Dizayn indiki xidmətlərinizi və qiymət səviyyənizi əks etdirmir.",
+        "Sayt idarəetmə sistemi köhnəlib və təhlükəsizlik riski yaradır.",
+        "Ziyarətçi var, müraciət yoxdur.",
+        "Yeni xidmətlər əlavə etmək texniki olaraq mümkün deyil."
+      ]
+    },
+    {
+      "h2": "Əvvəlcə ölçün, sonra dəyişin",
+      "paras": [
+        "Redizayna başlamazdan əvvəl mövcud vəziyyəti yazın: hansı səhifələr ən çox ziyarət alır, hansı sorğulardan trafik gəlir, müraciətlər haradan gəlir.",
+        "Bu məlumat olmasa, yeni saytın daha yaxşı və ya pis olduğunu müqayisə edə bilməzsiniz. Çox vaxt ən çox trafik gətirən səhifə redizayn zamanı təsadüfən silinir."
+      ]
+    },
+    {
+      "h2": "SEO mövqelərini qorumaq üçün",
+      "list": [
+        "Bütün mövcud ünvanların siyahısını çıxarın.",
+        "Ünvanlar dəyişirsə, hər köhnə ünvanı uyğun yeni səhifəyə 301 ilə yönləndirin.",
+        "Yaxşı işləyən səhifələrin mətnini bütövlükdə atmayın, təkmilləşdirin.",
+        "Başlıq və meta təsvirləri saxlayın və ya yaxşılaşdırın.",
+        "Yeni sayt açılandan sonra sitemap-i yenidən göndərin.",
+        "İlk həftələrdə Search Console-da xətaları izləyin."
+      ]
+    },
+    {
+      "h2": "Ən təhlükəli səhv",
+      "paras": [
+        "Yeni saytı yayıma verib köhnə ünvanları unutmaq. Onda Google-da illərlə toplanmış bütün səhifələr 404 verir, mövqelər isə bir neçə həftə ərzində düşür.",
+        "Bunun qarşısını almaq üçün yönləndirmə cədvəli açılışdan əvvəl hazırlanmalı və açılış günü yoxlanılmalıdır."
+      ]
+    },
+    {
+      "h2": "Tam redizayn həmişə lazım deyil",
+      "paras": [
+        "Bəzən problem dizaynda deyil. Yavaş sayt üçün şəkillərin optimallaşdırılması, zəif mətn üçün yeni məzmun, az müraciət üçün isə aydın çağırış və qısa forma kifayət edir.",
+        "Ona görə əvvəlcə audit, sonra qərar. Bu, həm daha ucuzdur, həm də riski azaldır."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Redizayn neçə vaxt çəkir?",
+      "a": "Saytın həcmindən asılıdır. Kiçik korporativ sayt üçün bir neçə həftə, böyük kataloqlu sayt üçün daha uzun."
+    },
+    {
+      "q": "Redizayndan sonra trafik düşürmü?",
+      "a": "Düzgün yönləndirmə edilməyibsə, bəli. Yönləndirmələr və məzmun saxlanılıbsa, adətən qısa dalğalanmadan sonra bərpa olunur."
+    },
+    {
+      "q": "Köhnə məzmunu saxlamaq lazımdırmı?",
+      "a": "Trafik gətirən səhifələri mütləq. Onları yenidən yazmaq olar, amma mövzunu və ünvanı saxlamaq daha təhlükəsizdir."
+    }
+  ],
+  "service": {
+    "url": "/sayt-yaradilmasi",
+    "text": "Sayt yaradılması xidmətimiz"
+  }
+}

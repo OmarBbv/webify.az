@@ -1,0 +1,82 @@
+{
+  "slug": "sayt-ucun-metn-nece-yazilir",
+  "title": "Sayt üçün mətn necə yazılır?",
+  "h1": "Sayt üçün mətn <span>necə</span> yazılır?",
+  "metaTitle": "Sayt Üçün Mətn Necə Yazılır? Satan Mətnin Qaydaları | Webify",
+  "description": "Saytın mətni müştərini necə inandırır: başlıq, struktur, açar sözlər, sübutlar və çağırış. Praktik qaydalar və tez-tez edilən səhvlər.",
+  "date": "2026-09-16",
+  "cta": "Saytınızın mətnlərini birlikdə hazırlayaq?",
+  "sections": [
+    {
+      "paras": [
+        "Dizayn diqqəti çəkir, qərarı isə mətn verdirir. Ziyarətçi səhifəni oxumur, gözü ilə tarayır və bir neçə saniyəyə qərar verir: burada mənə lazım olan varmı? Aşağıda bu suala tez cavab verən mətnin qaydaları var."
+      ]
+    },
+    {
+      "h2": "Özünüzdən yox, müştəridən başlayın",
+      "paras": [
+        "Ən çox yayılmış səhv budur: \"Biz 2015-ci ildən fəaliyyət göstərən peşəkar komandayıq...\". Müştərini bu maraqlandırmır, onu öz problemi maraqlandırır.",
+        "Müqayisə edin: \"Rəqəmsal həllər təqdim edirik\" və \"Sifarişlərinizi Instagram-dan saytınıza keçirin, gecə gələn sifariş də itməsin\". İkincisi konkret vəziyyəti təsvir edir."
+      ]
+    },
+    {
+      "h2": "Struktur: gözlə oxunan mətn",
+      "list": [
+        "Bir abzas bir fikir, 3–4 sətirdən uzun olmasın.",
+        "Alt başlıqlar suala bənzəsin: oxucu yalnız başlıqları oxusa belə, əsas məlumatı alsın.",
+        "Vacib siyahıları maddələrlə verin.",
+        "Uzun cümlələri bölün. Qısa cümlə daha inandırıcı səslənir.",
+        "Hər bölmədən sonra oxucunun nə edəcəyi aydın olsun."
+      ]
+    },
+    {
+      "h2": "Ümumi sözləri faktla əvəz edin",
+      "paras": [
+        "\"Yüksək keyfiyyət\", \"fərdi yanaşma\", \"münasib qiymət\" — bu sözləri rəqibləriniz də yazıb, ona görə heç nə ifadə etmirlər.",
+        "Əvəzinə konkret yazın: \"5–30 gün ərzində təhvil\", \"təhvildən sonra 1 ay pulsuz düzəliş\", \"mobil, planşet və kompüterdə yoxlanılır\". Rəqəm və şərt inandırır."
+      ]
+    },
+    {
+      "h2": "Açar sözləri təbii yerləşdirin",
+      "paras": [
+        "Mətn Google üçün deyil, insan üçün yazılır, amma müştərinin işlətdiyi sözlər mətndə olmalıdır. Əgər insanlar \"sayt qiymətləri\" yazırsa, siz \"veb resurs tarifikasiyası\" yazmamalısınız.",
+        "Əsas ifadə başlıqda, birinci abzasda və bir-iki alt başlıqda təbii şəkildə keçsin. Eyni sözü hər cümlədə təkrarlamaq isə həm oxunuşu pozur, həm də Google tərəfindən spam kimi qiymətləndirilə bilər."
+      ]
+    },
+    {
+      "h2": "Sübut olmadan mətn işləmir",
+      "list": [
+        "Müştəri rəyləri, mümkünsə ad və şirkət adı ilə.",
+        "Real iş nümunələri və nəticələr.",
+        "Rəqəmlər: neçə layihə, neçə il, neçə şəhər.",
+        "Prosesin izahı: müştəri nəyin necə olacağını əvvəlcədən bilsin.",
+        "Zəmanət və şərtlər: nə vaxta qədər düzəliş edilir, ödəniş necə gedir."
+      ]
+    },
+    {
+      "h2": "Hər səhifə bir addımla bitsin",
+      "paras": [
+        "Oxucu mətni bitirəndə nə edəcəyini bilməlidir: zəng etmək, forma doldurmaq, WhatsApp-a yazmaq. Bir səhifədə bir əsas çağırış olsun, onu isə bir neçə yerdə təkrarlayın.",
+        "Çağırış konkret olsun: \"Göndər\" yerinə \"Pulsuz qiymət təklifi al\"."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Səhifədə neçə söz olmalıdır?",
+      "a": "Qaydası yoxdur. Mətn mövzunu tam əhatə etməli, amma boş söz olmamalıdır. Xidmət səhifələri adətən 600–1200 söz arasında olur."
+    },
+    {
+      "q": "Mətni süni intellekt yaza bilərmi?",
+      "a": "İlk variantı üçün kömək edir, amma sizin qiymətləriniz, prosesiniz və real nümunələriniz olmadan mətn digərlərindən fərqlənmir."
+    },
+    {
+      "q": "Rəqibin mətnini köçürmək olarmı?",
+      "a": "Xeyr. Təkrar məzmun Google-da zərər verir və hüquqi problem yarada bilər."
+    }
+  ],
+  "service": {
+    "url": "/sayt-yaradilmasi",
+    "text": "Sayt yaradılması xidmətimiz"
+  }
+}

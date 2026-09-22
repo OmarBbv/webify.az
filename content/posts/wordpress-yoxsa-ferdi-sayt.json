@@ -1,0 +1,73 @@
+{
+  "slug": "wordpress-yoxsa-ferdi-sayt",
+  "title": "WordPress yoxsa fərdi hazırlanmış sayt?",
+  "h1": "WordPress yoxsa <span>fərdi</span> sayt?",
+  "metaTitle": "WordPress Yoxsa Fərdi Hazırlanmış Sayt? Müqayisə | Webify",
+  "description": "WordPress, sayt konstruktorları və fərdi hazırlanmış saytın müqayisəsi: qiymət, sürət, təhlükəsizlik, SEO və uzunmüddətli xərclər.",
+  "date": "2026-09-22",
+  "cta": "Hansı variantın sizə uyğun olduğunu bilmək istəyirsiniz?",
+  "sections": [
+    {
+      "paras": [
+        "Sayt hazırlatmaq qərarı verəndə ilk seçim texnologiyadır. Üç yol var və hər birinin öz yeri var. Aşağıda onları dürüst müqayisə edirik, o cümlədən öz seçimimizin zəif tərəflərini də."
+      ]
+    },
+    {
+      "h2": "Sayt konstruktorları",
+      "paras": [
+        "Wix, Tilda, Google Sites kimi platformalarda sayt hazır bloklardan yığılır.",
+        "<strong>Üstünlüyü:</strong> ən ucuz və ən tez yol, texniki bilik demək olar ki, lazım deyil.",
+        "<strong>Çatışmazlığı:</strong> dizayn şablonla məhdudlaşır, saytın sürətinə təsir edə bilmirsiniz, aylıq abunə dayananda sayt bağlanır və platformanı dəyişmək istəsəniz saytı özünüzlə apara bilmirsiniz."
+      ]
+    },
+    {
+      "h2": "WordPress",
+      "paras": [
+        "Dünyada saytların böyük hissəsi WordPress üzərindədir. Hazır şablonlar və minlərlə plagin var.",
+        "<strong>Üstünlüyü:</strong> çevikdir, mətni özünüz dəyişə bilirsiniz, demək olar ki, hər funksiya üçün hazır plagin tapılır, bu işi bilən mütəxəssis çoxdur.",
+        "<strong>Çatışmazlığı:</strong> çox plagin saytı ağırlaşdırır və yavaşladır. Yeniləmələr vaxtında edilməsə, təhlükəsizlik problemləri yaranır. Hack hadisələrinin çoxu köhnəlmiş plaginlərə görə olur. Yəni sayt hazır olandan sonra ona baxılmalıdır."
+      ]
+    },
+    {
+      "h2": "Fərdi hazırlanmış sayt",
+      "paras": [
+        "Sayt biznesin ehtiyacına görə sıfırdan dizayn edilir və proqramlaşdırılır.",
+        "<strong>Üstünlüyü:</strong> ən yaxşı sürət göstəriciləri, tam fərdi dizayn, artıq kod yoxdur, təhlükəsizlik səthi kiçikdir, SEO tələblərinə tam uyğunlaşdırıla bilir.",
+        "<strong>Çatışmazlığı:</strong> başlanğıc xərci daha yüksəkdir və hazırlanması daha çox vaxt aparır. Kiçik bir vizit saytı üçün bu, həmişə özünü doğrultmur."
+      ]
+    },
+    {
+      "h2": "Hansını seçmək?",
+      "list": [
+        "Məqsədiniz sadəcə onlayn mövcudluqdursa və büdcə minimaldırsa — konstruktor.",
+        "Müntəzəm bloq yazacaqsınızsa və hazır həllər kifayətdirsə — WordPress.",
+        "Sayt satış kanalınızdırsa, sürət və dizayn vacibdirsə, xüsusi funksiyalar lazımdırsa — fərdi hazırlanma."
+      ]
+    },
+    {
+      "h2": "Diqqət edilməli məqam",
+      "paras": [
+        "Hansı yolu seçsəniz də, üç şey sizin nəzarətinizdə qalmalıdır: domen sizin adınıza olsun, hostinqə girişiniz olsun və saytın məzmununun kopyası sizdə saxlanılsın. Bu üç şey olduqda istənilən vaxt komandanı və ya platformanı dəyişə bilərsiniz.",
+        "Biz fərdi hazırlanma ilə işləyirik, prosesi <a href=\"/sayt-yaradilmasi\">sayt yaradılması</a> səhifəsində izah etmişik."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "WordPress sayt SEO üçün pisdir?",
+      "a": "Xeyr, düzgün qurulmuş WordPress sayt Google-da yaxşı nəticə verir. Problem WordPress-in özündə yox, çoxlu plagin və ağır şablonlarda olur."
+    },
+    {
+      "q": "Fərdi sayt daha sürətli olur?",
+      "a": "Adətən bəli, çünki yalnız lazım olan kod yazılır. Amma bu, avtomatik zəmanət deyil, sürət üzərində ayrıca işlənməlidir."
+    },
+    {
+      "q": "Mövcud WordPress saytımı fərdi sayta keçirmək olar?",
+      "a": "Bəli. Bu zaman köhnə ünvanları yeni səhifələrə yönləndirmək vacibdir, əks halda Google-dakı mövqelər itirilir."
+    }
+  ],
+  "service": {
+    "url": "/sayt-yaradilmasi",
+    "text": "Sayt yaradılması xidmətimiz"
+  }
+}

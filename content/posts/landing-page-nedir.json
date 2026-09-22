@@ -1,0 +1,73 @@
+{
+  "slug": "landing-page-nedir",
+  "title": "Landing page nədir və nə vaxt lazımdır?",
+  "h1": "Landing page <span>nədir</span>?",
+  "metaTitle": "Landing Page Nədir və Nə Vaxt Lazımdır? | Webify",
+  "description": "Landing page nədir, adi saytdan fərqi nədir, hansı bölmələrdən ibarət olmalıdır və reklam trafikini necə müştəriyə çevirir.",
+  "date": "2026-09-18",
+  "cta": "Kampaniyanız üçün landing page lazımdır?",
+  "sections": [
+    {
+      "paras": [
+        "Landing page bir məqsəd üçün hazırlanmış tək səhifədir: ziyarətçini müraciətə, zəngə və ya sifarişə yönəltmək. Adi saytdan fərqi odur ki, burada menyu, onlarla keçid və diqqəti yayındıran bölmələr olmur."
+      ]
+    },
+    {
+      "h2": "Nə vaxt landing page, nə vaxt tam sayt?",
+      "list": [
+        "<strong>Landing page:</strong> bir məhsul və ya kampaniya var, reklam verirsiniz, tez başlamaq lazımdır, ölçmək istəyirsiniz.",
+        "<strong>Tam sayt:</strong> çoxlu xidmət var, Google-dan uzunmüddətli trafik istəyirsiniz, şirkəti bütövlükdə təqdim etmək lazımdır.",
+        "Çox vaxt ən yaxşı həll ikisinin birləşməsidir: korporativ sayt, üstəgəl hər reklam kampaniyası üçün ayrıca landing page."
+      ]
+    },
+    {
+      "h2": "İşləyən landing page-in bölmələri",
+      "list": [
+        "<strong>Başlıq.</strong> Nə təklif etdiyiniz ilk ekranda, bir cümlədə aydın olsun.",
+        "<strong>Əsas düymə.</strong> Yuxarıda və mətn boyunca bir neçə dəfə təkrarlansın.",
+        "<strong>Problem və həll.</strong> Müştərinin dərdini onun sözləri ilə yazın.",
+        "<strong>Üstünlüklər.</strong> Ümumi sözlər yox, konkret faktlar: müddət, zəmanət, rəqəmlər.",
+        "<strong>Sübut.</strong> Rəylər, iş nümunələri, müştəri loqoları, sertifikatlar.",
+        "<strong>Qiymət və ya təxmini büdcə.</strong> Gizlədilən qiymət müraciəti azaldır.",
+        "<strong>Suallar.</strong> Ən çox verilən 5–7 sual və dürüst cavablar.",
+        "<strong>Qısa forma.</strong> Ad və telefon çox vaxt kifayətdir."
+      ]
+    },
+    {
+      "h2": "Ən çox edilən səhvlər",
+      "list": [
+        "Uzun forma: on sahə doldurmaq istəyən az adam var.",
+        "Ümumi şüarlar: \"keyfiyyət və etibar\" heç nə demir.",
+        "Sübutun olmaması: rəyi və iş nümunəsi olmayan səhifəyə inanmırlar.",
+        "Yavaş açılan ağır şəkillər: reklamdan gələn adam gözləmir.",
+        "Telefonda pozulan dizayn: trafikin böyük hissəsi mobil cihazlardandır.",
+        "Ölçmənin qurulmaması: neçə müraciət gəldiyini bilmirsinizsə, kampaniyanı idarə edə bilmirsiniz."
+      ]
+    },
+    {
+      "h2": "Nəticəni necə ölçmək lazımdır",
+      "paras": [
+        "Landing page-in yeganə göstəricisi konversiyadır: neçə ziyarətçidən neçəsi müraciət etdi. Bunu ölçmək üçün formanın göndərilməsini Google Analytics-də hadisə kimi qeyd etmək lazımdır.",
+        "Sonra başlığı, düymənin mətnini və təklifi dəyişib müqayisə edin. Bir neçə kiçik dəyişiklik çox vaxt reklam büdcəsini artırmaqdan daha çox nəticə verir."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Landing page neçə günə hazırlanır?",
+      "a": "Mətn və şəkillər hazırdırsa, adətən bir neçə gün. Ən çox vaxtı mətnin və təklifin dəqiqləşdirilməsi aparır."
+    },
+    {
+      "q": "Landing page SEO üçün uyğundurmu?",
+      "a": "O, əsasən reklam trafiki üçündür. Axtarışdan uzunmüddətli trafik istəyirsinizsə, çoxsəhifəli sayt və məzmun lazımdır."
+    },
+    {
+      "q": "Bir səhifə ilə satış olurmu?",
+      "a": "Bəli, təklif aydın və inandırıcıdırsa. Xüsusilə bir məhsul, kurs, kampaniya və ya xidmət üçün effektivdir."
+    }
+  ],
+  "service": {
+    "url": "/sayt-yaradilmasi",
+    "text": "Sayt yaradılması xidmətimiz"
+  }
+}

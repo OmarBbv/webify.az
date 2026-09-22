@@ -12,7 +12,7 @@
     <meta name="author" content="Webify" />
     <!-- Page Title -->
     <title>Portfolio – Hazırladığımız Saytlar | Webify</title>
-    <link rel="canonical" href="https://www.webify.az/portfolio.html" />
+    <link rel="canonical" href="https://www.webify.az/portfolio" />
     <!-- Favicon Icon -->
     <link rel="icon" href="./images/favicon.ico" />
     <link rel="icon" type="image/png" href="./images/favicon-96x96.png" sizes="96x96" />
@@ -26,7 +26,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Webify" />
     <meta property="og:locale" content="az_AZ" />
-    <meta property="og:url" content="https://www.webify.az/portfolio.html" />
+    <meta property="og:url" content="https://www.webify.az/portfolio" />
     <meta property="og:title" content="Portfolio – Hazırladığımız Saytlar | Webify" />
     <meta property="og:description" content="Webify-ın hazırladığı saytlar: korporativ saytlar, onlayn mağazalar və brend layihələri. Real müştəri nümunələri ilə sayt yaradılması təcrübəmiz." />
     <meta property="og:image" content="https://www.webify.az/images/og-image.jpg" />
@@ -48,11 +48,14 @@
             "@type": "ListItem",
             "position": 2,
             "name": "Portfoliomuz",
-            "item": "https://www.webify.az/portfolio.html"
+            "item": "https://www.webify.az/portfolio"
           }
         ]
       }
     </script>
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
     <!-- Google Fonts Css-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -105,7 +108,7 @@
         <nav class="navbar navbar-expand-lg">
           <div class="container">
             <!-- Logo Start -->
-            <a class="navbar-brand" href="./index.html">
+            <a class="navbar-brand" href="/">
               <img src="images/logo.svg" alt="Webify – sayt yaradılması" />
             </a>
 
@@ -119,12 +122,12 @@
                     <a
                       class="nav-link"
                       data-i18n="index_a_1"
-                      href="./index.html"
+                      href="/"
                       >Ana səhifə</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" data-i18n="index_a_2" href="about.html"
+                    <a class="nav-link" data-i18n="index_a_2" href="/about"
                       >Haqqımızda</a
                     >
                   </li>
@@ -132,7 +135,7 @@
                     <a
                       class="nav-link"
                       data-i18n="index_a_3"
-                      href="services.html"
+                      href="/services"
                       >Xidmətlərimiz</a
                     >
                   </li>
@@ -140,15 +143,20 @@
                     <a
                       class="nav-link"
                       data-i18n="index_a_4"
-                      href="portfolio.html"
+                      href="/portfolio"
                       >Portfoliomuz</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-i18n="index_a_blog" href="/bloq"
+                      >Bloq</a
                     >
                   </li>
                   <li class="nav-item highlighted-menu">
                     <a
                       class="nav-link"
                       data-i18n="index_a_5"
-                      href="contact.html"
+                      href="/contact"
                       >Əlaqə</a
                     >
                   </li>
@@ -156,7 +164,7 @@
               </div>
               <!-- Header Btn Start -->
               <div class="header-btn">
-                <a href="contact.html" data-i18n="index_a_6" class="btn-default"
+                <a href="/contact" data-i18n="index_a_6" class="btn-default"
                   >Əlaqə</a
                 >
               </div>
@@ -197,7 +205,7 @@
               <nav class="wow fadeInUp" data-wow-delay="0.25s">
                 <ol class="breadcrumb">
                   <li data-i18n="index_a_1" class="breadcrumb-item">
-                    <a href="./">Ana Səhifə</a>
+                    <a href="/">Ana Səhifə</a>
                   </li>
                   <li
                     data-i18n="index_a_4"
@@ -259,7 +267,7 @@
                 <!-- Footer Title Content Start -->
                 <div class="footer-title-content">
                   <h2>
-                    <a data-i18n="index_footer_cta" href="contact.html"
+                    <a data-i18n="index_footer_cta" href="/contact"
                       >Başlayaq</a
                     >
                   </h2>
@@ -324,20 +332,23 @@
                   <h3 data-i18n="index_footer_pages">Səhifələr</h3>
                   <ul>
                     <li>
-                      <a data-i18n="index_a_1" href="index.html">Ana səhifə</a>
+                      <a data-i18n="index_a_1" href="/">Ana səhifə</a>
                     </li>
                     <li>
-                      <a data-i18n="index_a_2" href="about.html">Haqqımızda</a>
+                      <a data-i18n="index_a_2" href="/about">Haqqımızda</a>
                     </li>
                     <li>
-                      <a data-i18n="index_a_3" href="services.html"
+                      <a data-i18n="index_a_3" href="/services"
                         >Xidmətlərimiz</a
                       >
                     </li>
                     <li>
-                      <a data-i18n="index_a_4" href="portfolio.html"
+                      <a data-i18n="index_a_4" href="/portfolio"
                         >Portfoliomuz</a
                       >
+                    </li>
+                    <li>
+                      <a data-i18n="index_a_blog" href="/bloq">Bloq</a>
                     </li>
                   </ul>
                 </div>
@@ -349,11 +360,11 @@
                 <div class="footer-links">
                   <h3 data-i18n="index_footer_services">Xidmətlərimiz</h3>
                   <ul>
-                    <li><a href="services.html">UI/UX Dizayn</a></li>
-                    <li><a href="services.html">Qrafik Dizayn</a></li>
-                    <li><a href="sayt-yaradilmasi.html">Sayt yaradılması</a></li>
-                    <li><a href="seo-xidmeti.html">SEO Xidmətləri</a></li>
-                    <li><a href="services.html">Meta Reklamlar</a></li>
+                    <li><a href="/services">UI/UX Dizayn</a></li>
+                    <li><a href="/services">Qrafik Dizayn</a></li>
+                    <li><a href="/sayt-yaradilmasi">Sayt yaradılması</a></li>
+                    <li><a href="/seo-xidmeti">SEO Xidmətləri</a></li>
+                    <li><a href="/services">Meta Reklamlar</a></li>
                   </ul>
                 </div>
                 <!-- About Links End -->
