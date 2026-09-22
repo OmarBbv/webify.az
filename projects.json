@@ -1,85 +1,85 @@
 [
   {
     "title": "BirBina.az",
-    "image": "images/birbina.png",
+    "image": "images/birbina.webp",
     "link": "portfolio.html",
     "target": "https://birbina.az"
   },
   {
     "title": "IMoms Germany",
-    "image": "images/imoms-germany.png",
+    "image": "images/imoms-germany.webp",
     "link": "portfolio.html",
     "target": "https://imoms-germany.com"
   },
   {
     "title": "Migranto Updated",
-    "image": "images/migranto-updated.png",
+    "image": "images/migranto-updated.webp",
     "link": "portfolio.html",
     "target": "https://miqranto-web-app.onrender.com/seminars"
   },
   {
     "title": "12Store AZ",
-    "image": "images/12storeez.png",
+    "image": "images/12storeez.webp",
     "link": "portfolio.html",
     "target": "https://12storeez.store"
   },
   {
     "title": "Emporium",
-    "image": "images/emporium.png",
+    "image": "images/emporium.webp",
     "link": "portfolio.html",
     "target": "https://www.emporium.az/en"
   },
   {
     "title": "Marianna Senchina",
-    "image": "images/marianna.png",
+    "image": "images/marianna-png.webp",
     "link": "portfolio.html",
     "target": "https://mariannasenchina.com"
   },
   {
     "title": "Sushi Avenue",
-    "image": "images/sushiav.png",
+    "image": "images/sushiav.webp",
     "link": "portfolio.html",
     "target": "https://sushiav.ru/"
   },
   {
     "title": "Climat",
-    "image": "images/climat.png",
+    "image": "images/climat.webp",
     "link": "portfolio.html",
     "target": "https://climat.az/"
   },
   {
     "title": "İberAuto",
-    "image": "images/iberauto-port.png",
+    "image": "images/iberauto-port.webp",
     "link": "portfolio.html",
     "target": "https://iberauto.az/"
   },
   {
     "title": "Oboy-Evi",
-    "image": "images/oboyevi-port.png",
+    "image": "images/oboyevi-port.webp",
     "link": "portfolio.html",
     "target": "https://oboy-evi.az/"
   },
   {
     "title": "UGloria",
-    "image": "images/ugloria-port.png",
+    "image": "images/ugloria-port.webp",
     "link": "portfolio.html",
     "target": "https://ugloria.com/"
   },
   {
     "title": "OmTransport",
-    "image": "images/omtransport.png",
+    "image": "images/omtransport.webp",
     "link": "portfolio.html",
     "target": "https://omtransport.az/"
   },
   {
     "title": "UberQeydiyyati",
-    "image": "images/uberqeydiyyati.png",
+    "image": "images/uberqeydiyyati.webp",
     "link": "portfolio.html",
     "target": "https://uberqeydiyyati.com/"
   },
   {
     "title": "IndPy World",
-    "image": "images/indpy-port.png",
+    "image": "images/indpy-port.webp",
     "link": "portfolio.html",
     "target": "https://indpyworld.com/"
   }

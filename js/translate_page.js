@@ -6,8 +6,8 @@ const translations = {
     index_a_4: 'Portfolio',
     index_a_5: 'Contact',
     index_a_6: 'Get in Touch',
-    index_h1_1: 'Where Creativity Meets Strategy',
-    index_span_1: 'creativity',
+    index_h1_1: 'Professional Website Development in Baku',
+    index_span_1: 'Website',
     index_p_1:
       'We create stunning websites and experiences that engage users and elevate brands.',
     index_a_7: 'Explore Our Work',
@@ -104,7 +104,7 @@ const translations = {
     index_footer_services: 'Our Services',
     index_footer_contact: 'Contact Info',
     index_footer_phone: '+994 (10) 451-6373',
-    index_footer_email: 'info@saytyarat.com',
+    index_footer_email: 'info@webify.az',
     index_footer_address: '6 Murtuza Muxtarov St, Yasamal, Baku',
     index_footer_copyright: 'Copyright © 2025. All Rights Reserved.',
 
@@ -231,10 +231,10 @@ const translations = {
     index_a_4: 'Portfoliomuz',
     index_a_5: 'Əlaqə',
     index_a_6: 'Əlaqə',
-    index_h1_1: 'Burada yaradıcılıq strategiya ilə görüşür',
-    index_span_1: 'yaradıcılıq',
+    index_h1_1: 'Bakıda peşəkar sayt yaradılması',
+    index_span_1: 'sayt',
     index_p_1:
-      'Peşəkar vebsaytlar, istifadəçi dostu interfeyslər və mobil uyğun dizaynlarla brendinizi onlayn dünyaya daşıyırıq.',
+      'Korporativ saytlar, onlayn mağazalar və landing page-lər: mobil uyğun, sürətli və SEO-ya hazır vebsayt hazırlanması ilə brendinizi onlayn dünyaya daşıyırıq.',
     index_a_7: 'Portfoliomuza keçid edin',
     index_h3_1: 'Bizə güvənən şirkətlər',
     index_h3_2: 'Bizim xidmətlərimiz',
@@ -332,7 +332,7 @@ const translations = {
     index_footer_services: 'Xidmətlərimiz',
     index_footer_contact: 'Əlaqə məlumatları',
     index_footer_phone: '+994 (10) 451-6373',
-    index_footer_email: 'info@saytyarat.com',
+    index_footer_email: 'info@webify.az',
     index_footer_address: 'Bakı şəh, Yasamal ray, Murtuza Muxtarov 6',
     index_footer_copyright: 'Copyright © 2025 All Rights Reserved.',
 
@@ -454,6 +454,8 @@ const translations = {
 };
 
 function translatePage(language) {
+  document.documentElement.lang = language;
+
   // Get all elements with the data-i18n attribute
   const elements = document.querySelectorAll('[data-i18n]');
 
@@ -468,14 +470,21 @@ function translatePage(language) {
   });
 }
 
-// Check the language preference stored in localStorage or default to English (en)
-let userLanguage = localStorage.getItem('language') || 'en';
-translatePage(userLanguage); // Apply initial translation
+// Check the language preference stored in localStorage or default to Azerbaijani (az).
+// The HTML is already in Azerbaijani, so it is only rewritten when another language
+// was chosen — this keeps the original markup for search engines and first-time visitors.
+let userLanguage = 'az';
+try {
+  userLanguage = localStorage.getItem('language') || 'az';
+} catch (e) {}
+if (userLanguage !== 'az') translatePage(userLanguage); // Apply initial translation
 
 // Event listener for changing language
 document.getElementById('changeLanguage').addEventListener('click', () => {
   // Toggle language between English and Azerbaijani
   userLanguage = userLanguage === 'en' ? 'az' : 'en'; // Update userLanguage dynamically
-  localStorage.setItem('language', userLanguage); // Store the new language preference
+  try {
+    localStorage.setItem('language', userLanguage); // Store the new language preference
+  } catch (e) {}
   translatePage(userLanguage); // Update the page content with the new language
 });

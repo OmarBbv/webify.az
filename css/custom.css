@@ -546,7 +546,7 @@ header.main-header .header-sticky.active {
 }
 
 .navbar {
-  padding: 25px 0;
+  padding: 10px 0;
   align-items: center;
 }
 
@@ -840,7 +840,7 @@ header.main-header .header-sticky.active {
 }
 
 .hero.bg-image {
-  background: url('../images/hero-bg.jpg') no-repeat;
+  background: url('../images/hero-bg.webp') no-repeat;
   background-position: center center;
   background-size: cover;
   padding: 256px 0 150px;
@@ -853,7 +853,7 @@ header.main-header .header-sticky.active {
 
 .hero.hero-slider-layout .hero-slide {
   position: relative;
-  background: url('../images/hero-bg.jpg');
+  background: url('../images/hero-bg.webp');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1968,7 +1968,7 @@ header.main-header .header-sticky.active {
 
 .our-testimonial {
   padding: 100px 0;
-  background: url('../images/our-testimonial-bg.png'), var(--secondary-color);
+  background: url('../images/our-testimonial-bg.webp'), var(--secondary-color);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
