@@ -31,6 +31,11 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 self.path = "/" + name + "/index.html"
         return True
 
+    def end_headers(self):
+        # Lokal inkişafda brauzer köhnə CSS/JS-i keşdən götürməsin
+        self.send_header("Cache-Control", "no-store")
+        super().end_headers()
+
     def do_GET(self):
         if self._rewrite_path():
             return super().do_GET()
@@ -51,6 +56,8 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         return super().send_error(code, *args, **kwargs)
 
 
-socketserver.TCPServer.allow_reuse_address = True
+socketserver.ThreadingTCPServer.allow_reuse_address = True
 print(f"http://localhost:{PORT}  (dayandırmaq üçün Ctrl+C)")
-socketserver.TCPServer(("", PORT), Handler).serve_forever()
+with socketserver.ThreadingTCPServer(("", PORT), Handler) as httpd:
+    httpd.daemon_threads = True
+    httpd.serve_forever()
