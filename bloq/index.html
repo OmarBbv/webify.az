@@ -314,9 +314,22 @@
 
             <div class="right_buttons_nav_lang">
               <div class="language-switcher">
-                <button id="changeLanguage" class="btn">
-                  <i class="fas fa-globe fa-xl"></i>
+                <button id="changeLanguage" class="lang-dropdown-btn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Dili dəyişin">
+                  <span class="lang-current-code">AZ</span>
+                  <i class="fa-solid fa-chevron-down lang-chevron"></i>
                 </button>
+                <ul class="lang-dropdown-menu">
+                  <li class="lang-option active" data-lang="az">
+                    <span class="lang-code">AZ</span>
+                    <span class="lang-title">Azərbaycan</span>
+                    <i class="fa-solid fa-check lang-check"></i>
+                  </li>
+                  <li class="lang-option" data-lang="en">
+                    <span class="lang-code">EN</span>
+                    <span class="lang-title">English</span>
+                    <i class="fa-solid fa-check lang-check"></i>
+                  </li>
+                </ul>
               </div>
 
               <div class="navbar-toggle"></div>

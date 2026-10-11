@@ -476,23 +476,114 @@ function translatePage(language) {
   });
 }
 
-// Sayt həmişə Azərbaycan dilində açılır. İstifadəçi globus düyməsi ilə ingilis
-// dilinə keçə bilər, lakin bu seçim yalnız cari sessiyada (açıq tab-da) saxlanılır —
-// yeni ziyarətdə sayt yenidən Azərbaycan dilində açılır.
-// HTML onsuz da Azərbaycan dilindədir, ona görə mətn yalnız başqa dil seçiləndə əvəzlənir;
-// bu, axtarış sistemlərinin və ilk dəfə gələn istifadəçinin orijinal mətni görməsini təmin edir.
+// Sayt həmişə Azərbaycan dilində açılır. İstifadəçi dropdown menyu ilə ingilis
+// dilinə keçə bilər, lakin bu seçim yalnız cari sessiyada saxlanılır.
 let userLanguage = 'az';
 try {
   localStorage.removeItem('language'); // köhnə daimi seçimi təmizlə
   userLanguage = sessionStorage.getItem('language') || 'az';
 } catch (e) {}
-if (userLanguage !== 'az') translatePage(userLanguage);
 
-// Dil dəyişdirmə düyməsi
-document.getElementById('changeLanguage').addEventListener('click', () => {
-  userLanguage = userLanguage === 'en' ? 'az' : 'en';
-  try {
-    sessionStorage.setItem('language', userLanguage);
-  } catch (e) {}
+function updateLanguageUI(lang) {
+  const currentLabels = document.querySelectorAll('.lang-current-code');
+  currentLabels.forEach(label => {
+    label.textContent = lang.toUpperCase();
+  });
+
+  const options = document.querySelectorAll('.lang-option');
+  options.forEach(opt => {
+    if (opt.getAttribute('data-lang') === lang) {
+      opt.classList.add('active');
+    } else {
+      opt.classList.remove('active');
+    }
+  });
+
+  const buttons = document.querySelectorAll('.lang-dropdown-btn');
+  buttons.forEach(btn => {
+    btn.setAttribute('aria-label', `Cari dil: ${lang.toUpperCase()}`);
+  });
+}
+
+// Səhifə yüklənəndə UI yenilənsin
+updateLanguageUI(userLanguage);
+if (userLanguage !== 'az') {
   translatePage(userLanguage);
+}
+
+// Dropdown menyunun idarə edilməsi
+document.addEventListener('DOMContentLoaded', () => {
+  initLanguageSwitcher();
+});
+if (document.readyState === 'interactive' || document.readyState === 'complete') {
+  initLanguageSwitcher();
+}
+
+function initLanguageSwitcher() {
+  const switchers = document.querySelectorAll('.language-switcher');
+  switchers.forEach(switcher => {
+    if (switcher.dataset.initialized) return;
+    switcher.dataset.initialized = 'true';
+
+    const btn = switcher.querySelector('.lang-dropdown-btn') || switcher.querySelector('#changeLanguage');
+    const menu = switcher.querySelector('.lang-dropdown-menu');
+
+    if (btn && menu) {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = menu.classList.contains('show');
+        // Digər açıq menyuları bağla
+        document.querySelectorAll('.lang-dropdown-menu.show').forEach(m => m.classList.remove('show'));
+        document.querySelectorAll('.lang-dropdown-btn').forEach(b => b.setAttribute('aria-expanded', 'false'));
+
+        if (!isOpen) {
+          menu.classList.add('show');
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    } else if (btn && !menu) {
+      // Köhnə sadə düymə formatı üçün geriyə uyğunluq
+      btn.addEventListener('click', () => {
+        userLanguage = userLanguage === 'en' ? 'az' : 'en';
+        try {
+          sessionStorage.setItem('language', userLanguage);
+        } catch (e) {}
+        updateLanguageUI(userLanguage);
+        translatePage(userLanguage);
+      });
+    }
+
+    const options = switcher.querySelectorAll('.lang-option');
+    options.forEach(opt => {
+      opt.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const selectedLang = opt.getAttribute('data-lang');
+        if (selectedLang) {
+          userLanguage = selectedLang;
+          try {
+            sessionStorage.setItem('language', userLanguage);
+          } catch (e) {}
+          updateLanguageUI(userLanguage);
+          translatePage(userLanguage);
+        }
+        if (menu) {
+          menu.classList.remove('show');
+          if (btn) btn.setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
+  });
+}
+
+// Kənara klikləyəndə və ya ESC basanda bağlansın
+document.addEventListener('click', () => {
+  document.querySelectorAll('.lang-dropdown-menu.show').forEach(m => m.classList.remove('show'));
+  document.querySelectorAll('.lang-dropdown-btn').forEach(b => b.setAttribute('aria-expanded', 'false'));
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    document.querySelectorAll('.lang-dropdown-menu.show').forEach(m => m.classList.remove('show'));
+    document.querySelectorAll('.lang-dropdown-btn').forEach(b => b.setAttribute('aria-expanded', 'false'));
+  }
 });

@@ -15,21 +15,29 @@ PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8000
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):
-    def do_GET(self):
+    def _rewrite_path(self):
         path = self.path.split("?")[0]
         if path.endswith(".html"):
             target = path[: -len("/index.html")] if path.endswith("/index.html") else path[:-5]
             self.send_response(308)
             self.send_header("Location", target or "/")
             self.end_headers()
-            return
+            return False
         name = path.strip("/")
         if name and "." not in os.path.basename(name):
             if os.path.exists(name + ".html"):
                 self.path = "/" + name + ".html"
             elif os.path.isdir(name) and os.path.exists(os.path.join(name, "index.html")):
                 self.path = "/" + name + "/index.html"
-        return super().do_GET()
+        return True
+
+    def do_GET(self):
+        if self._rewrite_path():
+            return super().do_GET()
+
+    def do_HEAD(self):
+        if self._rewrite_path():
+            return super().do_HEAD()
 
     def send_error(self, code, *args, **kwargs):
         if code == 404 and os.path.exists("404.html"):
