@@ -129,6 +129,12 @@ header {
   z-index: 1050;
 }
 
+@media only screen and (min-width: 992px) {
+  .right_buttons_nav_lang {
+    margin-left: 12px;
+  }
+}
+
 .lang-dropdown-btn {
   display: inline-flex;
   align-items: center;
