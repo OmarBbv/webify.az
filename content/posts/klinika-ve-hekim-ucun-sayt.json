@@ -74,8 +74,5 @@
       "a": "Bəli. Xəstəliklər və müalicə üsulları haqqında suallara cavab verən məqalələr axtarışdan pasiyent gətirir, amma mütəxəssis nəzarəti ilə yazılmalıdır."
     }
   ],
-  "service": {
-    "url": "/korporativ-sayt",
-    "text": "Korporativ sayt hazırlanması"
-  }
+  "serviceHtml": "<a href=\"/klinika-sayti\">Klinika saytı hazırlanması</a> · <a href=\"/korporativ-sayt\">Korporativ sayt</a>"
 }

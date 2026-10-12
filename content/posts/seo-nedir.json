@@ -71,8 +71,5 @@
       "a": "Reklam dayandığı anda trafik kəsilir. SEO-dan gələn ziyarətçi isə uzun müddət davam edir. Ən yaxşısı ikisini birlikdə işlətməkdir."
     }
   ],
-  "service": {
-    "url": "/seo-xidmeti",
-    "text": "SEO xidmətimiz"
-  }
+  "serviceHtml": "<a href=\"/seo-xidmeti\">SEO xidməti</a> · <a href=\"/sayt-hazirlanmasi\">Sayt hazırlanması</a>"
 }

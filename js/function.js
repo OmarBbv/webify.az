@@ -5,8 +5,10 @@
 	var $body = $('body'); 
 
 	/* Preloader Effect */
-	$window.on('load', function(){
-		$(".preloader").fadeOut(600);
+	// DOM hazır olan kimi gizlədilir: bütün şəkil və şriftlərin yüklənməsini (window load)
+	// gözləmək məzmunu gecikdirir və tək bir ləngiyən resurs səhifəni örtülü saxlayır.
+	$(function(){
+		$(".preloader").fadeOut(400);
 	});
 
 	/* Sticky Header */	

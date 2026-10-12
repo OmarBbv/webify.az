@@ -2,8 +2,8 @@
   "slug": "google-business-profile-nece-acilir",
   "title": "Google Business Profile necə açılır?",
   "h1": "Google Business Profile <span>necə</span> açılır?",
-  "metaTitle": "Google Business Profile Necə Açılır? | Webify",
-  "description": "Biznesinizi Google xəritəsində göstərmək üçün Business Profile necə açılır, necə təsdiqlənir və hansı məlumatlar doldurulmalıdır.",
+  "metaTitle": "Google Biznes Profil Necə Açılır? (Google Business Profile) | Webify",
+  "description": "Google biznes profil (Google Business Profile) necə açılır: biznesi Google xəritəsinə əlavə etmək, təsdiqləmə və profili doldurmaq üçün addım-addım bələdçi.",
   "date": "2026-09-20",
   "cta": "Lokal axtarışlarda görünmək istəyirsiniz?",
   "sections": [
@@ -74,8 +74,6 @@
       "a": "Üsuldan asılıdır. Telefon və video ilə bir neçə gün, poçt kodu ilə isə daha uzun çəkə bilər."
     }
   ],
-  "service": {
-    "url": "/seo-xidmeti",
-    "text": "SEO xidmətimiz"
-  }
+  "serviceHtml": "<a href=\"/seo-xidmeti\">SEO xidməti</a> · <a href=\"/sayt-hazirlanmasi\">Sayt hazırlanması</a>",
+  "updated": "2026-10-13"
 }

@@ -1,0 +1,102 @@
+{
+  "slug": "sayt-qiymetleri",
+  "crumb": "Sayt qiymətləri",
+  "serviceType": "Sayt hazırlanması",
+  "serviceName": "Sayt hazırlanması qiymətləri",
+  "metaTitle": "Sayt Yaratmaq Qiymətləri 2026 – Sayt Hazırlanması Neçəyə Başa Gəlir?",
+  "description": "Sayt yaratmaq və sayt açmaq neçəyə başa gəlir? Sayt hazırlanması qiymətləri nədən asılıdır, landing, korporativ sayt və onlayn mağaza üzrə müqayisə.",
+  "h1": "Sayt yaratmaq <span>qiymətləri</span>",
+  "cta": "Layihəniz üçün dəqiq qiymət istəyirsiniz?",
+  "sections": [
+    {
+      "eyebrow": "Qiymətlər",
+      "h2": "Sayt yaratmaq <span>neçəyə</span> başa gəlir?",
+      "paras": [
+        "Sayt açmaq və ya yeni sayt yaratmaq istəyən hər kəsin ilk sualı qiymətdir. Saytın qiyməti onun növündən və həcmindən asılıdır. Bir səhifəlik landing page ilə onlayn ödənişi olan mağaza eyni iş deyil, ona görə qiymətləri sayt növləri üzrə ayrıca göstəririk.",
+        "Cədvəldəki müddət və qiymət başlanğıc səviyyəsidir. Layihənizin dəqiq qiymətini pulsuz konsultasiyadan sonra, səhifələrin və funksiyaların siyahısı ilə birlikdə yazılı təklif kimi göndəririk."
+      ],
+      "prices": [
+        { "name": "Landing page", "for": "Bir məhsul, xidmət və ya reklam kampaniyası", "days": "5–7 gün", "from": null },
+        { "name": "Korporativ sayt", "for": "Şirkətlər və xidmət biznesləri", "days": "10–20 gün", "from": null },
+        { "name": "Onlayn mağaza", "for": "Məhsul satan bizneslər", "days": "2–4 həftə", "from": null },
+        { "name": "Veb tətbiq", "for": "Şəxsi kabinet, rezervasiya və xüsusi sistemlər", "days": "Layihəyə görə", "from": null }
+      ],
+      "buttons": [
+        { "url": "/contact", "text": "Pulsuz qiymət təklifi al" },
+        { "url": "https://wa.me/994104516373", "text": "WhatsApp-da yaz" }
+      ]
+    },
+    {
+      "eyebrow": "Amillər",
+      "h2": "Qiymətə <span>nə</span> təsir edir?",
+      "cards": [
+        { "title": "Səhifələrin sayı", "text": "Beş səhifəlik sayt ilə hər xidmətin ayrıca səhifəsi olan 40 səhifəlik sayt fərqli həcmdə işdir." },
+        { "title": "Dizayn", "text": "Brendinizə uyğun sıfırdan dizayn hazır şablondan daha çox vaxt aparır, amma saytı rəqiblərdən fərqləndirir." },
+        { "title": "Funksiyalar", "text": "Səbət, onlayn ödəniş, şəxsi kabinet, rezervasiya və inteqrasiyalar qiyməti ən çox dəyişən hissədir." },
+        { "title": "Dil versiyaları", "text": "Hər əlavə dil həm tərcümə, həm də həmin dildə ayrıca SEO işi deməkdir." },
+        { "title": "Mətn və şəkillər", "text": "Məzmunu siz verirsinizsə xərc azalır. Peşəkar mətn yazılması ayrıca hesablanır." },
+        { "title": "İdarəetmə paneli", "text": "Məzmunu özünüz dəyişmək istəyirsinizsə, saytın arxa tərəfində ayrıca sistem qurulur." }
+      ]
+    },
+    {
+      "eyebrow": "Nə daxildir",
+      "h2": "Qiymətə <span>daxil olanlar</span>",
+      "list": [
+        "Biznesinizə uyğun fərdi dizayn, hazır şablon yox",
+        "Telefon, planşet və kompüter üçün mobil uyğun versiya",
+        "Sürətli yüklənmə üçün optimallaşdırılmış kod və şəkillər",
+        "Əsas SEO: başlıqlar, meta təsvirlər, sitemap və strukturlaşdırılmış data",
+        "Əlaqə forması, WhatsApp və zəng düymələri"
+      ],
+      "after": [
+        "Genişləndirilmiş <a href=\"/seo-xidmeti\">SEO xidməti</a>, mətnlərin yazılması və reklam kampaniyaları ayrıca xidmətlərdir və təklifdə ayrıca sətirlə göstərilir."
+      ]
+    },
+    {
+      "eyebrow": "Davamlı xərclər",
+      "h2": "Sayt hazır olandan sonra <span>illik xərclər</span>",
+      "paras": [
+        "Çoxları yalnız hazırlanma qiymətini soruşur, sonra isə illik xərclərlə qarşılaşır. Saytın bir dəfəlik və davamlı olmaqla iki növ xərci var, hər ikisini büdcəyə əvvəlcədən daxil etmək lazımdır."
+      ],
+      "table": {
+        "head": ["Xərc", "Nə vaxt ödənilir", "Nə üçündür"],
+        "rows": [
+          ["Dizayn və proqramlaşdırma", "Bir dəfə", "Saytın hazırlanması və yayıma çıxarılması"],
+          ["Domen", "İldə bir dəfə", "Saytın ünvanı, məsələn sirketiniz.az"],
+          ["Hostinq", "Aylıq və ya illik", "Saytın fayllarının saxlandığı server"],
+          ["Texniki dəstək", "Ehtiyac olduqda", "Yeniləmələr, dəyişikliklər və təhlükəsizlik"],
+          ["SEO və reklam", "İstəyə görə, aylıq", "Google-da görünürlük və yeni müştərilər"]
+        ]
+      },
+      "after": [
+        "Domen və hostinqin nə olduğunu <a href=\"/bloq/domen-ve-hostinq-nedir\">domen və hostinq nədir</a> məqaləsində sadə dillə izah etmişik."
+      ]
+    },
+    {
+      "eyebrow": "Ucuz sayt",
+      "h2": "Ucuz sayt təklifində <span>nəyə baxmalı?</span>",
+      "paras": [
+        "Bazarda eyni adla çox fərqli qiymətlər görəcəksiniz. Çox ucuz təklif adətən nəyinsə hesabına olur: hazır şablon, mobil versiyanın olmaması və ya saytın sizə məxsus olmaması. Müqavilədən əvvəl bu sualları verin:"
+      ],
+      "list": [
+        "Domen kimin adına qeydiyyatdan keçir? Sizin adınıza olmalıdır.",
+        "Mobil versiya qiymətə daxildir, yoxsa əlavə ödənişlədir?",
+        "Mətni və şəkilləri sonradan özünüz dəyişə biləcəksiniz?",
+        "Əsas SEO ayarları edilir: başlıqlar, meta təsvirlər, sitemap, sürət?",
+        "Hostinqə və saytın fayllarına girişiniz olacaq?",
+        "Təhvildən sonra düzəlişlər necə aparılır?"
+      ],
+      "after": [
+        "Bu mövzunu <a href=\"/bloq/sayt-yaratmaq-neceye-basa-gelir\">sayt yaratmaq neçəyə başa gəlir</a> və <a href=\"/bloq/sayt-sifarisi-zamani-nelere-diqqet-etmeli\">sayt sifarişi zamanı nələrə diqqət etməli</a> məqalələrində daha geniş yazmışıq."
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Sayt açmaq neçəyə başa gəlir, qiymət necə hesablanır?", "a": "Səhifələrin sayı, dizaynın mürəkkəbliyi, xüsusi funksiyalar və dil versiyaları əsasında. Bunları konsultasiyada dəqiqləşdirir və yazılı qiymət təklifi göndəririk." },
+    { "q": "Ödəniş hissə-hissə aparıla bilər?", "a": "Bəli. Layihənin başlanğıcında ilkin ödəniş alınır, qalan hissə isə iş tamamlandıqdan sonra ödənilir." },
+    { "q": "Domen və hostinq qiymətə daxildir?", "a": "Domen və hostinq saytın davamlı xərcləridir və təklifdə ayrıca göstərilir. Domen hər halda sizin adınıza qeydiyyatdan keçirilməlidir." },
+    { "q": "Qiymət təklifi pulludur?", "a": "Xeyr. Konsultasiya və qiymət təklifi pulsuzdur və sizi heç nəyə məcbur etmir." },
+    { "q": "Sonradan sayta yeni səhifə və ya funksiya əlavə etmək olar?", "a": "Bəli. Sayt müasir texnologiyalarla hazırlandığı üçün onu sonradan böyütmək mümkündür. Əlavə işlər ayrıca qiymətləndirilir." },
+    { "q": "Niyə saytların qiyməti bu qədər fərqlidir?", "a": "Çünki eyni sözlə fərqli işlər adlandırılır: biri hazır şablona köçürülmüş bir neçə səhifədir, digəri fərdi dizaynlı, ödəniş sistemi olan mağazadır. Təklifləri rəqəmə görə yox, nəyin daxil olduğuna görə müqayisə edin." }
+  ]
+}

@@ -7,12 +7,15 @@
  * `content/posts/*.json` fayllarındakı məqalələrdən hazır HTML səhifələr yaradır:
  *   bloq/index.html          — bloq siyahısı  (/bloq)
  *   bloq/<slug>.html         — məqalə         (/bloq/<slug>)
+ * `content/pages/*.json` fayllarından xidmət səhifələrini yaradır:
+ *   <slug>.html              — xidmət səhifəsi (/<slug>)
  * və `sitemap.xml` faylını yeniləyir.
  *
  * Səhifələr HTML kimi yaradılır (JS ilə render olunmur), çünki Google hər məqalənin
  * başlığını, təsvirini və schema-sını birbaşa mənbə kodunda görməlidir.
  */
-import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
+import { execSync } from 'node:child_process';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -29,6 +32,41 @@ const posts = readdirSync(POSTS_DIR)
   .filter((f) => f.endsWith('.json'))
   .map((f) => JSON.parse(readFileSync(join(POSTS_DIR, f), 'utf8')))
   .sort((a, b) => (a.date === b.date ? a.slug.localeCompare(b.slug) : a.date < b.date ? 1 : -1));
+// Əl ilə yazılmış (JSON-u olmayan) məqalələr: HTML-i yaradılmır, amma bloq siyahısında,
+// "digər məqalələr" blokunda və sitemap-də görünür.
+const staticPostsFile = join(ROOT, 'content/static-posts.json');
+const staticPosts = existsSync(staticPostsFile) ? JSON.parse(readFileSync(staticPostsFile, 'utf8')) : [];
+const allPosts = [...posts, ...staticPosts].sort((a, b) => (a.date === b.date ? a.slug.localeCompare(b.slug) : a.date < b.date ? 1 : -1));
+
+// Xidmət səhifələri (`content/pages/*.json`).
+const PAGES_DIR = join(ROOT, 'content/pages');
+const pages = existsSync(PAGES_DIR)
+  ? readdirSync(PAGES_DIR)
+      .filter((f) => f.endsWith('.json'))
+      .map((f) => JSON.parse(readFileSync(join(PAGES_DIR, f), 'utf8')))
+  : [];
+
+// Google başqa səhifədəki @id-ni izləmir, ona görə təşkilat məlumatı hər səhifədə olmalıdır.
+const ORG = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  '@id': `${BASE}#organization`,
+  name: 'Webify',
+  alternateName: 'Webify.az',
+  url: BASE,
+  logo: `${BASE}images/logo.png`,
+  image: `${BASE}images/og-image.jpg`,
+  telephone: '+994104516373',
+  email: 'info@webify.az',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Murtuza Muxtarov küç. 6',
+    addressLocality: 'Bakı',
+    addressRegion: 'Yasamal rayonu',
+    addressCountry: 'AZ',
+  },
+};
+
 const top = readFileSync(join(ROOT, 'tools/_template-top.html'), 'utf8');
 const bottom = readFileSync(join(ROOT, 'tools/_template-bottom.html'), 'utf8');
 
@@ -65,7 +103,7 @@ const azDate = (iso) => {
 };
 
 function head({ title, desc, url, schemas, ogType = 'article' }) {
-  const ld = schemas
+  const ld = [ORG, ...schemas]
     .map((s) => `    <script type="application/ld+json">\n${JSON.stringify(s, null, 2).split('\n').map((l) => '      ' + l).join('\n')}\n    </script>`)
     .join('\n');
   return `<!DOCTYPE html>
@@ -73,7 +111,7 @@ function head({ title, desc, url, schemas, ogType = 'article' }) {
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="${esc(desc)}" />
     <meta name="author" content="Webify" />
     <title>${esc(title)}</title>
@@ -171,17 +209,8 @@ const cta = (text) => `    <section class="seo-landing seo-landing-alt">
     </section>
 `;
 
-function body(post) {
-  const blocks = post.sections
-    .map((s) => {
-      let html = s.h2 ? `              <h2>${s.h2}</h2>\n` : '';
-      for (const p of s.paras || []) html += `              <p>${p}</p>\n`;
-      if (s.list) html += `              <ul class="seo-landing-list">\n${s.list.map((i) => `                <li>${i}</li>`).join('\n')}\n              </ul>\n`;
-      return html;
-    })
-    .join('');
-
-  const faq = (post.faq || [])
+function faqSection(items) {
+  const faq = (items || [])
     .map(
       (f, i) => `                <div class="accordion-item wow fadeInUp">
                   <h2 class="accordion-header" id="heading${i + 1}">
@@ -220,8 +249,22 @@ ${faq}
     </div>
 `
     : '';
+  return faqBlock;
+}
 
-  const related = posts
+function body(post) {
+  const blocks = post.sections
+    .map((s) => {
+      let html = s.h2 ? `              <h2>${s.h2}</h2>\n` : '';
+      for (const p of s.paras || []) html += `              <p>${p}</p>\n`;
+      if (s.list) html += `              <ul class="seo-landing-list">\n${s.list.map((i) => `                <li>${i}</li>`).join('\n')}\n              </ul>\n`;
+      return html;
+    })
+    .join('');
+
+  const faqBlock = faqSection(post.faq);
+
+  const related = allPosts
     .filter((p) => p.slug !== post.slug)
     .slice(0, 3)
     .map(
@@ -235,7 +278,9 @@ ${faq}
     )
     .join('\n');
 
-  const serviceLink = post.service
+  const serviceLink = post.serviceHtml
+    ? `              <p><strong>Əlaqəli xidmətlər:</strong> ${post.serviceHtml}</p>\n`
+    : post.service
     ? `              <p><strong>Əlaqəli xidmət:</strong> <a href="${post.service.url}">${post.service.text}</a></p>\n`
     : '';
 
@@ -325,11 +370,11 @@ for (const post of posts) {
     }) +
     body(post) +
     bottom;
-  writeFileSync(join(ROOT, 'bloq', `${post.slug}.html`), html.replace(/\r?\n/g, '\r\n'));
+  writeFileSync(join(ROOT, 'bloq', `${post.slug}.html`), html);
 }
 
 // ---- bloq siyahısı ----
-const cards = [...posts]
+const cards = [...allPosts]
   .sort((a, b) => (a.date < b.date ? 1 : -1))
   .map(
     (p) => `          <div class="col-lg-4 col-md-6">
@@ -356,7 +401,7 @@ const indexHtml =
         url: `${BASE}bloq`,
         inLanguage: 'az',
         publisher: { '@id': `${BASE}#organization` },
-        blogPost: posts.map((p) => ({
+        blogPost: allPosts.map((p) => ({
           '@type': 'BlogPosting',
           headline: p.title,
           url: `${BASE}bloq/${p.slug}`,
@@ -401,26 +446,169 @@ ${cards}
 ` +
   cta('Sayt yaratmaq istəyirsiniz?') +
   bottom;
-writeFileSync(join(ROOT, 'bloq', 'index.html'), indexHtml.replace(/\r?\n/g, '\r\n'));
+writeFileSync(join(ROOT, 'bloq', 'index.html'), indexHtml);
+
+// ---- xidmət səhifələri ----
+const PAGE_CSS = `    <style>
+      .seo-card { height: 100%; padding: 30px; border: 1px solid var(--divider-color); border-radius: 20px; }
+      .seo-card h3 { color: var(--white-color); font-size: 20px; margin-bottom: 14px; }
+      .seo-card p { color: var(--text-color); line-height: 1.6em; margin: 0; }
+      .seo-card-link { display: block; text-decoration: none; transition: border-color 0.3s; }
+      .seo-card-link:hover { border-color: var(--accent-color); }
+      .seo-card-step { display: block; color: var(--accent-color); font-weight: 700; font-size: 28px; margin-bottom: 14px; }
+      .seo-table-wrap { overflow-x: auto; margin-bottom: 24px; }
+      .seo-table { width: 100%; min-width: 560px; border-collapse: collapse; }
+      .seo-table th, .seo-table td { padding: 16px; border-bottom: 1px solid var(--divider-color); text-align: left; vertical-align: top; line-height: 1.5em; }
+      .seo-table th { color: var(--white-color); font-weight: 600; }
+      .seo-table td:first-child { color: var(--white-color); font-weight: 600; }
+    </style>
+`;
+
+const priceText = (from) => (from ? `${from} AZN-dən` : 'Fərdi təklif');
+
+function pageSection(s, i) {
+  let text = '';
+  for (const p of s.paras || []) text += `              <p>${p}</p>\n`;
+  if (s.list) text += `              <ul class="seo-landing-list">\n${s.list.map((l) => `                <li>${l}</li>`).join('\n')}\n              </ul>\n`;
+  const table = s.prices
+    ? { head: ['Sayt növü', 'Kimə uyğundur', 'Müddət', 'Qiymət'], rows: s.prices.map((p) => [p.name, p.for, p.days, priceText(p.from)]) }
+    : s.table;
+  if (table)
+    text += `              <div class="seo-table-wrap">
+                <table class="seo-table">
+                  <thead><tr>${table.head.map((h) => `<th scope="col">${h}</th>`).join('')}</tr></thead>
+                  <tbody>
+${table.rows.map((r) => `                    <tr>${r.map((c) => `<td>${c}</td>`).join('')}</tr>`).join('\n')}
+                  </tbody>
+                </table>
+              </div>\n`;
+  for (const p of s.after || []) text += `              <p>${p}</p>\n`;
+  const btns = s.buttons
+    ? `            <div class="seo-landing-btns wow fadeInUp">\n${s.buttons.map((b) => `              <a href="${b.url}" class="btn-default"${b.url.startsWith('http') ? ' target="_blank" rel="noopener"' : ''}>${b.text}</a>`).join('\n')}\n            </div>\n`
+    : '';
+  const col = s.cards && s.cards.length % 3 === 0 ? 'col-lg-4' : 'col-lg-3';
+  const cards = s.cards
+    ? `        <div class="row seo-landing-cards">
+${s.cards
+  .map((c, n) => {
+    const step = s.steps ? `              <span class="seo-card-step">${String(n + 1).padStart(2, '0')}</span>\n` : '';
+    const inner = `${step}              <h3>${c.title}</h3>\n              <p>${c.text}</p>`;
+    return `          <div class="${col} col-md-6">
+            ${c.url ? `<a class="seo-card seo-card-link wow fadeInUp" href="${c.url}">` : '<div class="seo-card wow fadeInUp">'}
+${inner}
+            ${c.url ? '</a>' : '</div>'}
+          </div>`;
+  })
+  .join('\n')}
+        </div>\n`
+    : '';
+  return `    <section class="seo-landing${i % 2 ? ' seo-landing-alt' : ''}">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10">
+            <div class="section-title">
+              <h3 class="wow fadeInUp">${s.eyebrow}</h3>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">${s.h2}</h2>
+            </div>
+${text ? `            <div class="seo-landing-text wow fadeInUp">\n${text}            </div>\n` : ''}${btns}          </div>
+        </div>
+${cards}      </div>
+    </section>
+
+`;
+}
+
+function pageSchemas(page) {
+  const url = `${BASE}${page.slug}`;
+  const offers = page.sections
+    .flatMap((s) => s.prices || [])
+    .filter((p) => p.from)
+    .map((p) => ({ '@type': 'Offer', name: p.name, price: String(p.from), priceCurrency: 'AZN' }));
+  const schemas = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Service',
+      serviceType: page.serviceType,
+      name: page.serviceName || page.serviceType,
+      description: page.description,
+      provider: { '@id': `${BASE}#organization` },
+      areaServed: { '@type': 'Country', name: 'Azərbaycan' },
+      url,
+      ...(offers.length ? { offers } : {}),
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Ana səhifə', item: BASE },
+        { '@type': 'ListItem', position: 2, name: 'Xidmətlər', item: `${BASE}services` },
+        { '@type': 'ListItem', position: 3, name: page.crumb, item: url },
+      ],
+    },
+  ];
+  if (page.faq?.length)
+    schemas.push({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: page.faq.map((f) => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a.replace(/<[^>]+>/g, '') },
+      })),
+    });
+  return schemas;
+}
+
+for (const page of pages) {
+  const html =
+    head({ title: page.metaTitle, desc: page.description, url: `${BASE}${page.slug}`, schemas: pageSchemas(page), ogType: 'website' }).replace(
+      '  </head>',
+      BLOG_CSS + PAGE_CSS + '  </head>'
+    ) +
+    bodyStart +
+    pageHeader({
+      h1: page.h1,
+      crumbs: [{ name: 'Ana Səhifə', url: '/' }, { name: 'Xidmətlərimiz', url: '/services' }, { name: page.crumb }],
+    }) +
+    page.sections.map(pageSection).join('') +
+    faqSection(page.faq) +
+    cta(page.cta || 'Sayt sifariş etmək istəyirsiniz?') +
+    bottom;
+  writeFileSync(join(ROOT, `${page.slug}.html`), html);
+}
 
 // ---- sitemap ----
+// lastmod uydurulmur: faylın son git commit tarixi götürülür (commit olunmayıbsa bu gün).
+const today = new Date().toISOString().slice(0, 10);
+const fileDate = (file) => {
+  try {
+    if (execSync(`git status --porcelain -- "${file}"`, { cwd: ROOT }).toString().trim()) return today;
+    return execSync(`git log -1 --format=%cs -- "${file}"`, { cwd: ROOT }).toString().trim() || today;
+  } catch {
+    return today;
+  }
+};
 const staticPages = [
-  ['', '1.0'],
-  ['sayt-yaradilmasi', '0.9'],
+  ['', '1.0', 'index.html'],
+  ['sayt-hazirlanmasi', '0.9'],
+  ['sayt-sifarisi', '0.9'],
+  ['sayt-qiymetleri', '0.9'],
   ['korporativ-sayt', '0.8'],
   ['onlayn-magaza-yaradilmasi', '0.8'],
+  ['klinika-sayti', '0.8'],
+  ['dasinmaz-emlak-sayti', '0.8'],
+  ['turizm-sayti-sifarisi', '0.8'],
   ['seo-xidmeti', '0.8'],
   ['services', '0.8'],
-  ['bloq', '0.8'],
+  ['bloq', '0.8', 'bloq/index.html'],
   ['sayt-nece-yaradilir', '0.7'],
   ['portfolio', '0.7'],
   ['about', '0.6'],
   ['contact', '0.6'],
 ];
-const today = new Date().toISOString().slice(0, 10);
 const urls = [
-  ...staticPages.map(([p, pr]) => [`${BASE}${p}`, today, pr]),
-  ...posts.map((p) => [`${BASE}bloq/${p.slug}`, p.updated || p.date, '0.6']),
+  ...staticPages.map(([p, pr, file]) => [`${BASE}${p}`, fileDate(file || `${p}.html`), pr]),
+  ...allPosts.map((p) => [`${BASE}bloq/${p.slug}`, p.updated || p.date, '0.6']),
 ];
 writeFileSync(
   join(ROOT, 'sitemap.xml'),
@@ -429,5 +617,5 @@ writeFileSync(
     `\n</urlset>\n`
 );
 
-console.log(`${posts.length} məqalə + bloq siyahısı yaradıldı, sitemap-də ${urls.length} ünvan var.`);
+console.log(`${posts.length} məqalə + bloq siyahısı + ${pages.length} xidmət səhifəsi yaradıldı, sitemap-də ${urls.length} ünvan var.`);
 console.log(readdirSync(join(ROOT, 'bloq')).join(', '));

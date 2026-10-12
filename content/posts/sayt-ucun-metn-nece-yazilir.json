@@ -76,7 +76,7 @@
     }
   ],
   "service": {
-    "url": "/sayt-yaradilmasi",
-    "text": "Sayt yaradılması xidmətimiz"
+    "url": "/sayt-hazirlanmasi",
+    "text": "Sayt hazırlanması xidmətimiz"
   }
 }

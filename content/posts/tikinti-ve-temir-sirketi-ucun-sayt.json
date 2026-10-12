@@ -75,8 +75,5 @@
       "a": "Öz obyektlərinizin real şəkilləri. Stok şəkillər etibarı azaldır, çünki müştəri onları başqa saytlarda da görür."
     }
   ],
-  "service": {
-    "url": "/korporativ-sayt",
-    "text": "Korporativ sayt hazırlanması"
-  }
+  "serviceHtml": "<a href=\"/korporativ-sayt\">Korporativ sayt hazırlanması</a> · <a href=\"/dasinmaz-emlak-sayti\">Daşınmaz əmlak saytı</a>"
 }

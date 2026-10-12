@@ -80,8 +80,5 @@
       "a": "Domen, hostinq və giriş məlumatları sizdə olanda istənilən komanda işi davam etdirə bilər. Ona görə bu bənd vacibdir."
     }
   ],
-  "service": {
-    "url": "/sayt-yaradilmasi",
-    "text": "Sayt yaradılması xidmətimiz"
-  }
+  "serviceHtml": "<a href=\"/sayt-sifarisi\">Sayt sifarişi</a> · <a href=\"/sayt-hazirlanmasi\">Sayt hazırlanması</a> · <a href=\"/sayt-qiymetleri\">Sayt qiymətləri</a>"
 }

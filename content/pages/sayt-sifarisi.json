@@ -1,0 +1,91 @@
+{
+  "slug": "sayt-sifarisi",
+  "crumb": "Sayt sifarişi",
+  "serviceType": "Sayt sifarişi",
+  "serviceName": "Sayt sifarişi – veb saytların sifarişlə hazırlanması",
+  "metaTitle": "Sayt Sifarişi Bakıda – Veb Sayt Sifariş Et, 5–30 Günə Təhvil | Webify",
+  "description": "Sayt sifarişi necə verilir: müraciət, qiymət təklifi, müqavilə, dizayn və təhvil. Nə hazırlamalı, ödəniş necə aparılır və sayt neçə günə hazır olur.",
+  "h1": "Sayt <span>sifarişi</span>",
+  "cta": "Sayt sifarişi vermək istəyirsiniz?",
+  "sections": [
+    {
+      "eyebrow": "Sayt sifarişi",
+      "h2": "Veb sayt sifarişi <span>necə</span> verilir?",
+      "paras": [
+        "Sayt sifarişi vermək üçün texniki bilik lazım deyil. Sizdən tələb olunan biznesinizi və saytdan nə gözlədiyinizi danışmaqdır. Qalanını, yəni strukturu, dizaynı, proqramlaşdırmanı və yayımı Webify komandası öz üzərinə götürür.",
+        "Bu səhifədə sifarişin ilk mesajdan saytın təhvilinə qədər necə getdiyini, sizdən nə lazım olacağını və ödənişin necə aparıldığını ardıcıllıqla yazmışıq. Xidmətin özü haqqında ətraflı məlumat <a href=\"/sayt-hazirlanmasi\">sayt hazırlanması</a> səhifəsindədir."
+      ],
+      "buttons": [
+        { "url": "/contact", "text": "Sifariş üçün müraciət et" },
+        { "url": "https://wa.me/994104516373", "text": "WhatsApp-da yaz" }
+      ]
+    },
+    {
+      "eyebrow": "Addımlar",
+      "h2": "Sifarişdən təhvilə <span>4 addım</span>",
+      "steps": true,
+      "cards": [
+        { "title": "Müraciət və söhbət", "text": "Əlaqə forması, zəng və ya WhatsApp ilə yazırsınız. Qısa söhbətdə biznesinizi, saytın məqsədini və bəyəndiyiniz nümunələri öyrənirik." },
+        { "title": "Təklif və müqavilə", "text": "Səhifələrin siyahısı, funksiyalar, müddət və qiymət yazılmış təklif göndəririk. Razılaşdıqdan sonra iş ilkin ödənişlə başlayır." },
+        { "title": "Dizayn və hazırlanma", "text": "Əvvəl dizaynı göstərir, təsdiqinizdən sonra saytı kodlaşdırırıq. Hər mərhələdə işin gedişini görür və düzəliş deyə bilirsiniz." },
+        { "title": "Test və təhvil", "text": "Sayt telefon və kompüterdə yoxlanılır, domenə qoşulur və Google-a təqdim olunur. Qalan ödəniş təhvildən sonra aparılır." }
+      ]
+    },
+    {
+      "eyebrow": "Hazırlıq",
+      "h2": "Sayt sifarişindən əvvəl <span>nə hazırlamalı?</span>",
+      "paras": [
+        "Aşağıdakıların hamısı hazır olmasa da sifariş vermək olar, çatışmayanı birlikdə tamamlayırıq. Amma bunlar əvvəlcədən düşünülübsə, iş daha tez gedir və qiymət təklifi daha dəqiq olur."
+      ],
+      "list": [
+        "<strong>Saytın məqsədi.</strong> Zəng və müraciət toplamaq, onlayn satış, yoxsa şirkəti təqdim etmək.",
+        "<strong>Səhifələrin təxmini siyahısı.</strong> Məsələn: ana səhifə, xidmətlər, haqqımızda, qiymətlər, əlaqə.",
+        "<strong>Loqo və brend rəngləri.</strong> Yoxdursa, dizayn mərhələsində uyğun üslub təklif edirik.",
+        "<strong>Mətnlər və şəkillər.</strong> Xidmətlərin təsviri, qiymətlər, iş nümunələri. Mətnləri komandamız da hazırlaya bilər.",
+        "<strong>Bəyəndiyiniz 2–3 sayt.</strong> Zövqünüzü və gözləntinizi başa düşmək üçün ən sürətli yoldur.",
+        "<strong>Domen adı.</strong> Artıq almısınızsa, giriş məlumatları. Almamısınızsa, seçməyə kömək edirik."
+      ]
+    },
+    {
+      "eyebrow": "Sayt növləri",
+      "h2": "Hansı saytı <span>sifariş</span> etmək olar?",
+      "cards": [
+        { "title": "Korporativ sayt", "text": "Şirkəti, xidmətləri və komandanı təqdim edən çoxsəhifəli sayt.", "url": "/korporativ-sayt" },
+        { "title": "Onlayn mağaza", "text": "Kataloq, səbət, onlayn ödəniş və idarəetmə paneli olan mağaza.", "url": "/onlayn-magaza-yaradilmasi" },
+        { "title": "Klinika saytı", "text": "Həkim və tibb mərkəzləri üçün onlayn qəbul formalı sayt.", "url": "/klinika-sayti" },
+        { "title": "Daşınmaz əmlak saytı", "text": "Elan kataloqu, filtr və xəritə ilə rieltor və agentlik saytı.", "url": "/dasinmaz-emlak-sayti" },
+        { "title": "Turizm saytı", "text": "Tur paketləri, rezervasiya sorğusu və çoxdilli versiya.", "url": "/turizm-sayti-sifarisi" },
+        { "title": "Landing page", "text": "Bir məhsul və ya reklam kampaniyası üçün tək səhifəlik sayt." }
+      ]
+    },
+    {
+      "eyebrow": "Ödəniş və müddət",
+      "h2": "Ödəniş necə aparılır, sayt <span>neçə günə</span> hazır olur?",
+      "paras": [
+        "Ödəniş iki hissəyə bölünür: layihənin başlanğıcında ilkin ödəniş, qalan hissə isə sayt tamamlanıb sizə göstəriləndən sonra. Beləliklə nəticəni görmədən tam məbləği ödəmirsiniz.",
+        "Müddət saytın həcmindən asılıdır və 5 gündən 30 günədək dəyişir. Landing page bir neçə günə, korporativ sayt və onlayn mağaza isə bir neçə həftəyə hazır olur. Dəqiq müddət təklifdə yazılır.",
+        "Qiymətin nədən asılı olduğunu və sayt növləri üzrə fərqi <a href=\"/sayt-qiymetleri\">sayt qiymətləri</a> səhifəsində izah etmişik."
+      ]
+    },
+    {
+      "eyebrow": "Təhvil",
+      "h2": "Sifarişin sonunda <span>nə alırsınız?</span>",
+      "list": [
+        "Brendinizə uyğun fərdi dizaynla hazırlanmış, yayımda olan sayt",
+        "Telefon, planşet və kompüterdə düzgün işləyən mobil uyğun versiya",
+        "Əsas SEO ayarları: başlıqlar, meta təsvirlər, sitemap və sürət optimallaşdırması",
+        "Əlaqə forması, WhatsApp və zəng düymələri",
+        "İdarəetmə paneli olan saytlarda paneldən istifadə üzrə izah",
+        "Təhvildən sonra yaranan suallar üçün əlaqə"
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Sayt sifarişi vermək üçün ofisə gəlmək lazımdır?", "a": "Xeyr. Bütün proses onlayn aparıla bilər: söhbət, təklif, dizaynın təsdiqi və təhvil. İstəsəniz Bakıda, Yasamaldakı ofisimizdə də görüşə bilərik." },
+    { "q": "Sifariş verəndən sonra iş nə vaxt başlayır?", "a": "Təklif razılaşdırılıb ilkin ödəniş edildikdən sonra iş başlayır. İlk nəticəni, yəni dizaynı layihənin əvvəlində görürsünüz." },
+    { "q": "Mətnim və şəkillərim yoxdur, sifariş verə bilərəm?", "a": "Bəli. Mətnləri SEO-ya uyğun şəkildə komandamız hazırlaya bilər, şəkillər üçün isə uyğun həll təklif edirik. Bu, təklifdə ayrıca qeyd olunur." },
+    { "q": "Dizaynı bəyənməsəm nə olur?", "a": "Dizayn proqramlaşdırmadan əvvəl sizə göstərilir və təsdiqinizdən sonra növbəti mərhələyə keçilir. Düzəlişləri bu mərhələdə etmək ən asan və ən sürətlidir." },
+    { "q": "Sayt sifarişi neçəyə başa gəlir?", "a": "Qiymət səhifələrin sayından, dizaynın mürəkkəbliyindən və xüsusi funksiyalardan asılıdır. Layihənizi dinləyib pulsuz konsultasiya və dəqiq qiymət təklifi hazırlayırıq." },
+    { "q": "Köhnə saytım var, yenisini sifariş edə bilərəm?", "a": "Bəli. Köhnə saytı yeni dizayn və texnologiya ilə yenidən qururuq, Google-dakı mövqeyi itirməmək üçün köhnə ünvanları yeni səhifələrə yönləndiririk." }
+  ]
+}

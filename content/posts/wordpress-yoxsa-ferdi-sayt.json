@@ -48,7 +48,7 @@
       "h2": "Diqqət edilməli məqam",
       "paras": [
         "Hansı yolu seçsəniz də, üç şey sizin nəzarətinizdə qalmalıdır: domen sizin adınıza olsun, hostinqə girişiniz olsun və saytın məzmununun kopyası sizdə saxlanılsın. Bu üç şey olduqda istənilən vaxt komandanı və ya platformanı dəyişə bilərsiniz.",
-        "Biz fərdi hazırlanma ilə işləyirik, prosesi <a href=\"/sayt-yaradilmasi\">sayt yaradılması</a> səhifəsində izah etmişik."
+        "Biz fərdi hazırlanma ilə işləyirik, prosesi <a href=\"/sayt-hazirlanmasi\">sayt hazırlanması</a> səhifəsində izah etmişik."
       ]
     }
   ],
@@ -67,7 +67,7 @@
     }
   ],
   "service": {
-    "url": "/sayt-yaradilmasi",
-    "text": "Sayt yaradılması xidmətimiz"
+    "url": "/sayt-hazirlanmasi",
+    "text": "Sayt hazırlanması xidmətimiz"
   }
 }

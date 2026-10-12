@@ -1,0 +1,83 @@
+{
+  "slug": "turizm-sayti-sifarisi",
+  "crumb": "Turizm saytı",
+  "serviceType": "Turizm saytının hazırlanması",
+  "serviceName": "Turizm şirkətləri üçün sayt hazırlanması",
+  "metaTitle": "Turizm Saytı Hazırlanması – Tur Şirkəti üçün Sayt Sifarişi | Webify",
+  "description": "Turizm şirkətləri, tur operatorları və otellər üçün sayt hazırlanması: tur kataloqu, rezervasiya sorğusu, çoxdilli versiya və idarəetmə paneli.",
+  "h1": "Turizm <span>saytı</span> hazırlanması",
+  "cta": "Turizm şirkətiniz üçün sayt lazımdır?",
+  "sections": [
+    {
+      "eyebrow": "Turizm saytları",
+      "h2": "Səyahət <span>axtarışla</span> başlayır",
+      "paras": [
+        "Turist səfəri planlaşdıranda istiqaməti, qiyməti və tarixləri əvvəlcə internetdə müqayisə edir. Turlarınız yalnız Instagram postlarındadırsa, onları nə axtarışda tapmaq, nə də tarixə və qiymətə görə müqayisə etmək olur.",
+        "Webify turizm şirkətləri, tur operatorları, bələdçilər və kiçik otellər üçün sayt hazırlayır. Sayt turlarınızı səliqəli kataloqda göstərir, sorğuları bir yerə toplayır və reklamdan gələn ziyarətçini müştəriyə çevirir."
+      ]
+    },
+    {
+      "eyebrow": "Funksiyalar",
+      "h2": "Turizm saytında <span>nələr</span> olur?",
+      "cards": [
+        { "title": "Tur kataloqu", "text": "İstiqamət, müddət, qiymət və mövsüm üzrə filtrlənən tur paketləri." },
+        { "title": "Tur səhifəsi", "text": "Gün-gün proqram, qiymətə daxil olan və olmayan xidmətlər, şəkillər və çıxış tarixləri." },
+        { "title": "Rezervasiya sorğusu", "text": "Turist tarixi və nəfər sayını seçib sorğu göndərir, menecer WhatsApp və ya zənglə təsdiqləyir." },
+        { "title": "Çoxdilli versiya", "text": "Xarici turistlər üçün ingilis və rus dillərində səhifələr, hər dilin öz ünvanı ilə." },
+        { "title": "Rəylər və qalereya", "text": "Əvvəlki səfərlərin şəkilləri və turist rəyləri qərar verməyi asanlaşdırır." },
+        { "title": "İdarəetmə paneli", "text": "Yeni tur əlavə edir, qiyməti və tarixləri özünüz dəyişirsiniz." }
+      ]
+    },
+    {
+      "eyebrow": "İstiqamət",
+      "h2": "Xaricə tur satan və Azərbaycana <span>turist gətirən</span> saytlar fərqlidir",
+      "table": {
+        "head": ["", "Xaricə turlar", "Azərbaycana gələn turistlər"],
+        "rows": [
+          ["Auditoriya", "Yerli müştərilər", "Xarici turistlər"],
+          ["Əsas dil", "Azərbaycan dili", "İngilis, rus və digər dillər"],
+          ["Axtarış sözləri", "İstiqamət və qiymət: “Antalya turu”", "Ölkə və fəaliyyət: Bakı, Qəbələ, Şəki turları"],
+          ["Vacib bölmələr", "Qaynar turlar, viza məlumatı, ödəniş şərtləri", "Marşrutlar, transfer, bələdçi, tez-tez verilən suallar"]
+        ]
+      },
+      "after": [
+        "Hansı istiqamətdə işlədiyinizi layihənin əvvəlində dəqiqləşdiririk, çünki saytın dili, strukturu və SEO işi buna görə qurulur."
+      ]
+    },
+    {
+      "eyebrow": "Mövsüm",
+      "h2": "Turizmdə sayt <span>mövsümdən əvvəl</span> hazır olmalıdır",
+      "paras": [
+        "Turizm mövsümi sahədir və insanlar səfəri bir neçə həftə, bəzən bir neçə ay əvvəl axtarmağa başlayır. Google yeni səhifəni dərhal yuxarı çıxarmır, ona görə saytı və tur səhifələrini mövsümdən əvvəl yayıma vermək lazımdır."
+      ],
+      "list": [
+        "Hər istiqamət üçün ayrıca, öz başlığı olan səhifə yaradılır",
+        "Şəkil çox olsa da səhifələr mobil internetdə tez açılır",
+        "Keçmiş turların səhifələri silinmir, yeni tarixlərlə yenilənir",
+        "Meta və Google reklamları üçün ayrıca landing səhifələri hazırlamaq mümkündür"
+      ],
+      "after": [
+        "Reklamla saytın birlikdə necə işlədiyini <a href=\"/bloq/meta-reklam-ve-sayt\">Meta reklam və sayt</a>, sosial şəbəkədən sayta keçidi isə <a href=\"/bloq/instagramdan-sayta-kecid\">Instagram-dan sayta keçid</a> məqaləsində izah etmişik."
+      ]
+    },
+    {
+      "eyebrow": "İş prosesi",
+      "h2": "Turizm saytı <span>necə</span> hazırlanır?",
+      "steps": true,
+      "cards": [
+        { "title": "Analiz", "text": "Turlarınızı, auditoriyanızı və sorğuların necə qəbul olunduğunu öyrənirik." },
+        { "title": "Struktur və dizayn", "text": "Kataloqun və tur səhifəsinin dizaynını hazırlayıb sizinlə razılaşdırırıq." },
+        { "title": "Hazırlanma", "text": "Saytı kodlaşdırır, sorğu formasını qoşur və ilk turları birlikdə yükləyirik." },
+        { "title": "Yayım", "text": "Saytı yayıma çıxarır, Google-a təqdim edir və paneli izah edirik." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Turizm saytı neçə günə hazır olur?", "a": "Tur kataloqunun həcmindən və dil versiyalarından asılı olaraq 5 gündən 30 günədək çəkir." },
+    { "q": "Sayta onlayn ödəniş qoşmaq olar?", "a": "Bəli, bank kartı ilə onlayn ödəniş qoşula bilər. Hansı ödəniş sisteminin uyğun olduğunu layihənin başlanğıcında birlikdə seçirik." },
+    { "q": "Turları özümüz əlavə edə bilərik?", "a": "Bəli. İdarəetmə paneli ilə yeni tur yaradır, proqramı, qiyməti və tarixləri kod bilmədən dəyişirsiniz." },
+    { "q": "Sayt neçə dildə ola bilər?", "a": "İstədiyiniz qədər. Xarici turistlərlə işləyirsinizsə, ən azı ingilis və rus dilləri tövsiyə olunur. Hər əlavə dil qiymət təklifində ayrıca göstərilir." },
+    { "q": "Otel və ya qonaq evi üçün də sayt hazırlayırsınız?", "a": "Bəli. Otel saytında əsas bölmələr otaqlar, qiymətlər, şəkillər, yerləşmə və rezervasiya sorğusudur." },
+    { "q": "Instagram səhifəmiz var, sayt nə əlavə edir?", "a": "Sayt turlarınızı axtarışda tapıla bilən edir, tarix və qiymətə görə müqayisə imkanı verir və sorğuları bir yerdə toplayır. Instagram isə sayta ziyarətçi gətirən kanal kimi qalır." }
+  ]
+}

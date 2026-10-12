@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="az">
   <head>
-    <!-- Meta -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1"
-    />
-    <meta name="description" content="Klinikalar, tibb mərkəzləri və fərdi həkimlər üçün xüsusi saytların hazırlanması. Pasient qeydiyyatı və onlayn rezervasiya funksiyalı tibbi sayt sifarişi." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Klinika, stomatologiya və fərdi həkimlər üçün sayt hazırlanması: xidmət və həkim səhifələri, onlayn qəbul forması, mobil uyğun dizayn və lokal SEO." />
     <meta name="author" content="Webify" />
-    <!-- Page Title -->
-    <title>Klinika və Həkimlər Üçün Sayt | Tibbi Sayt Sifarişi</title>
+    <title>Klinika Saytı Hazırlanması – Həkim və Tibb Mərkəzi üçün Sayt | Webify</title>
     <link rel="canonical" href="https://www.webify.az/klinika-sayti" />
-    <!-- Favicon Icon -->
-    <link rel="icon" href="./images/favicon.ico?v=2" />
-    <link rel="icon" type="image/png" href="./images/favicon-96x96.png?v=2" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg?v=2" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png?v=2" />
+    <link rel="icon" href="/images/favicon.ico?v=2" />
+    <link rel="icon" type="image/png" href="/images/favicon-96x96.png?v=2" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg?v=2" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=2" />
     <meta name="apple-mobile-web-app-title" content="Webify" />
     <meta name="theme-color" content="#ffffff" />
-    <link rel="manifest" href="./images/site.webmanifest" />
-
-    <!-- Open Graph / Social -->
+    <link rel="manifest" href="/images/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="/css/slicknav.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <link href="/css/all.min.css" rel="stylesheet" media="screen" />
+    <link href="/css/animate.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/magnific-popup.css" />
+    <link rel="stylesheet" href="/css/mousecursor.css" />
+    <link href="/css/custom.css" rel="stylesheet" media="screen" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Webify" />
     <meta property="og:locale" content="az_AZ" />
     <meta property="og:url" content="https://www.webify.az/klinika-sayti" />
-    <meta property="og:title" content="Klinika və Həkimlər Üçün Sayt | Tibbi Sayt Sifarişi" />
-    <meta property="og:description" content="Klinikalar, tibb mərkəzləri və fərdi həkimlər üçün xüsusi saytların hazırlanması. Pasient qeydiyyatı və onlayn rezervasiya funksiyalı tibbi sayt sifarişi." />
+    <meta property="og:title" content="Klinika Saytı Hazırlanması – Həkim və Tibb Mərkəzi üçün Sayt | Webify" />
+    <meta property="og:description" content="Klinika, stomatologiya və fərdi həkimlər üçün sayt hazırlanması: xidmət və həkim səhifələri, onlayn qəbul forması, mobil uyğun dizayn və lokal SEO." />
     <meta property="og:image" content="https://www.webify.az/images/og-image.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -36,9 +42,31 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://www.webify.az/#organization",
+        "name": "Webify",
+        "alternateName": "Webify.az",
+        "url": "https://www.webify.az/",
+        "logo": "https://www.webify.az/images/logo.png",
+        "image": "https://www.webify.az/images/og-image.jpg",
+        "telephone": "+994104516373",
+        "email": "info@webify.az",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Murtuza Muxtarov küç. 6",
+          "addressLocality": "Bakı",
+          "addressRegion": "Yasamal rayonu",
+          "addressCountry": "AZ"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
         "@type": "Service",
-        "serviceType": "Sayt yaradılması",
-        "name": "Sayt yaradılması və vebsayt hazırlanması",
+        "serviceType": "Klinika saytının hazırlanması",
+        "name": "Klinika və həkimlər üçün sayt hazırlanması",
+        "description": "Klinika, stomatologiya və fərdi həkimlər üçün sayt hazırlanması: xidmət və həkim səhifələri, onlayn qəbul forması, mobil uyğun dizayn və lokal SEO.",
         "provider": {
           "@id": "https://www.webify.az/#organization"
         },
@@ -46,7 +74,7 @@
           "@type": "Country",
           "name": "Azərbaycan"
         },
-        "url": "https://www.webify.az/sayt-yaradilmasi"
+        "url": "https://www.webify.az/klinika-sayti"
       }
     </script>
     <script type="application/ld+json">
@@ -63,6 +91,12 @@
           {
             "@type": "ListItem",
             "position": 2,
+            "name": "Xidmətlər",
+            "item": "https://www.webify.az/services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
             "name": "Klinika saytı",
             "item": "https://www.webify.az/klinika-sayti"
           }
@@ -76,136 +110,87 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Sayt yaratmaq neçə günə başa gəlir?",
+            "name": "Klinika saytı neçə günə hazır olur?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Hazırlanacaq saytın funksionallığından asılı olaraq sayt yaradılması 5 gündən 30 günədək çəkir. Landing page adətən bir neçə günə, onlayn mağaza və ya veb tətbiq isə daha uzun müddətə hazır olur."
+              "text": "Xidmətlərin və həkim profillərinin sayından asılı olaraq 5 gündən 30 günədək çəkir. Dəqiq müddəti struktur razılaşdırıldıqdan sonra deyirik."
             }
           },
           {
             "@type": "Question",
-            "name": "Sayt yaratmaq neçəyə başa gəlir?",
+            "name": "Onlayn qəbul necə işləyir?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Qiymət səhifələrin sayından, dizaynın mürəkkəbliyindən və xüsusi funksiyalardan (onlayn ödəniş, şəxsi kabinet, dil versiyaları) asılıdır. Layihənizi dinləyib pulsuz konsultasiya və dəqiq qiymət təklifi hazırlayırıq."
+              "text": "Ən sadə variantda pasient forma ilə xidməti və uyğun vaxtı göndərir, qeydiyyat şöbəsi isə zəng edib təsdiqləyir. Daha mürəkkəb rezervasiya sistemi layihəyə görə ayrıca qurulur."
             }
           },
           {
             "@type": "Question",
-            "name": "Mobil uyğun (responsive) sayt hazırlayırsınız?",
+            "name": "Fərdi həkim üçün də sayt hazırlayırsınız?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Bəli, bütün saytlarımız mobil, planşet və masaüstü cihazlara tam uyğun şəkildə hazırlanır."
+              "text": "Bəli. Fərdi həkim üçün adətən bir neçə səhifəlik şəxsi sayt kifayət edir: haqqında, xidmətlər, qəbul yeri və vaxtı, əlaqə."
             }
           },
           {
             "@type": "Question",
-            "name": "SEO sayt yaradılması qiymətinə daxildirmi?",
+            "name": "Xidmətləri və qiymətləri özümüz dəyişə bilərik?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Standart vebsayt paketimizə əsas SEO daxildir: başlıqlar, meta təsvirlər, sitemap və sürət optimallaşdırması. Genişləndirilmiş SEO xidməti əlavə ödənişlə təqdim olunur."
+              "text": "Bəli, idarəetmə paneli olan saytlarda xidmətləri, qiymətləri və həkim məlumatlarını özünüz yeniləyirsiniz."
             }
           },
           {
             "@type": "Question",
-            "name": "Yalnız dizayn sifariş edə bilərəmmi?",
+            "name": "Tibbi mətnləri kim yazır?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Əlbəttə! İstəsəniz yalnız UI/UX dizayn xidməti təklif edirik və onu istədiyiniz platforma üçün təhvil veririk."
+              "text": "Tibbi məlumatı həkimləriniz verir və ya yoxlayır. Biz onu pasientin başa düşəcəyi dildə və axtarış sistemlərinə uyğun şəkildə səhifələrə yerləşdiririk."
             }
           },
           {
             "@type": "Question",
-            "name": "Ödəniş necə həyata keçirilir?",
+            "name": "Sayt rus və ingilis dillərində də ola bilər?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Layihənin başlanğıcında ilkin ödəniş alınır, qalan hissəsi isə işin tamamlanmasından sonra həyata keçirilir."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Sayt sifarişi üçün nə etməliyəm?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Əlaqə səhifəsindən, +994 10 451 63 73 nömrəsi ilə və ya WhatsApp vasitəsilə bizə yazın. İdeyanızı dinləyib növbəti addımları birlikdə müəyyənləşdirək."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Sayt hazırlanması ilə sayt yığılması arasında fərq var?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Xeyr, hər ikisi eyni xidmətin adıdır. Əsas fərq yanaşmadadır: hazır şablon və ya biznesinizə uyğun fərdi dizayn. Biz fərdi dizaynla işləyirik."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Bakıdan kənarda da sayt hazırlayırsınız?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Bəli. Azərbaycanın istənilən şəhərindən və xaricdən olan müştərilərlə onlayn işləyirik. Bütün proses uzaqdan aparıla bilər."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Saytımı Google-da necə tapacaqlar?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Hər saytda əsas SEO ayarları edirik: başlıqlar, meta təsvirlər, sitemap və sürət. Daha güclü nəticə üçün ayrıca SEO xidmətimiz var."
+              "text": "Bəli. Əlavə dil versiyaları tələbə görə hazırlanır və qiymət təklifində ayrıca göstərilir."
             }
           }
         ]
       }
     </script>
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <!-- Google Fonts Css-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Bootstrap Css -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
-    <!-- SlickNav Css -->
-    <link href="css/slicknav.min.css" rel="stylesheet" />
-    <!-- Swiper Css -->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <!-- Font Awesome Icon Css-->
-    <link href="css/all.min.css" rel="stylesheet" media="screen" />
-    <!-- Animated Css -->
-    <link href="css/animate.css" rel="stylesheet" />
-    <!-- Magnific Popup Core Css File -->
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <!-- Mouse Cursor Css File -->
-    <link rel="stylesheet" href="css/mousecursor.css" />
-    <!-- Main Custom Css -->
-    <link href="css/custom.css" rel="stylesheet" media="screen" />
     <style>
       .seo-landing { padding: 100px 0; }
       .seo-landing-alt { background: var(--secondary-color); }
       .seo-landing-text p { line-height: 1.7em; margin-bottom: 20px; }
-      .seo-landing-list { list-style: none; padding: 0; margin: 0; }
-      .seo-landing-list li { position: relative; padding: 0 0 16px 32px; line-height: 1.6em; }
+      .seo-landing-text h2 { font-size: 30px; margin: 40px 0 18px; }
+      .seo-landing-text h2:first-child { margin-top: 0; }
+      .seo-landing-text a { color: var(--accent-color); text-decoration: underline; }
+      .seo-landing-list { list-style: none; padding: 0; margin: 0 0 24px; }
+      .seo-landing-list li { position: relative; padding: 0 0 14px 32px; line-height: 1.6em; }
       .seo-landing-list li::before { content: "\2713"; position: absolute; left: 0; top: 0; color: var(--accent-color); font-weight: 700; }
+      .post-meta { color: var(--text-color); font-size: 14px; margin-bottom: 30px; }
+      .post-card { display: block; height: 100%; padding: 30px; border: 1px solid var(--divider-color); border-radius: 20px; text-decoration: none; transition: border-color 0.3s; }
+      .post-card:hover { border-color: var(--accent-color); }
+      .post-card h3 { color: var(--white-color); font-size: 20px; margin-bottom: 12px; line-height: 1.35em; }
+      .post-card p { color: var(--text-color); line-height: 1.6em; margin: 0 0 14px; }
+      .post-card .post-meta { margin: 0; font-size: 13px; }
       .seo-landing-cards > div { margin-bottom: 30px; }
+      .seo-landing-btns { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px; }
+      @media (max-width: 991px) { .seo-landing { padding: 60px 0; } .seo-landing-text h2 { font-size: 24px; } }
+    </style>
+    <style>
       .seo-card { height: 100%; padding: 30px; border: 1px solid var(--divider-color); border-radius: 20px; }
       .seo-card h3 { color: var(--white-color); font-size: 20px; margin-bottom: 14px; }
       .seo-card p { color: var(--text-color); line-height: 1.6em; margin: 0; }
-      .seo-card h3 a { color: inherit; }
       .seo-card-link { display: block; text-decoration: none; transition: border-color 0.3s; }
       .seo-card-link:hover { border-color: var(--accent-color); }
       .seo-card-step { display: block; color: var(--accent-color); font-weight: 700; font-size: 28px; margin-bottom: 14px; }
-      .seo-landing-btns { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px; }
-      @media (max-width: 991px) { .seo-landing { padding: 60px 0; } }
+      .seo-table-wrap { overflow-x: auto; margin-bottom: 24px; }
+      .seo-table { width: 100%; min-width: 560px; border-collapse: collapse; }
+      .seo-table th, .seo-table td { padding: 16px; border-bottom: 1px solid var(--divider-color); text-align: left; vertical-align: top; line-height: 1.5em; }
+      .seo-table th { color: var(--white-color); font-weight: 600; }
+      .seo-table td:first-child { color: var(--white-color); font-weight: 600; }
     </style>
   </head>
   <body>
@@ -225,7 +210,7 @@
     <div class="preloader">
       <div class="loading-container">
         <div class="loading"></div>
-        <div id="loading-icon"><img src="images/logo.svg" alt="" /></div>
+        <div id="loading-icon"><img src="/images/logo.svg" alt="" /></div>
       </div>
     </div>
     <!-- Preloader End -->
@@ -237,7 +222,7 @@
           <div class="container">
             <!-- Logo Start -->
             <a class="navbar-brand" href="/">
-              <img src="images/logo.svg" alt="Webify – sayt yaradılması" />
+              <img src="/images/logo.svg" alt="Webify – sayt yaradılması" />
             </a>
 
             <!-- Logo End -->
@@ -334,267 +319,145 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <!-- Page Header Box Start -->
             <div class="page-header-box">
               <h1 class="text-anime-style-2" data-cursor="-opaque">
-                Klinika <span>saytı</span> sifarişi
+                Klinika <span>saytı</span> hazırlanması
               </h1>
               <nav class="wow fadeInUp" data-wow-delay="0.25s">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item">
-                    <a data-i18n="index_a_1" href="/">Ana Səhifə</a>
+                    <a href="/">Ana Səhifə</a>
                   </li>
                   <li class="breadcrumb-item">
-                    <a data-i18n="index_a_3" href="/services">Xidmətlərimiz</a>
+                    <a href="/services">Xidmətlərimiz</a>
                   </li>
                   <li class="breadcrumb-item active" aria-current="page">
-                    Klinika və Həkim saytı
+                    Klinika saytı
                   </li>
                 </ol>
               </nav>
             </div>
-            <!-- Page Header Box End -->
           </div>
         </div>
       </div>
     </div>
     <!-- Page Header End -->
 
-    <!-- Landing Intro Start -->
     <section class="seo-landing">
       <div class="container">
         <div class="row">
           <div class="col-lg-10">
             <div class="section-title">
-              <h3 class="wow fadeInUp">Tibbi Saytlar</h3>
-              <h2 class="text-anime-style-2" data-cursor="-opaque">
-                Həkimlər və klinikalar üçün <span>etibarlı</span> sayt hazırlanması
-              </h2>
+              <h3 class="wow fadeInUp">Tibbi saytlar</h3>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">Pasient həkimi əvvəlcə <span>Google-da</span> axtarır</h2>
             </div>
             <div class="seo-landing-text wow fadeInUp">
-              <p>
-                Səhiyyə sektorunda xidmət göstərən klinikalar, estetik mərkəzlər və fərdi həkimlər (cərrah, stomatoloq, pediatr) üçün xüsusi olaraq "klinika saytı sifarişi" xidmətimizi təklif edirik. Pasientlər sizin ixtisasınıza dair sağlamlıq problemlərini Google-da axtararkən sizi tapmalı və xidmətlərinizə güvənməlidirlər.
-              </p>
-              <p>
-                Bizim hazırladığımız tibbi saytlar xüsusi dizayn yanaşması tələb edir: açıq rənglər, şəffaflıq, istifadəçi rəyləri və asan oxunan xidmət (müalicə) səhifələri. Sayt vasitəsilə onlayn qəbul (rezervasiya) yazılmaq forması sayəsində pasient qəbulu prosesini tam avtomatlaşdıra bilərsiniz.
-              </p>
-              <p>
-                Əlavə olaraq, bloq bölməsi vasitəsilə pasientləri maarifləndirici məqalələr ("sayt yaradılması" və xüsusi tibbi terminlərə uyğun SEO yazıları) dərc edərək Google-dan böyük bir axtarış həcmini öz səhifənizə yönləndirə bilərsiniz.
-              </p>
+              <p>İnsanlar həkimə getməzdən əvvəl simptomu, xidməti və ya həkimin adını Google-da yazır. Klinikanın saytı yoxdursa və ya telefonda pis açılırsa, pasient axtarışda çıxan növbəti klinikaya zəng edir.</p>
+              <p>Webify klinikalar, stomatoloji və estetik mərkəzlər, laboratoriyalar və fərdi həkimlər üçün sayt hazırlayır. Məqsəd sadədir: pasient xidməti tapsın, həkimə etibar etsin və bir neçə toxunuşla qəbula yazılsın.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Landing Intro End -->
 
-    <!-- Landing Why Start -->
     <section class="seo-landing seo-landing-alt">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-10">
             <div class="section-title">
-              <h3 class="wow fadeInUp">Niyə sayt</h3>
-              <h2 class="text-anime-style-2" data-cursor="-opaque">
-                Niyə biznesə <span>sayt</span> lazımdır?
-              </h2>
+              <h3 class="wow fadeInUp">Bölmələr</h3>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">Klinika saytında <span>nələr</span> olmalıdır?</h2>
             </div>
           </div>
         </div>
         <div class="row seo-landing-cards">
           <div class="col-lg-4 col-md-6">
             <div class="seo-card wow fadeInUp">
-              <h3>Google-dan pulsuz müştəri</h3>
-              <p>İnsanlar xidməti Google-da axtarır. Saytınız yoxdursa, həmin müştəri rəqibinizə gedir.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="seo-card wow fadeInUp" data-wow-delay="0.1s">
-              <h3>24/7 işləyən satıcı</h3>
-              <p>Sayt gecə-gündüz xidmətlərinizi təqdim edir, sualları cavablandırır və müraciət toplayır.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="seo-card wow fadeInUp" data-wow-delay="0.2s">
-              <h3>Etibar</h3>
-              <p>Öz domeni olan peşəkar sayt müştəridə sosial şəbəkə səhifəsindən daha çox etibar yaradır.</p>
+              <h3>Xidmət səhifələri</h3>
+              <p>Hər müayinə və müalicə üçün ayrıca səhifə: kimə lazımdır, necə aparılır, hazırlıq. Hər biri Google-da ayrıca tapılır.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="seo-card wow fadeInUp">
-              <h3>Reklamın səmərəsi</h3>
-              <p>Meta və Google reklamlarından gələn ziyarətçi yaxşı hazırlanmış saytda daha tez müştəriyə çevrilir.</p>
+              <h3>Həkim profilləri</h3>
+              <p>İxtisas, təhsil, iş təcrübəsi, sertifikatlar və qəbul günləri. Pasient kimə gedəcəyini əvvəlcədən görür.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
-            <div class="seo-card wow fadeInUp" data-wow-delay="0.1s">
-              <h3>Sosial şəbəkədən asılılıq azalır</h3>
-              <p>Hesab bloklansa və ya alqoritm dəyişsə belə, saytınız və müştəri bazanız sizdə qalır.</p>
+            <div class="seo-card wow fadeInUp">
+              <h3>Onlayn qəbul forması</h3>
+              <p>Pasient xidməti və uyğun vaxtı seçib sorğu göndərir, qeydiyyat şöbəsi zənglə təsdiqləyir.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
-            <div class="seo-card wow fadeInUp" data-wow-delay="0.2s">
-              <h3>Ölçülə bilən nəticə</h3>
-              <p>Neçə nəfərin gəldiyini, haradan gəldiyini və nə etdiyini görür, marketinqi buna görə qurursunuz.</p>
+            <div class="seo-card wow fadeInUp">
+              <h3>Qiymət cədvəli</h3>
+              <p>Əsas xidmətlərin qiymətləri. Qiyməti görən pasient zəng etməyə daha tez qərar verir.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="seo-card wow fadeInUp">
+              <h3>Ünvan və iş saatları</h3>
+              <p>Xəritə, filiallar, telefon və WhatsApp düyməsi hər səhifədə əl altında olur.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="seo-card wow fadeInUp">
+              <h3>Maarifləndirici bloq</h3>
+              <p>Həkimlərin yazdığı məqalələr sağlamlıqla bağlı axtarışlardan sayta yeni pasientlər gətirir.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Landing Why End -->
 
-    <!-- Landing Terms Start -->
     <section class="seo-landing">
       <div class="container">
         <div class="row">
           <div class="col-lg-10">
             <div class="section-title">
-              <h3 class="wow fadeInUp">Terminlər</h3>
-              <h2 class="text-anime-style-2" data-cursor="-opaque">
-                Sayt yaradılması, hazırlanması, <span>yığılması</span>: fərq nədir?
-              </h2>
+              <h3 class="wow fadeInUp">Etibar</h3>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">Tibbi saytda <span>dəqiqlik</span> dizayndan vacibdir</h2>
             </div>
             <div class="seo-landing-text wow fadeInUp">
-              <p>
-                Azərbaycanda eyni xidmətə müxtəlif adlar deyilir: sayt yaradılması, veb sayt hazırlanması, saytların yığılması, vebsayt sifarişi və ya sadəcə sayt yaratmaq. Hamısı eyni işdir: biznesiniz üçün dizaynı hazırlanan, proqramlaşdırılan və internetdə yayımlanan sayt.
-              </p>
-              <p>
-                Fərq sözdə yox, yanaşmadadır. Hazır şablona mətn yerləşdirmək də sayt yığılması adlanır, biznesin məqsədinə uyğun sıfırdan dizayn edilmiş, sürətli və SEO-ya hazır sayt da. Webify ikinci yolla işləyir: hər saytı fərdi dizaynla və müasir texnologiyalarla hazırlayırıq.
-              </p>
-              <p>
-                Ofisimiz Bakıda, Yasamal rayonundadır, amma yalnız Bakı ilə məhdudlaşmırıq. Sumqayıt, Gəncə və Azərbaycanın digər şəhərlərindən, eləcə də xaricdən olan müştərilərlə onlayn işləyirik. Portfoliomuzda Almaniya və Rusiyadakı bizneslər üçün hazırlanmış saytlar da var.
-              </p>
+              <p>Sağlamlıq mövzusunda Google səhifənin kimin tərəfindən yazıldığına və məlumatın nə dərəcədə etibarlı olduğuna xüsusi diqqət yetirir. Pasient də eyni şeyə baxır. Ona görə tibbi saytı adi vizit saytı kimi qurmaq olmaz.</p>
+              <ul class="seo-landing-list">
+                <li>Tibbi mətnlərin müəllifi və ya yoxlayan həkim adı ilə göstərilir</li>
+                <li>Lisenziya və sertifikatlar ayrıca bölmədə yerləşdirilir</li>
+                <li>Müalicə nəticəsi ilə bağlı zəmanət vədləri yazılmır, real məlumat verilir</li>
+                <li>Pasient məlumatı toplayan formalar təhlükəsiz HTTPS bağlantısı ilə işləyir</li>
+                <li>Dizayn sakit və oxunaqlıdır: iri şrift, aydın düymələr, yaşlı pasientlər üçün də rahat</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Landing Terms End -->
 
-    <!-- Landing Site Types Start -->
     <section class="seo-landing seo-landing-alt">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-10">
             <div class="section-title">
-              <h3 class="wow fadeInUp">Sayt növləri</h3>
-              <h2 class="text-anime-style-2" data-cursor="-opaque">
-                Hansı <span>saytları</span> hazırlayırıq?
-              </h2>
+              <h3 class="wow fadeInUp">Lokal SEO</h3>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">“Yaxınlıqda stomatoloq” axtarışında <span>görünmək</span></h2>
             </div>
-          </div>
-        </div>
-        <div class="row seo-landing-cards">
-          <div class="col-lg-4 col-md-6">
-            <div class="seo-card wow fadeInUp">
-              <h3><a href="/korporativ-sayt">Korporativ sayt</a></h3>
-              <p>
-                Şirkətinizi, xidmətlərinizi və komandanızı təqdim edən,
-                etibar yaradan və müraciət toplayan çoxsəhifəli sayt.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="seo-card wow fadeInUp" data-wow-delay="0.1s">
-              <h3><a href="/onlayn-magaza-yaradilmasi">Onlayn mağaza</a></h3>
-              <p>
-                Məhsul kataloqu, səbət və sifariş axını olan internet mağaza.
-                Satışı sosial şəbəkələrdən öz saytınıza daşıyın.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="seo-card wow fadeInUp" data-wow-delay="0.2s">
-              <h3>Landing page</h3>
-              <p>
-                Bir məhsul, kampaniya və ya xidmət üçün reklam trafikini
-                müraciətə çevirən, tez hazırlanan bir səhifəlik sayt.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="seo-card wow fadeInUp">
-              <h3>Portfolio və şəxsi sayt</h3>
-              <p>
-                Həkim, vəkil, dizayner və digər mütəxəssislər üçün işlərini və
-                təcrübəsini göstərən şəxsi brend saytı.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="seo-card wow fadeInUp" data-wow-delay="0.1s">
-              <h3>Veb tətbiq</h3>
-              <p>
-                Qeydiyyat, şəxsi kabinet, rezervasiya və ya daxili idarəetmə
-                sistemi kimi xüsusi funksionallıq tələb edən layihələr.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="seo-card wow fadeInUp" data-wow-delay="0.2s">
-              <h3>UI/UX dizayn</h3>
-              <p>
-                Yalnız dizayn lazımdırsa, saytın və ya tətbiqin interfeysini
-                Figma-da hazırlayıb istədiyiniz komandaya təhvil veririk.
-              </p>
+            <div class="seo-landing-text wow fadeInUp">
+              <p>Klinika axtarışlarının çoxu yerlə bağlıdır: rayonun adı, “yaxınlıqda” və ya metro stansiyası. Belə axtarışlarda Google əvvəlcə xəritəni göstərir, ona görə sayt Google Business Profile ilə birlikdə işləməlidir.</p>
+              <p>Saytı hazırlayarkən ünvan, telefon və iş saatlarını strukturlaşdırılmış data ilə qeyd edir, hər xidmət səhifəsini öz açar sözünə uyğunlaşdırırıq. Profili necə açmaq barədə <a href="/bloq/google-business-profile-nece-acilir">Google Business Profile bələdçimizə</a>, klinika saytının məzmunu barədə isə <a href="/bloq/klinika-ve-hekim-ucun-sayt">klinika və həkim üçün sayt</a> məqaləsinə baxa bilərsiniz.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Landing Site Types End -->
 
-    <!-- Landing Included Start -->
     <section class="seo-landing">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
-            <div class="section-title">
-              <h3 class="wow fadeInUp">Nələr daxildir</h3>
-              <h2 class="text-anime-style-2" data-cursor="-opaque">
-                Hər <span>saytda</span> standart olaraq
-              </h2>
-            </div>
-            <ul class="seo-landing-list wow fadeInUp">
-              <li>Biznesinizə uyğun fərdi dizayn, hazır şablon yox</li>
-              <li>Telefon, planşet və kompüterdə tam mobil uyğunluq</li>
-              <li>Sürətli yüklənmə üçün optimallaşdırılmış kod və şəkillər</li>
-              <li>Əsas SEO: başlıqlar, meta təsvirlər, sitemap, strukturlaşdırılmış data</li>
-              <li>Əlaqə forması, WhatsApp və zəng düymələri</li>
-              <li>Sosial şəbəkələr və Meta reklamlarla inteqrasiyaya hazırlıq</li>
-            </ul>
-          </div>
-          <div class="col-lg-6">
-            <div class="section-title">
-              <h3 class="wow fadeInUp">Texnologiyalar</h3>
-              <h2 class="text-anime-style-2" data-cursor="-opaque">
-                Müasir <span>alətlərlə</span> hazırlanır
-              </h2>
-            </div>
-            <div class="seo-landing-text wow fadeInUp">
-              <p>
-                Dizaynı Figma, Adobe XD, Illustrator və Photoshop-da, saytın
-                özünü isə React, Next.js və Tailwind CSS kimi müasir
-                texnologiyalarla hazırlayırıq. Bu, saytınızı gələcəkdə böyütməyi
-                və yeniləməyi asanlaşdırır.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Landing Included End -->
-
-    <!-- Landing Process Start -->
-    <section class="seo-landing seo-landing-alt">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-10">
             <div class="section-title">
               <h3 class="wow fadeInUp">İş prosesi</h3>
-              <h2 class="text-anime-style-2" data-cursor="-opaque">
-                Sayt yaradılması <span>necə</span> gedir?
-              </h2>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">Klinika saytı <span>necə</span> hazırlanır?</h2>
             </div>
           </div>
         </div>
@@ -603,165 +466,41 @@
             <div class="seo-card wow fadeInUp">
               <span class="seo-card-step">01</span>
               <h3>Analiz</h3>
-              <p>
-                Məqsədlərinizi, auditoriyanızı və rəqibləri öyrənir, saytın
-                strukturunu və səhifələrini müəyyənləşdiririk.
-              </p>
+              <p>Xidmətlərin siyahısını, həkimləri və pasientlərin ən çox verdiyi sualları toplayırıq.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <div class="seo-card wow fadeInUp" data-wow-delay="0.1s">
+            <div class="seo-card wow fadeInUp">
               <span class="seo-card-step">02</span>
-              <h3>Dizayn</h3>
-              <p>
-                İstifadəçiyə yönəlik UI/UX dizayn hazırlayır, sizinlə
-                razılaşdırdıqdan sonra növbəti mərhələyə keçirik.
-              </p>
+              <h3>Struktur və dizayn</h3>
+              <p>Xidmət və həkim səhifələrinin strukturunu qurur, klinikanın üslubuna uyğun dizayn hazırlayırıq.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <div class="seo-card wow fadeInUp" data-wow-delay="0.2s">
+            <div class="seo-card wow fadeInUp">
               <span class="seo-card-step">03</span>
-              <h3>Proqramlaşdırma</h3>
-              <p>
-                Saytı sürətli və mobil uyğun şəkildə kodlaşdırır, bütün
-                cihazlarda test edirik.
-              </p>
+              <h3>Hazırlanma</h3>
+              <p>Saytı kodlaşdırır, qəbul formasını qoşur və bütün cihazlarda yoxlayırıq.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <div class="seo-card wow fadeInUp" data-wow-delay="0.3s">
+            <div class="seo-card wow fadeInUp">
               <span class="seo-card-step">04</span>
-              <h3>Yayım və SEO</h3>
-              <p>
-                Saytı yayıma çıxarır, əsas SEO ayarlarını edir və Google-a
-                təqdim edirik.
-              </p>
+              <h3>Yayım</h3>
+              <p>Saytı yayıma çıxarır, Google-a təqdim edir və paneldən istifadəni izah edirik.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Landing Process End -->
 
-    <!-- Landing Price Start -->
-    <section class="seo-landing">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10">
-            <div class="section-title">
-              <h3 class="wow fadeInUp">Qiymət</h3>
-              <h2 class="text-anime-style-2" data-cursor="-opaque">
-                Sayt yaratmaq <span>neçəyə</span> başa gəlir?
-              </h2>
-            </div>
-            <div class="seo-landing-text wow fadeInUp">
-              <p>
-                Saytın qiyməti onun həcmindən və funksionallığından asılıdır.
-                Qiymətə əsasən bunlar təsir edir: səhifələrin sayı, dizaynın
-                mürəkkəbliyi, onlayn ödəniş, şəxsi kabinet kimi xüsusi
-                funksiyalar, dil versiyalarının sayı və mətnlərin kimin
-                tərəfindən hazırlanması.
-              </p>
-              <p>
-                Ödəniş iki hissədə aparılır: layihənin başlanğıcında ilkin
-                ödəniş, qalan hissə isə iş tamamlandıqdan sonra. Dəqiq qiymət
-                üçün bizə yazın, layihənizi dinləyib pulsuz konsultasiya və
-                qiymət təklifi hazırlayaq.
-              </p>
-            </div>
-            <div class="seo-landing-btns wow fadeInUp">
-              <a href="/contact" class="btn-default">Pulsuz qiymət təklifi al</a>
-              <a href="https://wa.me/994104516373" target="_blank" rel="noopener" class="btn-default">WhatsApp-da yaz</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Landing Price End -->
-
-    <!-- Landing Portfolio Start -->
-    <section class="seo-landing seo-landing-alt">
-      <div class="container">
-        <div class="row section-row align-items-center">
-          <div class="col-lg-9">
-            <div class="section-title">
-              <h3 class="wow fadeInUp">Portfolio</h3>
-              <h2 class="text-anime-style-2" data-cursor="-opaque">
-                Hazırladığımız <span>saytlardan</span> nümunələr
-              </h2>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="section-btn wow fadeInUp">
-              <a href="/portfolio" class="btn-default">Bütün işlər</a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="work-item wow fadeInUp">
-              <div class="work-image">
-                <a href="/portfolio" data-cursor-text="View">
-                  <figure class="image-anime">
-                    <img loading="lazy" decoding="async" src="images/climat.webp" srcset="images/climat-800.webp 800w, images/climat.webp 1400w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 50vw, 33vw" alt="Climat.az üçün hazırlanmış sayt" />
-                  </figure>
-                </a>
-              </div>
-              <div class="work-body">
-                <div class="work-content">
-                  <h3><a href="/portfolio">Climat</a></h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="work-item wow fadeInUp" data-wow-delay="0.1s">
-              <div class="work-image">
-                <a href="/portfolio" data-cursor-text="View">
-                  <figure class="image-anime">
-                    <img loading="lazy" decoding="async" src="images/iberauto-port.webp" srcset="images/iberauto-port-800.webp 800w, images/iberauto-port.webp 1400w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 50vw, 33vw" alt="İberAuto üçün hazırlanmış sayt" />
-                  </figure>
-                </a>
-              </div>
-              <div class="work-body">
-                <div class="work-content">
-                  <h3><a href="/portfolio">İberAuto</a></h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="work-item wow fadeInUp" data-wow-delay="0.2s">
-              <div class="work-image">
-                <a href="/portfolio" data-cursor-text="View">
-                  <figure class="image-anime">
-                    <img loading="lazy" decoding="async" src="images/oboyevi-port.webp" srcset="images/oboyevi-port-800.webp 800w, images/oboyevi-port.webp 1400w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 50vw, 33vw" alt="Oboy Evi üçün hazırlanmış sayt" />
-                  </figure>
-                </a>
-              </div>
-              <div class="work-body">
-                <div class="work-content">
-                  <h3><a href="/portfolio">Oboy Evi</a></h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Landing Portfolio End -->
-
-    <!-- Landing FAQ Start -->
     <div class="our-faqs">
       <div class="container">
         <div class="row section-row align-items-center">
           <div class="col-lg-9">
             <div class="section-title">
               <h3 class="wow fadeInUp">FAQ</h3>
-              <h2 class="text-anime-style-2" data-cursor="-opaque">
-                Sayt yaradılması haqqında <span>suallar</span>
-              </h2>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">Tez-tez verilən <span>suallar</span></h2>
             </div>
           </div>
         </div>
@@ -771,262 +510,62 @@
               <div class="faq-accordion" id="accordion">
                 <div class="accordion-item wow fadeInUp">
                   <h2 class="accordion-header" id="heading1">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapse1"
-                      aria-expanded="true"
-                      aria-controls="collapse1"
-                    >
-                      Sayt yaratmaq neçə günə başa gəlir?
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                      Klinika saytı neçə günə hazır olur?
                     </button>
                   </h2>
-                  <div
-                    id="collapse1"
-                    class="accordion-collapse collapse show"
-                    aria-labelledby="heading1"
-                    data-bs-parent="#accordion"
-                  >
-                    <div class="accordion-body">
-                      <p>
-                        Hazırlanacaq saytın funksionallığından asılı olaraq sayt yaradılması 5 gündən 30 günədək çəkir. Landing page adətən bir neçə günə, onlayn mağaza və ya veb tətbiq isə daha uzun müddətə hazır olur.
-                      </p>
-                    </div>
+                  <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
+                    <div class="accordion-body"><p>Xidmətlərin və həkim profillərinin sayından asılı olaraq 5 gündən 30 günədək çəkir. Dəqiq müddəti struktur razılaşdırıldıqdan sonra deyirik.</p></div>
                   </div>
                 </div>
-                <div class="accordion-item wow fadeInUp" data-wow-delay="0.1s">
+                <div class="accordion-item wow fadeInUp">
                   <h2 class="accordion-header" id="heading2">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapse2"
-                      aria-expanded="false"
-                      aria-controls="collapse2"
-                    >
-                      Sayt yaratmaq neçəyə başa gəlir?
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                      Onlayn qəbul necə işləyir?
                     </button>
                   </h2>
-                  <div
-                    id="collapse2"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="heading2"
-                    data-bs-parent="#accordion"
-                  >
-                    <div class="accordion-body">
-                      <p>
-                        Qiymət səhifələrin sayından, dizaynın mürəkkəbliyindən və xüsusi funksiyalardan (onlayn ödəniş, şəxsi kabinet, dil versiyaları) asılıdır. Layihənizi dinləyib pulsuz konsultasiya və dəqiq qiymət təklifi hazırlayırıq.
-                      </p>
-                    </div>
+                  <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
+                    <div class="accordion-body"><p>Ən sadə variantda pasient forma ilə xidməti və uyğun vaxtı göndərir, qeydiyyat şöbəsi isə zəng edib təsdiqləyir. Daha mürəkkəb rezervasiya sistemi layihəyə görə ayrıca qurulur.</p></div>
                   </div>
                 </div>
-                <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
+                <div class="accordion-item wow fadeInUp">
                   <h2 class="accordion-header" id="heading3">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapse3"
-                      aria-expanded="false"
-                      aria-controls="collapse3"
-                    >
-                      Mobil uyğun (responsive) sayt hazırlayırsınız?
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                      Fərdi həkim üçün də sayt hazırlayırsınız?
                     </button>
                   </h2>
-                  <div
-                    id="collapse3"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="heading3"
-                    data-bs-parent="#accordion"
-                  >
-                    <div class="accordion-body">
-                      <p>
-                        Bəli, bütün saytlarımız mobil, planşet və masaüstü cihazlara tam uyğun şəkildə hazırlanır.
-                      </p>
-                    </div>
+                  <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
+                    <div class="accordion-body"><p>Bəli. Fərdi həkim üçün adətən bir neçə səhifəlik şəxsi sayt kifayət edir: haqqında, xidmətlər, qəbul yeri və vaxtı, əlaqə.</p></div>
                   </div>
                 </div>
-                <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
+                <div class="accordion-item wow fadeInUp">
                   <h2 class="accordion-header" id="heading4">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapse4"
-                      aria-expanded="false"
-                      aria-controls="collapse4"
-                    >
-                      SEO sayt yaradılması qiymətinə daxildirmi?
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                      Xidmətləri və qiymətləri özümüz dəyişə bilərik?
                     </button>
                   </h2>
-                  <div
-                    id="collapse4"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="heading4"
-                    data-bs-parent="#accordion"
-                  >
-                    <div class="accordion-body">
-                      <p>
-                        Standart vebsayt paketimizə əsas SEO daxildir: başlıqlar, meta təsvirlər, sitemap və sürət optimallaşdırması. Genişləndirilmiş SEO xidməti əlavə ödənişlə təqdim olunur.
-                      </p>
-                    </div>
+                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
+                    <div class="accordion-body"><p>Bəli, idarəetmə paneli olan saytlarda xidmətləri, qiymətləri və həkim məlumatlarını özünüz yeniləyirsiniz.</p></div>
                   </div>
                 </div>
-                <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+                <div class="accordion-item wow fadeInUp">
                   <h2 class="accordion-header" id="heading5">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapse5"
-                      aria-expanded="false"
-                      aria-controls="collapse5"
-                    >
-                      Yalnız dizayn sifariş edə bilərəmmi?
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                      Tibbi mətnləri kim yazır?
                     </button>
                   </h2>
-                  <div
-                    id="collapse5"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="heading5"
-                    data-bs-parent="#accordion"
-                  >
-                    <div class="accordion-body">
-                      <p>
-                        Əlbəttə! İstəsəniz yalnız UI/UX dizayn xidməti təklif edirik və onu istədiyiniz platforma üçün təhvil veririk.
-                      </p>
-                    </div>
+                  <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion">
+                    <div class="accordion-body"><p>Tibbi məlumatı həkimləriniz verir və ya yoxlayır. Biz onu pasientin başa düşəcəyi dildə və axtarış sistemlərinə uyğun şəkildə səhifələrə yerləşdiririk.</p></div>
                   </div>
                 </div>
-                <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
+                <div class="accordion-item wow fadeInUp">
                   <h2 class="accordion-header" id="heading6">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapse6"
-                      aria-expanded="false"
-                      aria-controls="collapse6"
-                    >
-                      Ödəniş necə həyata keçirilir?
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                      Sayt rus və ingilis dillərində də ola bilər?
                     </button>
                   </h2>
-                  <div
-                    id="collapse6"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="heading6"
-                    data-bs-parent="#accordion"
-                  >
-                    <div class="accordion-body">
-                      <p>
-                        Layihənin başlanğıcında ilkin ödəniş alınır, qalan hissəsi isə işin tamamlanmasından sonra həyata keçirilir.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
-                  <h2 class="accordion-header" id="heading7">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapse7"
-                      aria-expanded="false"
-                      aria-controls="collapse7"
-                    >
-                      Sayt sifarişi üçün nə etməliyəm?
-                    </button>
-                  </h2>
-                  <div
-                    id="collapse7"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="heading7"
-                    data-bs-parent="#accordion"
-                  >
-                    <div class="accordion-body">
-                      <p>
-                        Əlaqə səhifəsindən, +994 10 451 63 73 nömrəsi ilə və ya WhatsApp vasitəsilə bizə yazın. İdeyanızı dinləyib növbəti addımları birlikdə müəyyənləşdirək.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                  <h2 class="accordion-header" id="heading8">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapse8"
-                      aria-expanded="false"
-                      aria-controls="collapse8"
-                    >
-                      Sayt hazırlanması ilə sayt yığılması arasında fərq var?
-                    </button>
-                  </h2>
-                  <div
-                    id="collapse8"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="heading8"
-                    data-bs-parent="#accordion"
-                  >
-                    <div class="accordion-body">
-                      <p>
-                        Xeyr, hər ikisi eyni xidmətin adıdır. Əsas fərq yanaşmadadır: hazır şablon və ya biznesinizə uyğun fərdi dizayn. Biz fərdi dizaynla işləyirik.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                  <h2 class="accordion-header" id="heading9">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapse9"
-                      aria-expanded="false"
-                      aria-controls="collapse9"
-                    >
-                      Bakıdan kənarda da sayt hazırlayırsınız?
-                    </button>
-                  </h2>
-                  <div
-                    id="collapse9"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="heading9"
-                    data-bs-parent="#accordion"
-                  >
-                    <div class="accordion-body">
-                      <p>
-                        Bəli. Azərbaycanın istənilən şəhərindən və xaricdən olan müştərilərlə onlayn işləyirik. Bütün proses uzaqdan aparıla bilər.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                  <h2 class="accordion-header" id="heading10">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapse10"
-                      aria-expanded="false"
-                      aria-controls="collapse10"
-                    >
-                      Saytımı Google-da necə tapacaqlar?
-                    </button>
-                  </h2>
-                  <div
-                    id="collapse10"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="heading10"
-                    data-bs-parent="#accordion"
-                  >
-                    <div class="accordion-body">
-                      <p>
-                        Hər saytda əsas SEO ayarları edirik: başlıqlar, meta təsvirlər, sitemap və sürət. Daha güclü nəticə üçün ayrıca <a href="/seo-xidmeti">SEO xidmətimiz</a> var.
-                      </p>
-                    </div>
+                  <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordion">
+                    <div class="accordion-body"><p>Bəli. Əlavə dil versiyaları tələbə görə hazırlanır və qiymət təklifində ayrıca göstərilir.</p></div>
                   </div>
                 </div>
               </div>
@@ -1035,86 +574,28 @@
         </div>
       </div>
     </div>
-    <!-- Landing FAQ End -->
-
     <section class="seo-landing seo-landing-alt">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-10">
             <div class="section-title">
-              <h3 class="wow fadeInUp">Faydalı səhifələr</h3>
-              <h2 class="text-anime-style-2" data-cursor="-opaque">
-                Bunlar da <span>maraqlı</span> ola bilər
-              </h2>
+              <h3 class="wow fadeInUp">Başlayaq</h3>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">Klinikanız üçün sayt lazımdır?</h2>
             </div>
-          </div>
-        </div>
-        <div class="row seo-landing-cards">
-          <div class="col-lg-3 col-md-6">
-            <a class="seo-card seo-card-link wow fadeInUp" href="/korporativ-sayt">
-              <h3>Korporativ sayt</h3>
-              <p>Şirkətiniz üçün çoxsəhifəli sayt</p>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <a class="seo-card seo-card-link wow fadeInUp" href="/onlayn-magaza-yaradilmasi">
-              <h3>Onlayn mağaza</h3>
-              <p>Kataloq, səbət və onlayn ödəniş</p>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <a class="seo-card seo-card-link wow fadeInUp" href="/seo-xidmeti">
-              <h3>SEO xidməti</h3>
-              <p>Saytınızı Google-da irəli çıxarın</p>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <a class="seo-card seo-card-link wow fadeInUp" href="/sayt-nece-yaradilir">
-              <h3>Sayt necə yaradılır?</h3>
-              <p>Addım-addım bələdçi</p>
-            </a>
+            <div class="seo-landing-text wow fadeInUp">
+              <p>
+                Layihənizi dinləyək, sizə uyğun həlli və qiyməti pulsuz
+                konsultasiyada deyək. Zəng edin: +994 10 451 63 73.
+              </p>
+            </div>
+            <div class="seo-landing-btns wow fadeInUp">
+              <a href="/contact" class="btn-default">Pulsuz konsultasiya al</a>
+              <a href="https://wa.me/994104516373" target="_blank" rel="noopener" class="btn-default">WhatsApp-da yaz</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Blog Links Start -->
-    <section class="seo-landing">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-title">
-              <h3 class="wow fadeInUp">Bloq</h3>
-              <h2 class="text-anime-style-2" data-cursor="-opaque">
-                Bu mövzuda <span>məqalələrimiz</span>
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="row seo-landing-cards">
-          <div class="col-lg-4 col-md-6">
-            <a class="seo-card seo-card-link wow fadeInUp" href="/bloq/sayt-yaratmaq-neceye-basa-gelir">
-              <h3>Sayt yaratmaq neçəyə başa gəlir?</h3>
-              <p>Saytın qiyməti nədən asılıdır: səhifə sayı, dizayn, funksiyalar, domen və hostinq. Qiymət təklifini oxumağı və gizli xərcləri görməyi izah edirik.</p>
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <a class="seo-card seo-card-link wow fadeInUp" data-wow-delay="0.1s" href="/bloq/sayt-sifarisi-zamani-nelere-diqqet-etmeli">
-              <h3>Sayt sifariş edərkən nələrə diqqət etmək lazımdır?</h3>
-              <p>Sayt sifarişindən əvvəl razılaşdırılmalı məsələlər: iş əhatəsi, müddət, ödəniş, domen sahibliyi, mənbə kodu və təhvildən sonrakı dəstək.</p>
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <a class="seo-card seo-card-link wow fadeInUp" data-wow-delay="0.2s" href="/bloq/wordpress-yoxsa-ferdi-sayt">
-              <h3>WordPress yoxsa fərdi hazırlanmış sayt?</h3>
-              <p>WordPress, sayt konstruktorları və fərdi hazırlanmış saytın müqayisəsi: qiymət, sürət, təhlükəsizlik, SEO və uzunmüddətli xərclər.</p>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Blog Links End -->
-
     <!-- Footer Section Start -->
     <footer class="footer-section">
       <div class="footer-box bg-section">
@@ -1145,7 +626,7 @@
                 <div class="about-footer">
                   <!-- Footer Logo Start -->
                   <div class="footer-logo">
-                    <img src="images/logo.svg" alt="" />
+                    <img src="/images/logo.svg" alt="" />
                   </div>
                   <!-- Footer Logo End -->
 
@@ -1218,11 +699,12 @@
                 <div class="footer-links">
                   <h3 data-i18n="index_footer_services">Xidmətlərimiz</h3>
                   <ul>
-                    <li><a href="/services">UI/UX Dizayn</a></li>
-                    <li><a href="/services">Qrafik Dizayn</a></li>
-                    <li><a href="/sayt-yaradilmasi">Sayt yaradılması</a></li>
-                    <li><a href="/seo-xidmeti">SEO Xidmətləri</a></li>
-                    <li><a href="/services">Meta Reklamlar</a></li>
+                    <li><a href="/sayt-hazirlanmasi">Sayt hazırlanması</a></li>
+                    <li><a href="/sayt-sifarisi">Sayt sifarişi</a></li>
+                    <li><a href="/sayt-qiymetleri">Sayt qiymətləri</a></li>
+                    <li><a href="/korporativ-sayt">Korporativ sayt</a></li>
+                    <li><a href="/onlayn-magaza-yaradilmasi">Onlayn mağaza</a></li>
+                    <li><a href="/seo-xidmeti">SEO xidməti</a></li>
                   </ul>
                 </div>
                 <!-- About Links End -->
@@ -1300,39 +782,39 @@
     <!-- Footer Section End -->
 
     <!-- Jquery Library File -->
-    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="/js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap js file -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <!-- Validator js file -->
-    <script src="js/validator.min.js"></script>
+    <script src="/js/validator.min.js"></script>
     <!-- SlickNav js file -->
-    <script src="js/jquery.slicknav.js"></script>
+    <script src="/js/jquery.slicknav.js"></script>
     <!-- Swiper js file -->
-    <script src="js/swiper-bundle.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
     <!-- Counter js file -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
+    <script src="/js/jquery.waypoints.min.js"></script>
+    <script src="/js/jquery.counterup.min.js"></script>
     <!-- Isotop js file -->
-    <script src="js/isotope.min.js"></script>
+    <script src="/js/isotope.min.js"></script>
     <!-- Magnific js file -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
     <!-- SmoothScroll -->
-    <script src="js/SmoothScroll.js"></script>
+    <script src="/js/SmoothScroll.js"></script>
     <!-- Parallax js -->
-    <script src="js/parallaxie.js"></script>
+    <script src="/js/parallaxie.js"></script>
     <!-- MagicCursor js file -->
-    <script src="js/gsap.min.js"></script>
-    <script src="js/magiccursor.js"></script>
+    <script src="/js/gsap.min.js"></script>
+    <script src="/js/magiccursor.js"></script>
     <!-- Text Effect js file -->
-    <script src="js/SplitText.js"></script>
-    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="/js/SplitText.js"></script>
+    <script src="/js/ScrollTrigger.min.js"></script>
     <!-- YTPlayer js File -->
-    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="/js/jquery.mb.YTPlayer.min.js"></script>
     <!-- Wow js file -->
-    <script src="js/wow.min.js"></script>
+    <script src="/js/wow.min.js"></script>
     <!-- Main Custom js file -->
-    <script src="js/function.js"></script>
+    <script src="/js/function.js"></script>
 
-    <script src="js/translate_page.js"></script>
+    <script src="/js/translate_page.js"></script>
   </body>
 </html>

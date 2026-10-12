@@ -1,0 +1,73 @@
+{
+  "slug": "klinika-sayti",
+  "crumb": "Klinika saytı",
+  "serviceType": "Klinika saytının hazırlanması",
+  "serviceName": "Klinika və həkimlər üçün sayt hazırlanması",
+  "metaTitle": "Klinika Saytı Hazırlanması – Həkim və Tibb Mərkəzi üçün Sayt | Webify",
+  "description": "Klinika, stomatologiya və fərdi həkimlər üçün sayt hazırlanması: xidmət və həkim səhifələri, onlayn qəbul forması, mobil uyğun dizayn və lokal SEO.",
+  "h1": "Klinika <span>saytı</span> hazırlanması",
+  "cta": "Klinikanız üçün sayt lazımdır?",
+  "sections": [
+    {
+      "eyebrow": "Tibbi saytlar",
+      "h2": "Pasient həkimi əvvəlcə <span>Google-da</span> axtarır",
+      "paras": [
+        "İnsanlar həkimə getməzdən əvvəl simptomu, xidməti və ya həkimin adını Google-da yazır. Klinikanın saytı yoxdursa və ya telefonda pis açılırsa, pasient axtarışda çıxan növbəti klinikaya zəng edir.",
+        "Webify klinikalar, stomatoloji və estetik mərkəzlər, laboratoriyalar və fərdi həkimlər üçün sayt hazırlayır. Məqsəd sadədir: pasient xidməti tapsın, həkimə etibar etsin və bir neçə toxunuşla qəbula yazılsın."
+      ]
+    },
+    {
+      "eyebrow": "Bölmələr",
+      "h2": "Klinika saytında <span>nələr</span> olmalıdır?",
+      "cards": [
+        { "title": "Xidmət səhifələri", "text": "Hər müayinə və müalicə üçün ayrıca səhifə: kimə lazımdır, necə aparılır, hazırlıq. Hər biri Google-da ayrıca tapılır." },
+        { "title": "Həkim profilləri", "text": "İxtisas, təhsil, iş təcrübəsi, sertifikatlar və qəbul günləri. Pasient kimə gedəcəyini əvvəlcədən görür." },
+        { "title": "Onlayn qəbul forması", "text": "Pasient xidməti və uyğun vaxtı seçib sorğu göndərir, qeydiyyat şöbəsi zənglə təsdiqləyir." },
+        { "title": "Qiymət cədvəli", "text": "Əsas xidmətlərin qiymətləri. Qiyməti görən pasient zəng etməyə daha tez qərar verir." },
+        { "title": "Ünvan və iş saatları", "text": "Xəritə, filiallar, telefon və WhatsApp düyməsi hər səhifədə əl altında olur." },
+        { "title": "Maarifləndirici bloq", "text": "Həkimlərin yazdığı məqalələr sağlamlıqla bağlı axtarışlardan sayta yeni pasientlər gətirir." }
+      ]
+    },
+    {
+      "eyebrow": "Etibar",
+      "h2": "Tibbi saytda <span>dəqiqlik</span> dizayndan vacibdir",
+      "paras": [
+        "Sağlamlıq mövzusunda Google səhifənin kimin tərəfindən yazıldığına və məlumatın nə dərəcədə etibarlı olduğuna xüsusi diqqət yetirir. Pasient də eyni şeyə baxır. Ona görə tibbi saytı adi vizit saytı kimi qurmaq olmaz."
+      ],
+      "list": [
+        "Tibbi mətnlərin müəllifi və ya yoxlayan həkim adı ilə göstərilir",
+        "Lisenziya və sertifikatlar ayrıca bölmədə yerləşdirilir",
+        "Müalicə nəticəsi ilə bağlı zəmanət vədləri yazılmır, real məlumat verilir",
+        "Pasient məlumatı toplayan formalar təhlükəsiz HTTPS bağlantısı ilə işləyir",
+        "Dizayn sakit və oxunaqlıdır: iri şrift, aydın düymələr, yaşlı pasientlər üçün də rahat"
+      ]
+    },
+    {
+      "eyebrow": "Lokal SEO",
+      "h2": "“Yaxınlıqda stomatoloq” axtarışında <span>görünmək</span>",
+      "paras": [
+        "Klinika axtarışlarının çoxu yerlə bağlıdır: rayonun adı, “yaxınlıqda” və ya metro stansiyası. Belə axtarışlarda Google əvvəlcə xəritəni göstərir, ona görə sayt Google Business Profile ilə birlikdə işləməlidir.",
+        "Saytı hazırlayarkən ünvan, telefon və iş saatlarını strukturlaşdırılmış data ilə qeyd edir, hər xidmət səhifəsini öz açar sözünə uyğunlaşdırırıq. Profili necə açmaq barədə <a href=\"/bloq/google-business-profile-nece-acilir\">Google Business Profile bələdçimizə</a>, klinika saytının məzmunu barədə isə <a href=\"/bloq/klinika-ve-hekim-ucun-sayt\">klinika və həkim üçün sayt</a> məqaləsinə baxa bilərsiniz."
+      ]
+    },
+    {
+      "eyebrow": "İş prosesi",
+      "h2": "Klinika saytı <span>necə</span> hazırlanır?",
+      "steps": true,
+      "cards": [
+        { "title": "Analiz", "text": "Xidmətlərin siyahısını, həkimləri və pasientlərin ən çox verdiyi sualları toplayırıq." },
+        { "title": "Struktur və dizayn", "text": "Xidmət və həkim səhifələrinin strukturunu qurur, klinikanın üslubuna uyğun dizayn hazırlayırıq." },
+        { "title": "Hazırlanma", "text": "Saytı kodlaşdırır, qəbul formasını qoşur və bütün cihazlarda yoxlayırıq." },
+        { "title": "Yayım", "text": "Saytı yayıma çıxarır, Google-a təqdim edir və paneldən istifadəni izah edirik." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Klinika saytı neçə günə hazır olur?", "a": "Xidmətlərin və həkim profillərinin sayından asılı olaraq 5 gündən 30 günədək çəkir. Dəqiq müddəti struktur razılaşdırıldıqdan sonra deyirik." },
+    { "q": "Onlayn qəbul necə işləyir?", "a": "Ən sadə variantda pasient forma ilə xidməti və uyğun vaxtı göndərir, qeydiyyat şöbəsi isə zəng edib təsdiqləyir. Daha mürəkkəb rezervasiya sistemi layihəyə görə ayrıca qurulur." },
+    { "q": "Fərdi həkim üçün də sayt hazırlayırsınız?", "a": "Bəli. Fərdi həkim üçün adətən bir neçə səhifəlik şəxsi sayt kifayət edir: haqqında, xidmətlər, qəbul yeri və vaxtı, əlaqə." },
+    { "q": "Xidmətləri və qiymətləri özümüz dəyişə bilərik?", "a": "Bəli, idarəetmə paneli olan saytlarda xidmətləri, qiymətləri və həkim məlumatlarını özünüz yeniləyirsiniz." },
+    { "q": "Tibbi mətnləri kim yazır?", "a": "Tibbi məlumatı həkimləriniz verir və ya yoxlayır. Biz onu pasientin başa düşəcəyi dildə və axtarış sistemlərinə uyğun şəkildə səhifələrə yerləşdiririk." },
+    { "q": "Sayt rus və ingilis dillərində də ola bilər?", "a": "Bəli. Əlavə dil versiyaları tələbə görə hazırlanır və qiymət təklifində ayrıca göstərilir." }
+  ]
+}

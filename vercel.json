@@ -5,9 +5,55 @@
   "redirects": [
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "webify.az" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "webify.az"
+        }
+      ],
       "destination": "https://www.webify.az/:path*",
       "permanent": true
+    },
+    {
+      "source": "/sayt-yaradilmasi",
+      "destination": "/sayt-hazirlanmasi",
+      "permanent": true
+    },
+    {
+      "source": "/korporativ-sayt-sifarisi",
+      "destination": "/korporativ-sayt",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "webify-az.vercel.app"
+        }
+      ],
+      "destination": "https://www.webify.az/:path*",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(images|webfonts)/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(css|js)/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
+        }
+      ]
     }
   ]
 }

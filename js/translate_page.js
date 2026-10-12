@@ -9,7 +9,7 @@ const translations = {
     index_a_6: 'Get in Touch',
     index_hero_eyebrow: 'Website development in Baku',
     index_a_hero_2: 'Website Development',
-    index_h1_1: 'Your Website — Your Most Powerful Salesperson',
+    index_h1_1: 'Website Development — Your Most Powerful Salesperson',
     index_span_1: 'Salesperson',
     index_p_1:
       'We create stunning websites and experiences that engage users and elevate brands.',
@@ -236,8 +236,8 @@ const translations = {
     index_a_5: 'Əlaqə',
     index_a_6: 'Əlaqə',
     index_hero_eyebrow: 'Bakıda sayt yaradılması',
-    index_a_hero_2: 'Sayt yaradılması',
-    index_h1_1: 'Saytınız — ən güclü satıcınız',
+    index_a_hero_2: 'Sayt hazırlanması',
+    index_h1_1: 'Veb saytların hazırlanması — ən güclü satıcınız',
     index_span_1: 'satıcınız',
     index_p_1:
       'Korporativ saytlar, onlayn mağazalar və landing page-lər: mobil uyğun, sürətli və SEO-ya hazır vebsayt hazırlanması ilə brendinizi onlayn dünyaya daşıyırıq.',

@@ -52,7 +52,7 @@
       "h2": "Saytın qiyməti yox, gətirdiyi nəticə vacibdir",
       "paras": [
         "Saytı xərc kimi deyil, satıcı kimi düşünmək daha faydalıdır. Ayda üç yeni müştəri gətirən sayt öz qiymətini tez çıxarır. Heç kimin tapmadığı, telefonda açılmayan ucuz sayt isə nə qədər ucuz olsa da, itirilmiş puldur.",
-        "Ona görə təklifləri müqayisə edərkən yalnız rəqəmə deyil, nəyin daxil olduğuna baxın. Bizim <a href=\"/sayt-yaradilmasi\">sayt yaradılması</a> səhifəsində prosesin necə getdiyini ətraflı yazmışıq."
+        "Ona görə təklifləri müqayisə edərkən yalnız rəqəmə deyil, nəyin daxil olduğuna baxın. Bizim <a href=\"/sayt-hazirlanmasi\">sayt hazırlanması</a> səhifəsində prosesin necə getdiyini ətraflı yazmışıq."
       ]
     }
   ],
@@ -70,8 +70,5 @@
       "a": "Bu, təklifdən asılıdır və mütləq əvvəlcədən dəqiqləşdirilməlidir. Domen hər halda sizin adınıza qeydiyyatdan keçirilməlidir."
     }
   ],
-  "service": {
-    "url": "/sayt-yaradilmasi",
-    "text": "Sayt yaradılması xidmətimiz"
-  }
+  "serviceHtml": "<a href=\"/sayt-qiymetleri\">Sayt hazırlanması qiymətləri</a> · <a href=\"/sayt-hazirlanmasi\">Sayt hazırlanması</a> · <a href=\"/sayt-sifarisi\">Sayt sifarişi</a>"
 }

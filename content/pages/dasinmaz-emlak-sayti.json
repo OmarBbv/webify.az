@@ -1,0 +1,83 @@
+{
+  "slug": "dasinmaz-emlak-sayti",
+  "crumb": "Daşınmaz əmlak saytı",
+  "serviceType": "Daşınmaz əmlak saytının hazırlanması",
+  "serviceName": "Daşınmaz əmlak agentlikləri və rieltorlar üçün sayt hazırlanması",
+  "metaTitle": "Daşınmaz Əmlak Saytı Hazırlanması – Rieltor və Agentlik Saytı | Webify",
+  "description": "Əmlak agentlikləri, rieltorlar və tikinti şirkətləri üçün sayt hazırlanması: elan kataloqu, filtr, xəritə, müraciət formaları və idarəetmə paneli.",
+  "h1": "Daşınmaz əmlak <span>saytı</span> hazırlanması",
+  "cta": "Əmlak agentliyiniz üçün sayt lazımdır?",
+  "sections": [
+    {
+      "eyebrow": "Əmlak saytları",
+      "h2": "Elanlarınız <span>öz saytınızda</span> olsun",
+      "paras": [
+        "Elan portallarında obyektiniz yüzlərlə oxşar elanın arasında itir və alıcı bir toxunuşla rəqibin elanına keçir. Öz saytınızda isə ziyarətçi yalnız sizin obyektlərinizi görür, müraciət birbaşa sizə gəlir və müştəri bazası sizdə qalır.",
+        "Webify əmlak agentlikləri, fərdi rieltorlar və yaşayış kompleksi satan tikinti şirkətləri üçün sayt hazırlayır. Portallar trafik mənbəyi kimi qalır, sayt isə brendinizin və satışın mərkəzi olur."
+      ]
+    },
+    {
+      "eyebrow": "Funksiyalar",
+      "h2": "Əmlak saytında <span>nələr</span> olur?",
+      "cards": [
+        { "title": "Elan kataloqu", "text": "Satış və kirayə üzrə mənzil, ev, ofis, obyekt və torpaq elanları ayrıca kateqoriyalarda." },
+        { "title": "Filtr və axtarış", "text": "Qiymət, otaq sayı, sahə, rayon və metro üzrə filtr. Alıcı uyğun obyekti bir neçə saniyəyə tapır." },
+        { "title": "Obyekt səhifəsi", "text": "Şəkil qalereyası, plan, sahə, mərtəbə, sənədlərin vəziyyəti və xəritədə yer." },
+        { "title": "Müraciət düymələri", "text": "Hər elanda zəng, WhatsApp və “baxışa yazıl” forması. Müraciət hansı obyektdən gəldiyi ilə birlikdə çatır." },
+        { "title": "İdarəetmə paneli", "text": "Elanı özünüz əlavə edir, qiyməti dəyişir, satılan obyekti bir kliklə arxivə keçirirsiniz." },
+        { "title": "Agent profilləri", "text": "Hər rieltorun öz səhifəsi, elanları və əlaqə nömrəsi. Böyük agentliklər üçün faydalıdır." }
+      ]
+    },
+    {
+      "eyebrow": "Kimlər üçün",
+      "h2": "Sayt strukturu <span>biznesin növünə</span> görə dəyişir",
+      "table": {
+        "head": ["Biznes", "Saytın əsas məqsədi", "Vacib bölmələr"],
+        "rows": [
+          ["Əmlak agentliyi", "Elanlardan müraciət toplamaq", "Kataloq, filtr, agent profilləri, bloq"],
+          ["Fərdi rieltor", "Şəxsi brend və etibar", "Haqqında, seçilmiş obyektlər, müştəri rəyləri"],
+          ["Tikinti şirkəti", "Yaşayış kompleksini satmaq", "Layihə səhifəsi, mənzil planları, tikintinin gedişi"],
+          ["Kirayə və günlük ev", "Sorğu və rezervasiya", "Təqvim, qiymətlər, qaydalar"]
+        ]
+      },
+      "after": [
+        "Tikinti şirkətləri üçün saytın necə qurulduğunu <a href=\"/bloq/tikinti-ve-temir-sirketi-ucun-sayt\">tikinti və təmir şirkəti üçün sayt</a> məqaləsində ayrıca yazmışıq."
+      ]
+    },
+    {
+      "eyebrow": "Google",
+      "h2": "Hər elan Google-da <span>ayrıca səhifə</span> kimi tapılır",
+      "paras": [
+        "Alıcılar çox konkret axtarır: rayon, otaq sayı, satış və ya kirayə. Saytı elə qururuq ki, hər kateqoriya və hər rayon üçün ayrıca, öz başlığı və təsviri olan səhifə yaransın. Belə səhifələr reklamsız da axtarışdan ziyarətçi gətirir."
+      ],
+      "list": [
+        "Hər elanın öz ünvanı, başlığı və meta təsviri olur",
+        "Şəkillər sıxılır, səhifələr mobil internetdə də tez açılır",
+        "Satılan obyektin səhifəsi silinmir, oxşar elanlara yönləndirilir",
+        "Elanları sosial şəbəkədə paylaşanda düzgün şəkil və başlıq görünür"
+      ],
+      "after": [
+        "Sayt hazır olandan sonra görünürlüyü artırmaq üçün <a href=\"/seo-xidmeti\">SEO xidmətimiz</a> ilə davam etmək olar."
+      ]
+    },
+    {
+      "eyebrow": "İş prosesi",
+      "h2": "Əmlak saytı <span>necə</span> hazırlanır?",
+      "steps": true,
+      "cards": [
+        { "title": "Analiz", "text": "Obyekt növlərinizi, işlədiyiniz rayonları və müraciətlərin necə qəbul olunduğunu öyrənirik." },
+        { "title": "Struktur və dizayn", "text": "Kataloqun, filtrin və obyekt səhifəsinin dizaynını hazırlayıb sizinlə razılaşdırırıq." },
+        { "title": "Hazırlanma", "text": "Kataloqu və idarəetmə panelini qurur, ilk elanları birlikdə yükləyirik." },
+        { "title": "Yayım", "text": "Saytı yayıma çıxarır, Google-a təqdim edir və paneli komandanıza izah edirik." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Əmlak saytı neçə günə hazır olur?", "a": "Kataloqun və filtrlərin mürəkkəbliyindən asılı olaraq 30 günədək çəkir. Bir neçə səhifəlik rieltor saytı daha tez hazır olur." },
+    { "q": "Elanları özümüz əlavə edə biləcəyik?", "a": "Bəli. Sayt idarəetmə paneli ilə təhvil verilir: elan əlavə etmək, şəkil yükləmək və qiyməti dəyişmək üçün kod bilmək lazım deyil." },
+    { "q": "Elan portalları varkən sayt nəyə lazımdır?", "a": "Portalda elanınız rəqiblərin elanları ilə yan-yana durur. Öz saytınız etibar yaradır, Google-dan birbaşa ziyarətçi gətirir və müraciətlər yalnız sizə gəlir." },
+    { "q": "Sayta xəritə əlavə etmək olar?", "a": "Bəli, hər obyektin səhifəsində onun yeri xəritədə göstərilir. Bütün elanları bir xəritədə göstərən görünüş də layihəyə görə əlavə oluna bilər." },
+    { "q": "Tək işləyən rieltor üçün sayt sərfəlidir?", "a": "Bəli. Fərdi rieltor üçün kiçik sayt kifayətdir: haqqınızda, seçilmiş obyektlər, müştəri rəyləri və əlaqə. O, sizi adınızla axtaran müştəridə etibar yaradır." },
+    { "q": "Saytın qiyməti nədən asılıdır?", "a": "Elan kataloqunun və filtrlərin mürəkkəbliyindən, dil versiyalarından və əlavə funksiyalardan. Layihənizi dinləyib pulsuz qiymət təklifi hazırlayırıq." }
+  ]
+}
