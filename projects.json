@@ -1,5 +1,41 @@
 [
   {
+    "title": "Modamall.az",
+    "image": "images/modamall.webp",
+    "link": "/portfolio",
+    "target": "https://modamall.az/"
+  },
+  {
+    "title": "Horeb Mobil Tətbiqi",
+    "image": "images/horeb-app.webp",
+    "link": "/portfolio",
+    "target": "https://apps.apple.com/az/app/horeb-calm-daily-bible-verse/id6825543394"
+  },
+  {
+    "title": "AA Audit Holding",
+    "image": "images/aaauditholding.webp",
+    "link": "/portfolio",
+    "target": "https://aaauditholding.com/"
+  },
+  {
+    "title": "Gram Browser Mobil Tətbiqi",
+    "image": "images/gram-app.webp",
+    "link": "/portfolio",
+    "target": "https://apps.apple.com/az/app/gram-private-adblock-browser/id6826197449"
+  },
+  {
+    "title": "AA Audit Holding Mobil Tətbiqi",
+    "image": "images/aaauditholding-app.webp",
+    "link": "/portfolio",
+    "target": "https://aaauditholding.com/"
+  },
+  {
+    "title": "Fast Solutions (STAR4)",
+    "image": "images/fastsolutions.webp",
+    "link": "/portfolio",
+    "target": "https://fastsolutions.az/"
+  },
+  {
     "title": "Memix.az",
     "image": "images/memix.webp",
     "link": "/portfolio",
