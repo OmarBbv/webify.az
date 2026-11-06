@@ -1182,19 +1182,25 @@ header.main-header .header-sticky.active {
   width: calc(100% - 210px);
 }
 
+.trusted-clients-slider .swiper-wrapper {
+  align-items: center;
+}
+
+/* Fixed-height box so square and wide logos share one vertical center line */
 .trusted-client-logo {
-  text-align: center;
-}
-
-.trusted-client-logo img {
-  max-height: auto;
-  transition: all 0.3s ease-in-out;
-}
-
-.trusted-client-logo .swiper .swiper-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 110px;
+}
+
+.trusted-client-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  transition: all 0.3s ease-in-out;
 }
 
 .trusted-client-logo img:hover {
