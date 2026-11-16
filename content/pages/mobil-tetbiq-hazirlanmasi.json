@@ -1,0 +1,101 @@
+{
+  "slug": "mobil-tetbiq-hazirlanmasi",
+  "crumb": "Mobil tətbiq hazırlanması",
+  "serviceType": "Mobil tətbiq hazırlanması",
+  "serviceName": "Mobil tətbiqlərin hazırlanması",
+  "metaTitle": "Mobil Tətbiq Hazırlanması Bakıda – iOS və Android, 1.000 ₼-dan | Webify",
+  "description": "Mobil tətbiqlərin hazırlanması: iOS və Android üçün biznes tətbiqi, dizayn, idarəetmə paneli, push bildirişlər və App Store-a yerləşdirmə. 1.000 ₼-dan, 1–2 aya.",
+  "h1": "Mobil <span>tətbiq</span> hazırlanması",
+  "cta": "Biznesiniz üçün mobil tətbiq lazımdır?",
+  "sections": [
+    {
+      "eyebrow": "Mobil tətbiqlər",
+      "h2": "Müştəriniz artıq <span>telefonundadır</span>",
+      "paras": [
+        "Webify Bakıda mobil tətbiqlərin hazırlanması ilə məşğul olur: iPhone (iOS) və Android üçün tətbiqi ideyadan App Store-a çıxana qədər hazırlayırıq. Dizayn, proqramlaşdırma, idarəetmə paneli və mağazalara yerləşdirmə bir komandada olur.",
+        "Mobil tətbiq müştərini sizə bağlayır: məhsula bir toxunuşla çatır, sifarişini izləyir, endirim və yeniliklərdən push bildirişlə xəbər tutur. Sayt yeni müştəri gətirirsə, tətbiq mövcud müştərinin yenidən qayıtmasını təmin edir."
+      ]
+    },
+    {
+      "eyebrow": "Nələr hazırlayırıq",
+      "h2": "Hansı <span>tətbiqlər</span> hazırlayırıq?",
+      "cards": [
+        { "title": "Onlayn mağaza tətbiqi", "text": "Kataloq, səbət, onlayn ödəniş, sifariş tarixçəsi və endirim bildirişləri." },
+        { "title": "Xidmət və rezervasiya", "text": "Klinika, salon və ya restoran üçün onlayn növbə, rezervasiya və xatırlatmalar." },
+        { "title": "Şirkət tətbiqi", "text": "Müştəri kabineti, sorğular, sənədlər və xidmətlərin vəziyyətini izləmə." },
+        { "title": "Marketpleys", "text": "Satıcı və alıcı hesabları, elanlar, axtarış, mesajlaşma və bildirişlər." },
+        { "title": "Daxili iş tətbiqi", "text": "Kuryer, satış nümayəndəsi və ya anbar işçiləri üçün tapşırıq və hesabat tətbiqi." },
+        { "title": "Saytın mobil versiyası", "text": "Mövcud saytınız və ya onlayn mağazanız üçün onunla eyni bazadan işləyən tətbiq." }
+      ]
+    },
+    {
+      "eyebrow": "Nə daxildir",
+      "h2": "Mobil tətbiq hazırlanmasına <span>daxil olanlar</span>",
+      "list": [
+        "iOS və Android üçün bir kod bazası: iki platforma daha qısa müddətə və daha sərfəli çıxır",
+        "Brendinizə uyğun fərdi interfeys dizaynı və istifadəçi axını",
+        "Məhsulları, sifarişləri və istifadəçiləri idarə etdiyiniz idarəetmə paneli",
+        "Push bildirişlər, qeydiyyat və giriş, onlayn ödəniş inteqrasiyası",
+        "App Store və Google Play-ə yerləşdirmə, mağaza səhifəsinin mətn və şəkilləri",
+        "Yayımdan sonra texniki dəstək və yeni versiyaların buraxılması"
+      ]
+    },
+    {
+      "eyebrow": "Qiymət və müddət",
+      "h2": "Mobil tətbiq hazırlanması <span>neçəyə</span> başa gəlir?",
+      "paras": [
+        "Mobil tətbiqin qiyməti <strong>1.000 ₼-dan</strong> başlayır. Ekranların sayı, ödəniş və rezervasiya kimi funksiyalar, idarəetmə paneli və xarici sistemlərlə inteqrasiya qiyməti müəyyən edir. Dəqiq məbləği funksiyaların siyahısı ilə birlikdə yazılı təklif kimi göndəririk."
+      ],
+      "priceHead": ["Tətbiq növü", "Nələr olur", "Müddət", "Qiymət"],
+      "prices": [
+        { "name": "Sadə tətbiq", "offerName": "Mobil tətbiq hazırlanması", "for": "Kataloq, xidmətlər, xəbərlər, əlaqə və push bildirişlər", "days": "4–6 həftə", "from": 1000 },
+        { "name": "Biznes tətbiqi", "for": "Qeydiyyat, sifariş və ya rezervasiya, onlayn ödəniş, idarəetmə paneli", "days": "1–2 ay", "from": null },
+        { "name": "Platforma", "for": "Marketpleys, bir neçə rol, mesajlaşma və xarici inteqrasiyalar", "days": "Layihəyə görə", "from": null }
+      ],
+      "after": [
+        "App Store-da tətbiq yerləşdirmək üçün Apple Developer hesabı (ildə 99 $), Google Play üçün isə bir dəfəlik 25 $ ödənişli hesab lazımdır. Hesabı sizin şirkətinizin adına açırıq ki, tətbiq tam sizə məxsus olsun. Sayt növlərinin qiymətləri ilə müqayisə üçün <a href=\"/sayt-qiymetleri\">sayt qiymətləri</a> səhifəsinə baxın."
+      ],
+      "buttons": [
+        { "url": "/contact", "text": "Mobil tətbiq sifariş et" },
+        { "url": "https://wa.me/994104516373", "text": "WhatsApp-da yaz" }
+      ]
+    },
+    {
+      "eyebrow": "İş prosesi",
+      "h2": "Mobil tətbiq <span>necə</span> hazırlanır?",
+      "steps": true,
+      "cards": [
+        { "title": "Brif və prototip", "text": "Tətbiqin məqsədini, istifadəçiləri və ekranların siyahısını müəyyən edir, klikləyə biləcəyiniz prototip hazırlayırıq." },
+        { "title": "Dizayn", "text": "Hər ekranın dizaynını hazırlayır və sizin təsdiqinizlə növbəti mərhələyə keçirik." },
+        { "title": "Proqramlaşdırma", "text": "Tətbiqi, idarəetmə panelini və server hissəsini yazır, test versiyasını telefonunuza göndəririk." },
+        { "title": "Yayım və dəstək", "text": "App Store və Google Play yoxlamasından keçirir, yayımdan sonra yenilənmələri davam etdiririk." }
+      ]
+    },
+    {
+      "eyebrow": "Portfolio",
+      "h2": "Hazırladığımız <span>mobil tətbiqlər</span>",
+      "works": [
+        { "title": "Memix", "image": "memix-app", "url": "https://apps.apple.com/az/app/memix-az/id6790427328", "alt": "Memix mobil tətbiqi" },
+        { "title": "AA Audit Holding", "image": "aaauditholding-app", "url": "https://aaauditholding.com/", "alt": "AA Audit Holding mobil tətbiqi" },
+        { "title": "Horeb", "image": "horeb-app", "url": "https://apps.apple.com/az/app/horeb-calm-daily-bible-verse/id682554339", "alt": "Horeb mobil tətbiqi" }
+      ]
+    },
+    {
+      "eyebrow": "Faydalı səhifələr",
+      "h2": "Bunlar da <span>maraqlı</span> ola bilər",
+      "cards": [
+        { "title": "Onlayn mağaza", "text": "Tətbiqlə birlikdə işləyən internet mağaza", "url": "/onlayn-magaza-yaradilmasi" },
+        { "title": "Korporativ sayt", "text": "Şirkətiniz üçün sayt hazırlanması", "url": "/korporativ-sayt" },
+        { "title": "Sayt qiymətləri", "text": "Bütün sayt növlərinin qiymətləri", "url": "/sayt-qiymetleri" },
+        { "title": "Mobil uyğun sayt", "text": "Saytınız telefonda necə görünməlidir", "url": "/bloq/mobil-uygun-sayt" }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Mobil tətbiq hazırlanması neçəyə başa gəlir?", "a": "Mobil tətbiqin qiyməti 1.000 ₼-dan başlayır. Dəqiq məbləğ ekranların sayından, ödəniş və rezervasiya kimi funksiyalardan, idarəetmə panelindən və inteqrasiyalardan asılıdır." },
+    { "q": "Mobil tətbiq neçə günə hazır olur?", "a": "Sadə tətbiq 4–6 həftəyə, ödəniş və idarəetmə paneli olan biznes tətbiqi 1–2 aya hazır olur. App Store və Google Play-in yoxlaması adətən bir neçə gün çəkir." },
+    { "q": "Tətbiq həm iPhone, həm Android-də işləyəcək?", "a": "Bəli. Tətbiqi bir kod bazası ilə hər iki platforma üçün hazırlayırıq, ona görə ayrıca iki tətbiq sifariş etməyə ehtiyac qalmır." },
+    { "q": "Tətbiqi App Store-a siz yerləşdirirsiniz?", "a": "Bəli, yerləşdirməni və mağazanın yoxlamasını biz aparırıq. Developer hesabı sizin şirkətinizin adına açılır ki, tətbiq tam sizə məxsus olsun." },
+    { "q": "Mövcud saytımla eyni bazadan işləyə bilər?", "a": "Bəli. Mövcud saytınızın və ya onlayn mağazanızın məlumatları ilə işləyən tətbiq hazırlaya bilərik, məhsul və sifarişlər hər iki yerdə eyni olur." }
+  ]
+}

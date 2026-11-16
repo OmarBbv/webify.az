@@ -14,7 +14,7 @@
  * Səhifələr HTML kimi yaradılır (JS ilə render olunmur), çünki Google hər məqalənin
  * başlığını, təsvirini və schema-sını birbaşa mənbə kodunda görməlidir.
  */
-import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from 'node:fs';
 import { execSync } from 'node:child_process';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -73,6 +73,55 @@ const bottom = readFileSync(join(ROOT, 'tools/_template-bottom.html'), 'utf8');
 const headEnd = top.indexOf('</head>');
 const headRaw = top.slice(top.indexOf('<head>') + 6, headEnd);
 const bodyStart = top.slice(headEnd + '</head>'.length);
+// Rusca səhifələrin öz header/footer-i var (menyu, dil seçimi və footer rusca).
+const bodyStartRu = '\n' + readFileSync(join(ROOT, 'tools/_template-body-ru.html'), 'utf8');
+const bottomRu = readFileSync(join(ROOT, 'tools/_template-bottom-ru.html'), 'utf8');
+
+// Səhifə şablonundakı dilə bağlı mətnlər.
+const L = {
+  az: {
+    ogLocale: 'az_AZ',
+    home: 'Ana Səhifə',
+    homeSchema: 'Ana səhifə',
+    homeUrl: '/',
+    services: 'Xidmətlərimiz',
+    servicesSchema: 'Xidmətlər',
+    servicesUrl: '/services',
+    country: 'Azərbaycan',
+    faqH2: 'Tez-tez verilən <span>suallar</span>',
+    ctaEyebrow: 'Başlayaq',
+    ctaText: 'Layihənizi dinləyək, sizə uyğun həlli və qiyməti pulsuz\n                konsultasiyada deyək. Zəng edin: +994 10 451 63 73.',
+    ctaBtn: 'Pulsuz konsultasiya al',
+    ctaUrl: '/contact',
+    waBtn: 'WhatsApp-da yaz',
+    ctaDefault: 'Sayt sifariş etmək istəyirsiniz?',
+    priceHead: ['Sayt növü', 'Kimə uyğundur', 'Müddət', 'Qiymət'],
+    custom: 'Fərdi təklif',
+    num: (n) => n.toLocaleString('de-DE'),
+    from: (n) => `${n}&nbsp;₼-dan`,
+    worksBtn: 'Bütün işlər',
+  },
+  ru: {
+    ogLocale: 'ru_RU',
+    home: 'Главная',
+    homeSchema: 'Главная',
+    homeUrl: '/ru',
+    country: 'Азербайджан',
+    faqH2: 'Частые <span>вопросы</span>',
+    ctaEyebrow: 'Начнём',
+    ctaText: 'Расскажите о проекте, и мы бесплатно подскажем подходящее\n                решение и стоимость. Звоните: +994 10 451 63 73.',
+    ctaBtn: 'Написать в WhatsApp',
+    ctaUrl: 'https://wa.me/994104516373',
+    waBtn: 'Позвонить',
+    waUrl: 'tel:+994104516373',
+    ctaDefault: 'Хотите заказать сайт?',
+    priceHead: ['Тип сайта', 'Кому подходит', 'Срок', 'Цена'],
+    custom: 'Индивидуально',
+    num: (n) => n.toLocaleString('ru-RU'),
+    from: (n) => `от&nbsp;${n}&nbsp;₼`,
+    worksBtn: 'Все работы',
+  },
+};
 
 // Şablonun head hissəsindən yalnız ortaq sətirləri (css, font, favicon) götürürük:
 // əvvəlcə bütün <script> bloklarını (schema daxil) tam çıxarırıq, sonra səhifəyə xas
@@ -102,12 +151,17 @@ const azDate = (iso) => {
   return `${d.getDate()} ${AZ_MONTHS[d.getMonth()]} ${d.getFullYear()}`;
 };
 
-function head({ title, desc, url, schemas, ogType = 'article' }) {
+function head({ title, desc, url, schemas, ogType = 'article', lang = 'az', alternates = null }) {
   const ld = [ORG, ...schemas]
     .map((s) => `    <script type="application/ld+json">\n${JSON.stringify(s, null, 2).split('\n').map((l) => '      ' + l).join('\n')}\n    </script>`)
     .join('\n');
+  const alt = alternates
+    ? Object.entries(alternates)
+        .map(([l, u]) => `    <link rel="alternate" hreflang="${l}" href="${u}" />\n`)
+        .join('')
+    : '';
   return `<!DOCTYPE html>
-<html lang="az">
+<html lang="${lang}">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -116,10 +170,10 @@ function head({ title, desc, url, schemas, ogType = 'article' }) {
     <meta name="author" content="Webify" />
     <title>${esc(title)}</title>
     <link rel="canonical" href="${url}" />
-${sharedHead}
+${alt}${sharedHead}
     <meta property="og:type" content="${ogType}" />
     <meta property="og:site_name" content="Webify" />
-    <meta property="og:locale" content="az_AZ" />
+    <meta property="og:locale" content="${L[lang].ogLocale}" />
     <meta property="og:url" content="${url}" />
     <meta property="og:title" content="${esc(title)}" />
     <meta property="og:description" content="${esc(desc)}" />
@@ -185,31 +239,35 @@ const BLOG_CSS = `    <style>
     </style>
 `;
 
-const cta = (text) => `    <section class="seo-landing seo-landing-alt">
+const cta = (text, lang = 'az') => {
+  const t = L[lang];
+  const ext = (u) => (u.startsWith('http') ? ' target="_blank" rel="noopener"' : '');
+  const second = t.waUrl || 'https://wa.me/994104516373';
+  return `    <section class="seo-landing seo-landing-alt">
       <div class="container">
         <div class="row">
           <div class="col-lg-10">
             <div class="section-title">
-              <h3 class="wow fadeInUp">Başlayaq</h3>
+              <h3 class="wow fadeInUp">${t.ctaEyebrow}</h3>
               <h2 class="text-anime-style-2" data-cursor="-opaque">${text}</h2>
             </div>
             <div class="seo-landing-text wow fadeInUp">
               <p>
-                Layihənizi dinləyək, sizə uyğun həlli və qiyməti pulsuz
-                konsultasiyada deyək. Zəng edin: +994 10 451 63 73.
+                ${t.ctaText}
               </p>
             </div>
             <div class="seo-landing-btns wow fadeInUp">
-              <a href="/contact" class="btn-default">Pulsuz konsultasiya al</a>
-              <a href="https://wa.me/994104516373" target="_blank" rel="noopener" class="btn-default">WhatsApp-da yaz</a>
+              <a href="${t.ctaUrl}" class="btn-default"${ext(t.ctaUrl)}>${t.ctaBtn}</a>
+              <a href="${second}"${ext(second)} class="btn-default">${t.waBtn}</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 `;
+};
 
-function faqSection(items) {
+function faqSection(items, lang = 'az') {
   const faq = (items || [])
     .map(
       (f, i) => `                <div class="accordion-item wow fadeInUp">
@@ -232,7 +290,7 @@ function faqSection(items) {
           <div class="col-lg-9">
             <div class="section-title">
               <h3 class="wow fadeInUp">FAQ</h3>
-              <h2 class="text-anime-style-2" data-cursor="-opaque">Tez-tez verilən <span>suallar</span></h2>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">${L[lang].faqH2}</h2>
             </div>
           </div>
         </div>
@@ -464,14 +522,39 @@ const PAGE_CSS = `    <style>
     </style>
 `;
 
-const priceText = (from) => (from ? `${from} AZN-dən` : 'Fərdi təklif');
+// Qiymət: `from` + `to` aralıq kimi, yalnız `from` "...-dan" kimi, heç biri yoxdursa fərdi təklif.
+const priceText = (p, lang) => {
+  const t = L[lang];
+  if (p.from && p.to) return `${t.num(p.from)}–${t.num(p.to)}&nbsp;₼`;
+  if (p.from) return t.from(t.num(p.from));
+  return t.custom;
+};
+const linked = (text, url) => (url ? `<a href="${url}">${text}</a>` : text);
 
-function pageSection(s, i) {
+// Portfolio blokunda göstərilən iş: şəkil + ad.
+const workItem = (w, n, lang) => `          <div class="col-lg-4 col-md-6">
+            <div class="work-item wow fadeInUp"${n ? ` data-wow-delay="${n / 10}s"` : ''}>
+              <div class="work-image">
+                <a href="${w.url}" data-cursor-text="View"${w.url.startsWith('http') ? ' target="_blank" rel="noopener"' : ''}>
+                  <figure class="image-anime">
+                    <img loading="lazy" decoding="async" src="/images/${w.image}.webp" srcset="/images/${w.image}-800.webp 800w, /images/${w.image}.webp 1400w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 50vw, 33vw" alt="${esc(w.alt)}" />
+                  </figure>
+                </a>
+              </div>
+              <div class="work-body">
+                <div class="work-content">
+                  <h3>${linked(w.title, w.url)}</h3>
+                </div>
+              </div>
+            </div>
+          </div>`;
+
+function pageSection(s, i, lang = 'az') {
   let text = '';
   for (const p of s.paras || []) text += `              <p>${p}</p>\n`;
   if (s.list) text += `              <ul class="seo-landing-list">\n${s.list.map((l) => `                <li>${l}</li>`).join('\n')}\n              </ul>\n`;
   const table = s.prices
-    ? { head: ['Sayt növü', 'Kimə uyğundur', 'Müddət', 'Qiymət'], rows: s.prices.map((p) => [p.name, p.for, p.days, priceText(p.from)]) }
+    ? { head: s.priceHead || L[lang].priceHead, rows: s.prices.map((p) => [linked(p.name, p.url), p.for, p.days, priceText(p, lang)]) }
     : s.table;
   if (table)
     text += `              <div class="seo-table-wrap">
@@ -502,6 +585,14 @@ ${inner}
   .join('\n')}
         </div>\n`
     : '';
+  const works = s.works
+    ? `        <div class="row">
+${s.works.map((w, n) => workItem(w, n, lang)).join('\n')}
+        </div>
+        <div class="seo-landing-btns wow fadeInUp">
+          <a href="/portfolio" class="btn-default">${L[lang].worksBtn}</a>
+        </div>\n`
+    : '';
   return `    <section class="seo-landing${i % 2 ? ' seo-landing-alt' : ''}">
       <div class="container">
         <div class="row">
@@ -512,7 +603,7 @@ ${inner}
             </div>
 ${text ? `            <div class="seo-landing-text wow fadeInUp">\n${text}            </div>\n` : ''}${btns}          </div>
         </div>
-${cards}      </div>
+${cards}${works}      </div>
     </section>
 
 `;
@@ -520,10 +611,21 @@ ${cards}      </div>
 
 function pageSchemas(page) {
   const url = `${BASE}${page.slug}`;
+  const t = L[page.lang || 'az'];
+  // Qiymətlər aralıq kimi verildiyi üçün tək "price" yox, PriceSpecification (min/max) yazırıq.
   const offers = page.sections
     .flatMap((s) => s.prices || [])
     .filter((p) => p.from)
-    .map((p) => ({ '@type': 'Offer', name: p.name, price: String(p.from), priceCurrency: 'AZN' }));
+    .map((p) => ({
+      '@type': 'Offer',
+      itemOffered: { '@type': 'Service', name: p.offerName || p.name.replace(/<[^>]+>/g, '') },
+      priceSpecification: {
+        '@type': 'PriceSpecification',
+        minPrice: p.from,
+        ...(p.to ? { maxPrice: p.to } : {}),
+        priceCurrency: 'AZN',
+      },
+    }));
   const schemas = [
     {
       '@context': 'https://schema.org',
@@ -532,17 +634,21 @@ function pageSchemas(page) {
       name: page.serviceName || page.serviceType,
       description: page.description,
       provider: { '@id': `${BASE}#organization` },
-      areaServed: { '@type': 'Country', name: 'Azərbaycan' },
+      areaServed: { '@type': 'Country', name: t.country },
       url,
-      ...(offers.length ? { offers } : {}),
+      ...(offers.length
+        ? { hasOfferCatalog: { '@type': 'OfferCatalog', name: page.serviceName || page.serviceType, itemListElement: offers } }
+        : {}),
     },
     {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Ana səhifə', item: BASE },
-        { '@type': 'ListItem', position: 2, name: 'Xidmətlər', item: `${BASE}services` },
-        { '@type': 'ListItem', position: 3, name: page.crumb, item: url },
+        { '@type': 'ListItem', position: 1, name: t.homeSchema, item: `${BASE}${t.homeUrl.slice(1)}` },
+        ...(page.lang === 'ru'
+          ? []
+          : [{ '@type': 'ListItem', position: 2, name: t.servicesSchema, item: `${BASE}${t.servicesUrl.slice(1)}` }]),
+        { '@type': 'ListItem', position: page.lang === 'ru' ? 2 : 3, name: page.crumb, item: url },
       ],
     },
   ];
@@ -559,22 +665,50 @@ function pageSchemas(page) {
   return schemas;
 }
 
+// AZ ↔ RU cütləri: hreflang və dil seçimindəki keçid bunlardan qurulur.
+const PAIRS = pages.filter((p) => p.lang === 'ru' && p.az).map((p) => [p.az, p.slug]);
+const ruOf = (slug) => PAIRS.find(([az]) => az === slug)?.[1];
+const azOf = (slug) => PAIRS.find(([, ru]) => ru === slug)?.[0];
+
 for (const page of pages) {
+  const lang = page.lang || 'az';
+  const t = L[lang];
+  const pair = lang === 'ru' ? azOf(page.slug) : ruOf(page.slug);
+  const azSlug = lang === 'ru' ? pair : page.slug;
+  const ruSlug = lang === 'ru' ? page.slug : pair;
+  const alternates =
+    azSlug !== undefined && ruSlug !== undefined
+      ? { az: `${BASE}${azSlug}`, ru: `${BASE}${ruSlug}`, 'x-default': `${BASE}${azSlug}` }
+      : null;
+  // Rusca "Xidmətlər" səhifəsi yoxdur, ona görə yol qısadır: Главная > səhifə.
+  const crumbs =
+    lang === 'ru'
+      ? [{ name: t.home, url: t.homeUrl }, { name: page.crumb }]
+      : [{ name: t.home, url: t.homeUrl }, { name: t.services, url: t.servicesUrl }, { name: page.crumb }];
+  // Dil seçimindəki digər dil həmin səhifənin cütünə aparır, cütü yoxdursa ana səhifəyə.
+  const start =
+    lang === 'ru'
+      ? bodyStartRu.replace('data-lang="az" data-href="/"', `data-lang="az" data-href="/${azSlug || ''}"`)
+      : bodyStart.replace('data-lang="ru" data-href="/ru"', `data-lang="ru" data-href="/${ruSlug || 'ru'}"`);
   const html =
-    head({ title: page.metaTitle, desc: page.description, url: `${BASE}${page.slug}`, schemas: pageSchemas(page), ogType: 'website' }).replace(
-      '  </head>',
-      BLOG_CSS + PAGE_CSS + '  </head>'
-    ) +
-    bodyStart +
-    pageHeader({
-      h1: page.h1,
-      crumbs: [{ name: 'Ana Səhifə', url: '/' }, { name: 'Xidmətlərimiz', url: '/services' }, { name: page.crumb }],
-    }) +
-    page.sections.map(pageSection).join('') +
-    faqSection(page.faq) +
-    cta(page.cta || 'Sayt sifariş etmək istəyirsiniz?') +
-    bottom;
-  writeFileSync(join(ROOT, `${page.slug}.html`), html);
+    head({
+      title: page.metaTitle,
+      desc: page.description,
+      url: `${BASE}${page.slug}`,
+      schemas: pageSchemas(page),
+      ogType: 'website',
+      lang,
+      alternates,
+    }).replace('  </head>', BLOG_CSS + PAGE_CSS + '  </head>') +
+    start +
+    pageHeader({ h1: page.h1, crumbs }) +
+    page.sections.map((s, i) => pageSection(s, i, lang)).join('') +
+    faqSection(page.faq, lang) +
+    cta(page.cta || t.ctaDefault, lang) +
+    (lang === 'ru' ? bottomRu : bottom);
+  const file = page.slug === 'ru' ? 'ru/index.html' : `${page.slug}.html`;
+  mkdirSync(dirname(join(ROOT, file)), { recursive: true });
+  writeFileSync(join(ROOT, file), html);
 }
 
 // ---- sitemap ----
@@ -598,6 +732,7 @@ const staticPages = [
   ['klinika-sayti', '0.8'],
   ['dasinmaz-emlak-sayti', '0.8'],
   ['turizm-sayti-sifarisi', '0.8'],
+  ['mobil-tetbiq-hazirlanmasi', '0.8'],
   ['seo-xidmeti', '0.8'],
   ['services', '0.8'],
   ['bloq', '0.8', 'bloq/index.html'],
@@ -605,6 +740,11 @@ const staticPages = [
   ['portfolio', '0.7'],
   ['about', '0.6'],
   ['contact', '0.6'],
+  ['ru', '0.8', 'ru/index.html'],
+  ['ru/stoimost-sayta', '0.7'],
+  ['ru/korporativnyy-sayt', '0.7'],
+  ['ru/internet-magazin', '0.7'],
+  ['ru/mobilnoe-prilozhenie', '0.7'],
 ];
 const urls = [
   ...staticPages.map(([p, pr, file]) => [`${BASE}${p}`, fileDate(file || `${p}.html`), pr]),
