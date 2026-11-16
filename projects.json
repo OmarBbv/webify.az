@@ -1,5 +1,11 @@
 [
   {
+    "title": "KAS Group",
+    "image": "images/kasgroup.webp",
+    "link": "/portfolio",
+    "target": "https://kas.com.az/"
+  },
+  {
     "title": "Modamall.az",
     "image": "images/modamall.webp",
     "link": "/portfolio",

@@ -694,8 +694,10 @@ header.main-header .header-sticky.active {
   right: 0;
   border-radius: 0;
   transform: translateY(0);
-  background-color: var(--bg-color);
+  /* Header ağ fonludur (yuxarıdakı `header` qaydası), sticky vəziyyətdə də elə qalsın */
+  background-color: white;
   border-bottom: 1px solid var(--divider-color);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 .navbar {
