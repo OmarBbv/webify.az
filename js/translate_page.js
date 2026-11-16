@@ -484,6 +484,10 @@ try {
   userLanguage = sessionStorage.getItem('language') || 'az';
 } catch (e) {}
 
+// Rusca səhifələr (/ru/...) ayrıca HTML-dir, JS ilə tərcümə olunmur.
+const isRussianPage = document.documentElement.lang === 'ru';
+if (isRussianPage) userLanguage = 'ru';
+
 function updateLanguageUI(lang) {
   const currentLabels = document.querySelectorAll('.lang-current-code');
   currentLabels.forEach(label => {
@@ -507,7 +511,7 @@ function updateLanguageUI(lang) {
 
 // Səhifə yüklənəndə UI yenilənsin
 updateLanguageUI(userLanguage);
-if (userLanguage !== 'az') {
+if (!isRussianPage && userLanguage !== 'az') {
   translatePage(userLanguage);
 }
 
@@ -558,6 +562,15 @@ function initLanguageSwitcher() {
       opt.addEventListener('click', (e) => {
         e.stopPropagation();
         const selectedLang = opt.getAttribute('data-lang');
+        // Ayrıca səhifəsi olan dil (məs. RU) üçün həmin səhifəyə keçirik
+        const href = opt.getAttribute('data-href');
+        if (href) {
+          try {
+            sessionStorage.setItem('language', selectedLang === 'ru' ? 'az' : selectedLang);
+          } catch (e) {}
+          window.location.href = href;
+          return;
+        }
         if (selectedLang) {
           userLanguage = selectedLang;
           try {
