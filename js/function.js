@@ -35,6 +35,8 @@
 		label : '',
 		prependTo : '.responsive-menu'
 	});
+	/* Mobil menyu düyməsinin mətni yoxdur: ekran oxuyucuları və Lighthouse üçün ad veririk */
+	$('.slicknav_btn').attr('aria-label', document.documentElement.lang === 'ru' ? 'Меню' : 'Menyu');
 
 	if($("a[href='#top']").length){
 		$(document).on("click", "a[href='#top']", function() {
