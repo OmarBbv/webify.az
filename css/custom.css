@@ -328,6 +328,11 @@ img {
   max-width: 100%;
 }
 
+/* Loqoda width/height atributları CLS üçündür; ölçünü CSS idarə edir */
+img[src$="logo.svg"] {
+  height: auto;
+}
+
 a {
   text-decoration: none;
 }
