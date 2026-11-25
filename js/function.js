@@ -281,24 +281,47 @@
 	});
 
 	function submitForm(){
-		/* Ajax call to submit form */
+		/* Sorğu /api/contact funksiyasına gedir, o da Brevo ilə e-poçta göndərir */
+		var $btn = $contactform.find('button[type="submit"]');
+		var data = {
+			fname: $contactform.find('[name="fname"]').val(),
+			lname: $contactform.find('[name="lname"]').val(),
+			email: $contactform.find('[name="email"]').val(),
+			phone: $contactform.find('[name="phone"]').val(),
+			message: $contactform.find('[name="message"]').val(),
+			website: $contactform.find('[name="website"]').val(),
+			page: window.location.pathname
+		};
+		$btn.prop('disabled', true);
 		$.ajax({
 			type: "POST",
-			url: "form-process.php",
-			data: $contactform.serialize(),
-			success : function(text){
-				if (text === "success"){
+			url: "/api/contact",
+			contentType: "application/json",
+			dataType: "json",
+			data: JSON.stringify(data),
+			success : function(res){
+				if (res && res.ok){
 					formSuccess();
 				} else {
-					submitMSG(false,text);
+					formError();
 				}
+			},
+			error: function(){
+				formError();
+			},
+			complete: function(){
+				$btn.prop('disabled', false);
 			}
 		});
 	}
 
 	function formSuccess(){
 		$contactform[0].reset();
-		submitMSG(true, "Message Sent Successfully!")
+		submitMSG(true, "Mesajınız göndərildi. Tezliklə sizinlə əlaqə saxlayacağıq.");
+	}
+
+	function formError(){
+		submitMSG(false, "Mesaj göndərilmədi. Zəhmət olmasa WhatsApp-dan yazın: +994 10 451 63 73");
 	}
 
 	function submitMSG(valid, msg){
