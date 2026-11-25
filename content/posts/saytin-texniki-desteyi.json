@@ -1,0 +1,131 @@
+{
+  "slug": "saytin-texniki-desteyi",
+  "title": "Saytın texniki dəstəyi: nələri əhatə etməlidir və niyə lazımdır?",
+  "h1": "Saytın <span>texniki dəstəyi</span>",
+  "metaTitle": "Saytın Texniki Dəstəyi: Nələri Əhatə Edir? | Webify",
+  "description": "Sayt təhvil verildikdən sonra nə baş verir? Texniki dəstəyin əhatəsi, yeniləmə, yedəkləmə, monitorinq və müqavilədə yazılmalı məqamlar.",
+  "date": "2026-11-25",
+  "cta": "Saytınızın dəstəyini müzakirə edək?",
+  "sections": [
+    {
+      "paras": [
+        "Sayt işə düşəndə iş bitmir, yeni mərhələ başlayır. Domen müddəti bitir, sistem yeniləmələri gəlir, forma bir gün mail göndərməyi dayandırır, yeni səhifə lazım olur. Bunlara baxan kimsə yoxdursa, kiçik problem belə həftələrlə görünməz qala bilər.",
+        "Bu yazıda texniki dəstəyin nə demək olduğunu, hansı işləri əhatə etməli olduğunu və müqavilədə nələrin yazılması vacib olduğunu sadə dildə izah edirik."
+      ]
+    },
+    {
+      "h2": "Texniki dəstək nədir?",
+      "paras": [
+        "Texniki dəstək saytın təhvildən sonra işlək, təhlükəsiz və aktual qalması üçün görülən davamlı işlərdir. Bu, yeni funksiya yazmaq (inkişaf) ilə eyni şey deyil: dəstək mövcud olanı qorumaq, inkişaf isə yeni imkan əlavə etməkdir.",
+        "Bəzi sahibkarlar \"sayt hazırdır, daha nə lazımdır\" düşünür. Amma sayt kirayə ofis kimidir: açar təhvil verilib, amma təmizlik, təmir və təhlükəsizlik davam edir."
+      ]
+    },
+    {
+      "h2": "Dəstək paketinə nələr daxil olmalıdır?",
+      "list": [
+        "Sistem, şablon və plaginlərin yenilənməsi, xüsusilə təhlükəsizlik yeniləmələri.",
+        "Mütəmadi yedəkləmə və yedəkdən bərpanın mümkünlüyünün yoxlanması.",
+        "Saytın işləməsinin izlənməsi: açılma, SSL müddəti, formaların işləməsi.",
+        "Kiçik məzmun dəyişiklikləri: mətn, şəkil, qiymət və ya əlaqə məlumatının yenilənməsi.",
+        "Xətaların düzəldilməsi: sınıq link, yanlış görünən səhifə, işləməyən düymə.",
+        "Domen və hostinq müddətlərinin izlənməsi, vaxtında xəbərdarlıq."
+      ]
+    },
+    {
+      "h2": "Nələr adətən dəstəyə daxil olmur?",
+      "paras": [
+        "Yeni səhifə bölməsi, yeni dil, ödəniş sisteminin əlavə edilməsi və ya dizaynın yenilənməsi adətən ayrıca iş sayılır. Bunların ayrıca qiymətləndirilməsi normaldır, əsas odur ki, razılaşma mərhələsində aydın yazılsın."
+      ],
+      "list": [
+        "Yeni funksiyalar və yeni səhifə növləri.",
+        "Tam dizayn dəyişikliyi, yəni <a href=\"/bloq/saytin-yenilenmesi-redizayn\">redizayn</a>.",
+        "Reklam kampaniyalarının idarəsi və məzmunun davamlı yazılması.",
+        "Sizin tərəfinizdən sındırılmış girişlərin bərpası (bu halda ayrıca razılaşma olur)."
+      ]
+    },
+    {
+      "h2": "Niyə dəstəksiz sayt riskli olur?",
+      "paras": [
+        "Ən çox rast gələn hal köhnəlmiş sistem və plaginlərdir. Avtomatik skriptlər məhz belə saytları axtarır. Bu mövzu haqqında ətraflı <a href=\"/bloq/saytin-tehlukesizliyi\">saytın təhlükəsizliyi</a> yazısında danışmışıq.",
+        "İkinci risk səssiz xətalardır. Sorğu formu işləməyəndə ziyarətçi bunu sizə demir, sadəcə rəqibə gedir. Üçüncü risk müddətlərdir: domen və ya SSL bitəndə sayt bir anda \"təhlükəsiz deyil\" xəbərdarlığı ilə açılır və ya ümumiyyətlə açılmır."
+      ]
+    },
+    {
+      "h2": "Dəstək və axtarış nəticələri",
+      "paras": [
+        "Texniki sağlam sayt Google üçün də daha etibarlıdır. Sınıq linklər, yavaş açılan səhifələr və köhnə məzmun axtarış nəticələrinə mənfi təsir edə bilər. Mütəmadi baxış bu problemləri vaxtında tutur.",
+        "Dəstək və <a href=\"/seo-xidmeti\">SEO xidməti</a> bir-birini tamamlayır: dəstək saytın texniki əsasını qoruyur, SEO isə həmin əsas üzərində trafiki artırır."
+      ]
+    },
+    {
+      "h2": "Müqavilədə nələrə diqqət etməli?",
+      "list": [
+        "Dəstəyin əhatəsi: hansı işlər daxildir, hansılar ayrıca ödənilir.",
+        "Cavab müddəti: sorğuya nə vaxt cavab verilir, təcili problem necə həll olunur.",
+        "Dəyişiklik sorğularının formatı: e-poçt, mesajlaşma və ya tapşırıq siyahısı.",
+        "Hesabat: görülən işlərin vaxtaşırı yazılı qeydi.",
+        "Giriş məlumatları: domen, hostinq və admin girişləri sahibdə qalmalıdır.",
+        "Dəstəyin müddəti və dayandırılma qaydası."
+      ],
+      "paras": [
+        "Sayt sifariş edərkən bu məsələləri əvvəldən aydınlaşdırmaq daha rahatdır. Sifariş mərhələsində soruşulmalı digər suallar üçün <a href=\"/bloq/sayt-sifarisi-zamani-nelere-diqqet-etmeli\">sayt sifarişi zamanı nələrə diqqət etməli</a> yazısına baxın."
+      ]
+    },
+    {
+      "h2": "Aylıq dəstək, yoxsa lazım olduqda müraciət?",
+      "paras": [
+        "Məzmunu tez-tez dəyişən, onlayn satışı və ya rezervasiyası olan saytlar üçün müntəzəm dəstək daha əlverişlidir, çünki problem satış itkisinə çevrilə bilər. Nadir dəyişən təqdimat saytı üçün isə lazım olduqca müraciət də kifayət edə bilər, amma yenə yedəkləmə və yeniləmələr unudulmamalıdır.",
+        "Qərar verərkən sadə bir sual verin: saytın bir gün dayanması sizə nə qədər itki gətirər? Cavab nə qədər ağırdırsa, davamlı dəstək o qədər vacibdir."
+      ]
+    },
+    {
+      "h2": "Sayt açılmayanda ilk addımlar",
+      "paras": [
+        "Sayt bir anda açılmayanda panikaya düşmədən ardıcıl yoxlayın. Əvvəlcə problemin yalnız sizdə olub-olmadığını başqa cihaz və şəbəkədən yoxlayın. Sonra domenin müddətinin bitib-bitmədiyinə və hostinq hesabının aktiv olub-olmadığına baxın.",
+        "Dəqiq məlumat verilən sorğu çox vaxt problemin saatlarla yox, dəqiqələrlə həll olunmasına səbəb olur. Buna görə səbəbi bilmədiyiniz halda belə, gördüklərinizi olduğu kimi göndərmək kifayətdir."
+      ],
+      "list": [
+        "Brauzerdə çıxan xəta mətnini və ya ekran görüntüsünü saxlayın.",
+        "Son vaxtlar sayta nə dəyişdiyini xatırlayın: yeniləmə, yeni plagin, mətn dəyişikliyi.",
+        "Hostinq və domen panelində xəbərdarlıq və ya borc olub-olmadığına baxın.",
+        "Dəstək verən tərəfə qısa yazın: nə vaxtdan, hansı səhifədə, hansı xəta.",
+        "Problem həll olunandan sonra səbəbi və görülən işi qeyd edin ki, təkrarlanmasın."
+      ]
+    },
+    {
+      "h2": "Özünüz yoxlaya biləcəyiniz sadə siyahı",
+      "list": [
+        "Saytı həftədə bir dəfə telefonda açıb əsas səhifələri gəzin.",
+        "Əlaqə formasını özünüz sınayın və mesajın çatdığına baxın.",
+        "Domen və hostinqin bitmə tarixini təqvimə yazın.",
+        "Google Search Console-dan gələn xəbərdarlıqlara baxın.",
+        "Admin giriş parollarını parol menecerində saxlayın."
+      ],
+      "paras": [
+        "Bu yoxlamalar peşəkar dəstəyi əvəz etmir, amma ən sadə problemləri tez görməyə kömək edir. Saytınızı hazırlayarkən təhvildən sonrakı dəstəyi də planlamaq istəyirsinizsə, <a href=\"/sayt-hazirlanmasi\">sayt hazırlanması</a> səhifəmizdə prosesimizlə tanış ola və ya <a href=\"/korporativ-sayt\">korporativ sayt</a> variantına baxa bilərsiniz."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Texniki dəstək olmadan sayt işləyə bilərmi?",
+      "a": "Bir müddət işləyə bilər, amma yeniləmələr, yedəkləmə və müddətlərin izlənməməsi gec-tez problemə çevrilir. Əsas risk problemin gec görünməsidir."
+    },
+    {
+      "q": "Texniki dəstək ilə saytın inkişafı eyni şeydirmi?",
+      "a": "Xeyr. Dəstək mövcud saytı işlək saxlayır, inkişaf isə yeni səhifə, funksiya və ya bölmələr əlavə edir. Müqavilədə bunlar ayrı yazılmalıdır."
+    },
+    {
+      "q": "Dəstəyi başqa şirkətə vermək olarmı?",
+      "a": "Bəli, giriş məlumatları sizdə olarsa. Buna görə domen, hostinq və admin girişlərinin sahibdə qalması vacibdir."
+    },
+    {
+      "q": "Kiçik təqdimat saytına da dəstək lazımdırmı?",
+      "a": "Daha az tələb olunur, amma yedəkləmə, SSL və domen müddətinin izlənməsi yenə də lazımdır."
+    }
+  ],
+  "service": {
+    "url": "/sayt-hazirlanmasi",
+    "text": "Sayt hazırlanması xidmətimiz"
+  }
+}
