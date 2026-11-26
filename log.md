@@ -2,6 +2,16 @@
 
 Ən yeni qeyd yuxarıdadır.
 
+## 2026-11-26
+**Sıra** (Search Console, son gün 2026-11-25):
+- Sayt cəmi: 7 gün 4 klik (əvvəl 2), 149 göstərilmə (177), orta mövqe 32.3 (31.8).
+- webify: 1.0; seo xidməti: 54 (↑ 64-dən, hələ /bloq/seo-nedir çıxır); sayt yaratmaq: 33.5 orta; sayt hazırlanması: o gün göstərilmə yox (7g orta 80).
+- Fürsətlər: google biznes profil 5.7, biznes profil google 7.3, google biznes 9.0 (bloq yazısı); meta reklam 11.8; sayt sifarisi 18.1 (4 səhifə, əsas /korporativ-sayt-sifarisi görünür, kannibalizasiya); saytlarin yigilmasi 27.5 (2 səhifə).
+- Yeni sorğular: saytın yenilənməsi (7), onlayn mağaza hazırlanması (4), web sayt hazirlanmasi (2).
+**Edildi:**
+- b7e091f: yeni yazı /bloq/salon-ve-gozellik-merkezi-ucun-sayt (hədəf: salon/gözəllik mərkəzi saytı, uzun-quyruq); restoran yazısından ona link. seo-check: 0 xəta, 5 xəbərdarlıq.
+**Növbəti addım:** "sayt sifarişi" kannibalizasiyası (4 səhifə); "seo xidməti" üçün /seo-xidmeti vs /bloq/seo-nedir; "saytın yenilənməsi" üçün redizayn yazısının title/description-unu yoxlamaq; qalan uzun title-lar (sayt-nece-yaradilir, ru səhifələri, onlayn satış yazısı).
+
 ## 2026-11-25 (agent işi)
 **Sıra** (Search Console, son gün 2026-11-24):
 - Sayt cəmi: 7 gün 2 klik, 144 göstərilmə (əvvəl 183), orta mövqe 35.7 (əvvəl 30.1).
