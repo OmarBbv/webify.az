@@ -2,6 +2,17 @@
 
 Ən yeni qeyd yuxarıdadır.
 
+## 2026-11-27
+**Sıra** (Search Console, son gün 2026-11-26):
+- Sayt cəmi: 7 gün 5 klik (əvvəl 2), 144 göstərilmə (181), orta mövqe 32.8 (33.0).
+- webify: 1.0; sayt yaratmaq: 33.5 orta; seo xidməti: 58.3 orta (28g 33.9, zəifləyib); sayt hazırlanması 7g orta 80; sayt sifarişi: 66 (o gün göstərilmə yox).
+- Fürsətlər: google biznes profil 5.7, biznes profil google 7.3, google biznes 9.0; meta reklam 11.8; sayt sifarisi 18.1 (28g, əsas səhifə /korporativ-sayt-sifarisi görünür: bu URL vercel.json-da /korporativ-sayt-a yönləndirilir, köhnə data); saytlarin yigilmasi 24.7.
+- Yeni sorğular: saytın yenilənməsi (7), onlayn mağaza hazırlanması (4), web saytlarin sifarisi (1).
+**Edildi:**
+- 164e4c9: yeni yazı /bloq/huquq-firmasi-ve-vekil-ucun-sayt (hədəf: hüquq firması/vəkil saytı, uzun-quyruq; /sayt-sifarisi, /korporativ-sayt, /sayt-qiymetleri və /seo-xidmeti-ə link); klinika yazısından ona link. seo-check: 0 xəta, 5 xəbərdarlıq.
+- Rəqib yoxlaması bu gün aparılmadı (yalnız dünənki competitors.md).
+**Növbəti addım:** /sayt-sifarisi-nin "sayt sifarişi" sorğusunda 28g orta 18.1 olan köhnə URL-dən köçməsini izləmək; "seo xidməti" üçün /seo-xidmeti vs /bloq/seo-nedir; "saytın yenilənməsi" üçün redizayn yazısının title/description-u; uzun title-lar (sayt-nece-yaradilir 71, ru səhifələri, onlayn satış yazısı); rəqib SERP müqayisəsi.
+
 ## 2026-11-26
 **Sıra** (Search Console, son gün 2026-11-25):
 - Sayt cəmi: 7 gün 4 klik (əvvəl 2), 149 göstərilmə (177), orta mövqe 32.3 (31.8).
